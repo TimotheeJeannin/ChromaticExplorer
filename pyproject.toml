@@ -1,7 +1,14 @@
 [project]
 name = "chromaticexplorer"
 version = "0.1.0"
-description = "Add your description here"
+description = "A web-based color palette explorer for Chromatic paint colors"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
+
+[project.scripts]
+chromatic-serve = "tools.serve:main"
+chromatic-convert = "tools.read_aco:main"
+
+[tool.setuptools.packages.find]
+include = ["tools*"]

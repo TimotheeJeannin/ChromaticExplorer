@@ -15,6 +15,8 @@ COLOR_SPACES = {
     8: "Grayscale",
 }
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
 
 def read_aco(filepath):
     """Read an .aco file and return a list of color dicts.
@@ -96,13 +98,16 @@ def export_json(colors, output_path):
     """Export the color list to a JSON file."""
     if not colors:
         return
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w") as f:
         json.dump(colors, f, indent=2)
     print(f"Exported {len(colors)} colors to {output_path}")
 
 
 def main():
-    aco_file = sys.argv[1] if len(sys.argv) > 1 else "swatches/NUANCIER-CHROMATIC-DORVAL.aco"
+    default_aco = PROJECT_ROOT / "swatches" / "NUANCIER-CHROMATIC-DORVAL.aco"
+    aco_file = sys.argv[1] if len(sys.argv) > 1 else str(default_aco)
     colors = read_aco(aco_file)
 
     print(f"File: {aco_file}")
@@ -120,7 +125,7 @@ def main():
         print(f"  ... and {len(colors) - 20} more colors")
 
     # Export to JSON
-    out_path = Path("data") / Path(aco_file).with_suffix(".json").name
+    out_path = PROJECT_ROOT / "app" / "data" / Path(aco_file).with_suffix(".json").name
     export_json(colors, out_path)
 
 

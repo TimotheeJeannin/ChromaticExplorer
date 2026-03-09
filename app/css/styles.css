@@ -161,7 +161,7 @@ body {
     color: #fff;
 }
 
-/* ── Controls bar ────────────────────────────────────────── */
+/* ── Controls bar (inside grid section) ──────────────────── */
 #controls {
     padding: 16px;
     display: flex;
@@ -171,8 +171,6 @@ body {
     position: sticky;
     top: 0;
     z-index: 90;
-    margin-left: var(--palette-width);
-    margin-right: var(--picker-width);
 }
 
 #search-row {
@@ -253,14 +251,337 @@ body {
     padding: 0 4px;
 }
 
+/* ── Center area (Neighborhood + Grid) ───────────────────── */
+#center {
+    display: flex;
+    gap: 0;
+    margin-left: var(--palette-width);
+    margin-right: var(--picker-width);
+    min-height: 100vh;
+}
+
+/* ── Grid Section (controls + swatches) ──────────────────── */
+#grid-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* ── Neighborhood Explorer Panel ─────────────────────────── */
+#neighborhood-panel {
+    flex: 0 0 40%;
+    max-width: 500px;
+    min-width: 280px;
+    background: var(--surface);
+    border-right: 1px solid var(--surface2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#neighborhood-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--surface2);
+    flex-shrink: 0;
+}
+
+#neighborhood-header h3 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--text-dim);
+}
+
+#neighborhood-collapse {
+    display: none;
+}
+
+#neighborhood-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Toolbar: axis selectors + presets */
+#neighborhood-toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#axis-selectors {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#axis-selectors label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-dim);
+}
+
+#axis-selectors select {
+    padding: 6px 10px;
+    border: 1px solid var(--surface2);
+    border-radius: var(--radius);
+    background: var(--bg);
+    color: var(--text);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#axis-presets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.preset-btn {
+    padding: 4px 10px;
+    border-radius: 14px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid var(--surface2);
+    background: var(--bg);
+    color: var(--text-dim);
+    transition: all .15s;
+}
+
+.preset-btn:hover {
+    border-color: var(--text-dim);
+}
+
+.preset-btn.active {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: #fff;
+}
+
+/* Zoom slider */
+#zoom-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#zoom-row label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-dim);
+    flex-shrink: 0;
+}
+
+#neighborhood-zoom {
+    flex: 1;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--surface2);
+    border-radius: 3px;
+    outline: none;
+}
+
+#neighborhood-zoom::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+}
+
+#zoom-value {
+    font-size: 11px;
+    color: var(--text-dim);
+    min-width: 36px;
+    text-align: right;
+    font-family: monospace;
+}
+
+/* Canvas container */
+#canvas-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--bg);
+    border: 1px solid var(--surface2);
+}
+
+#neighborhood-canvas {
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+    display: block;
+}
+
+/* Tooltip */
+#neighborhood-tooltip {
+    position: absolute;
+    background: var(--surface);
+    border: 1px solid var(--surface2);
+    border-radius: var(--radius);
+    padding: 8px 10px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    pointer-events: none;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .4);
+    white-space: nowrap;
+}
+
+#neighborhood-tooltip.hidden {
+    display: none;
+}
+
+#tooltip-swatch {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    flex-shrink: 0;
+}
+
+#tooltip-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+#tooltip-hex {
+    font-size: 10px;
+    color: var(--text-dim);
+    font-family: monospace;
+}
+
+/* Crosshair info bar */
+#crosshair-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    background: var(--bg);
+    border-radius: var(--radius);
+    border: 1px solid var(--surface2);
+}
+
+#crosshair-swatch {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    flex-shrink: 0;
+    background: #fff;
+}
+
+#crosshair-hex {
+    font-size: 12px;
+    font-family: monospace;
+    color: var(--text);
+    font-weight: 600;
+}
+
+#crosshair-channels {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: monospace;
+}
+
+/* Nearest colors section */
+#nearest-section {
+    flex-shrink: 0;
+}
+
+#nearest-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.nearest-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background .15s;
+    border: 1px solid transparent;
+}
+
+.nearest-item:hover {
+    background: var(--surface2);
+}
+
+.nearest-item.highlighted {
+    border-color: var(--accent);
+    background: rgba(123, 140, 222, .15);
+}
+
+.nearest-item .ni-swatch {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    flex-shrink: 0;
+}
+
+.nearest-item .ni-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.nearest-item .ni-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nearest-item .ni-hex {
+    font-size: 10px;
+    color: var(--text-dim);
+    font-family: monospace;
+}
+
+.nearest-item .ni-dist {
+    font-size: 10px;
+    color: var(--text-dim);
+    flex-shrink: 0;
+}
+
+/* Show neighborhood toggle button - removed, panel always visible */
+#show-neighborhood-btn {
+    display: none;
+}
+
 /* ── Color grid ──────────────────────────────────────────── */
 #grid {
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 10px;
     padding: 0 16px 40px;
-    margin-left: var(--palette-width);
-    margin-right: var(--picker-width);
+    align-content: start;
+    overflow-y: auto;
 }
 
 .swatch {
@@ -636,6 +957,11 @@ body {
         --palette-width: 180px;
         --picker-width: 280px;
     }
+
+    #neighborhood-panel {
+        flex: 0 0 45%;
+        min-width: 240px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -665,6 +991,28 @@ body {
 
     #picker-panel {
         border-top: 1px solid var(--surface2);
+    }
+
+    #center {
+        flex-direction: column;
+    }
+
+    #neighborhood-panel {
+        flex: none;
+        max-width: 100%;
+        min-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--surface2);
+        max-height: 50vh;
+    }
+
+    #canvas-wrap {
+        max-height: 250px;
+        aspect-ratio: auto;
+    }
+
+    #neighborhood-canvas {
+        max-height: 250px;
     }
 
     #grid {

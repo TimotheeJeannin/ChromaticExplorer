@@ -24,25 +24,104 @@
         </div>
     </div>
 
-    <!-- Controls -->
-    <div id="controls">
-        <div id="search-row">
-            <input type="text" id="search" placeholder="Search by name, hex, family…" autocomplete="off">
-            <select id="sort-select">
-                <option value="number">Original order</option>
-                <option value="alpha">Alphabetical</option>
-                <option value="hue">By hue</option>
-                <option value="lightness">By lightness</option>
-            </select>
-            <button id="clear-btn">Clear filters</button>
-            <span id="result-count"></span>
-        </div>
-        <div id="family-chips"></div>
-    </div>
+    <!-- Center area: Neighborhood + Grid -->
+    <div id="center">
+        <!-- Neighborhood Explorer Panel -->
+        <div id="neighborhood-panel">
+            <div id="neighborhood-header">
+                <h3>Explore Neighborhood</h3>
+                <button id="neighborhood-collapse" title="Collapse panel">−</button>
+            </div>
+            <div id="neighborhood-body">
+                <!-- Axis selectors + presets -->
+                <div id="neighborhood-toolbar">
+                    <div id="axis-selectors">
+                        <label>X:</label>
+                        <select id="axis-x">
+                            <option value="r">Red</option>
+                            <option value="g">Green</option>
+                            <option value="b" selected>Blue</option>
+                            <option value="h">Hue</option>
+                            <option value="s">Saturation</option>
+                            <option value="l">Lightness</option>
+                        </select>
+                        <label>Y:</label>
+                        <select id="axis-y">
+                            <option value="r" selected>Red</option>
+                            <option value="g">Green</option>
+                            <option value="b">Blue</option>
+                            <option value="h">Hue</option>
+                            <option value="s">Saturation</option>
+                            <option value="l">Lightness</option>
+                        </select>
+                    </div>
+                    <div id="axis-presets">
+                        <button class="preset-btn" data-x="r" data-y="g">R-G</button>
+                        <button class="preset-btn" data-x="r" data-y="b">R-B</button>
+                        <button class="preset-btn" data-x="g" data-y="b">G-B</button>
+                        <button class="preset-btn" data-x="h" data-y="s">H-S</button>
+                        <button class="preset-btn" data-x="h" data-y="l">H-L</button>
+                        <button class="preset-btn" data-x="s" data-y="l">S-L</button>
+                    </div>
+                </div>
 
-    <!-- Grid -->
-    <div id="grid">
-        <div id="loading">Loading colors…</div>
+                <!-- Zoom slider -->
+                <div id="zoom-row">
+                    <label>Zoom:</label>
+                    <input type="range" id="neighborhood-zoom" min="10" max="128" value="64">
+                    <span id="zoom-value">±64</span>
+                </div>
+
+                <!-- Canvas -->
+                <div id="canvas-wrap">
+                    <canvas id="neighborhood-canvas"></canvas>
+                    <!-- Tooltip (positioned absolutely) -->
+                    <div id="neighborhood-tooltip" class="hidden">
+                        <div id="tooltip-swatch"></div>
+                        <div id="tooltip-info">
+                            <div id="tooltip-name"></div>
+                            <div id="tooltip-hex"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Crosshair info bar -->
+                <div id="crosshair-bar">
+                    <div id="crosshair-swatch"></div>
+                    <span id="crosshair-hex">#FFFFFF</span>
+                    <span id="crosshair-channels">R:255 G:255 B:255</span>
+                </div>
+
+                <!-- Nearest colors list -->
+                <div id="nearest-section">
+                    <div class="picker-section-title">Nearest Colors</div>
+                    <div id="nearest-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grid Section (controls + swatches) -->
+        <div id="grid-section">
+            <!-- Controls -->
+            <div id="controls">
+                <div id="search-row">
+                    <input type="text" id="search" placeholder="Search by name, hex, family…" autocomplete="off">
+                    <select id="sort-select">
+                        <option value="number">Original order</option>
+                        <option value="alpha">Alphabetical</option>
+                        <option value="hue">By hue</option>
+                        <option value="lightness">By lightness</option>
+                    </select>
+                    <button id="clear-btn">Clear filters</button>
+                    <span id="result-count"></span>
+                </div>
+                <div id="family-chips"></div>
+            </div>
+            <!-- Grid -->
+            <div id="grid">
+                <div id="loading">Loading colors…</div>
+            </div>
+        </div>
     </div>
 
     <!-- Color Picker Panel (right, always visible) -->

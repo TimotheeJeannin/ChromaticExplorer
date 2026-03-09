@@ -131,6 +131,11 @@
         buildFamilyChips();
         restorePalette();
         render();
+
+        // Initial neighborhood render (after a small delay to let layout settle)
+        setTimeout(() => {
+            syncFromRGB();
+        }, 100);
     }
 
     /* ── Family chips ───────────────────────────────────────── */
@@ -382,6 +387,7 @@
         pickerPreview.style.background = hex;
 
         updateClosest();
+        renderNeighborhood();
     }
 
     // Sync all UI from HSL inputs
@@ -404,6 +410,7 @@
         pickerPreview.style.background = hex;
 
         updateClosest();
+        renderNeighborhood();
     }
 
     // Sync all UI from hex input
@@ -538,6 +545,470 @@
         if (!closestMatch) return;
         togglePalette(closestMatch);
         updateAddToPaletteBtn();
+    });
+
+    /* ── Neighborhood Explorer ──────────────────────────────── */
+    const neighborhoodPanel = document.getElementById("neighborhood-panel");
+    const neighborhoodBody = document.getElementById("neighborhood-body");
+    const axisX = document.getElementById("axis-x");
+    const axisY = document.getElementById("axis-y");
+    const neighborhoodZoom = document.getElementById("neighborhood-zoom");
+    const zoomValue = document.getElementById("zoom-value");
+    const neighborhoodCanvas = document.getElementById("neighborhood-canvas");
+    const canvasWrap = document.getElementById("canvas-wrap");
+    const neighborhoodTooltip = document.getElementById("neighborhood-tooltip");
+    const tooltipSwatch = document.getElementById("tooltip-swatch");
+    const tooltipName = document.getElementById("tooltip-name");
+    const tooltipHex = document.getElementById("tooltip-hex");
+    const crosshairSwatch = document.getElementById("crosshair-swatch");
+    const crosshairHex = document.getElementById("crosshair-hex");
+    const crosshairChannels = document.getElementById("crosshair-channels");
+    const nearestList = document.getElementById("nearest-list");
+    const presetBtns = document.querySelectorAll(".preset-btn");
+
+    let neighborPins = [];           // cached array of {color, x, y, dist}
+    let offscreenCanvas = null;
+    let offscreenCtx = null;
+
+    // Channel accessors
+    function getChannelValue(color, channel) {
+        switch (channel) {
+            case "r": return color.r;
+            case "g": return color.g;
+            case "b": return color.b;
+            case "h": return color.hsl ? color.hsl.h : rgb2hsl(color.r, color.g, color.b).h;
+            case "s": return color.hsl ? color.hsl.s : rgb2hsl(color.r, color.g, color.b).s;
+            case "l": return color.hsl ? color.hsl.l : rgb2hsl(color.r, color.g, color.b).l;
+        }
+        return 0;
+    }
+
+    function getChannelMax(channel) {
+        if (channel === "h") return 360;
+        if (channel === "s" || channel === "l") return 100;
+        return 255; // r, g, b
+    }
+
+    function getChannelLabel(channel) {
+        const labels = { r: "R", g: "G", b: "B", h: "H", s: "S", l: "L" };
+        return labels[channel] || channel.toUpperCase();
+    }
+
+    function isRgbChannel(ch) {
+        return ch === "r" || ch === "g" || ch === "b";
+    }
+
+    // Build a color from pickerColor, overriding specific channel values
+    function buildColorFromChannels(xChannel, xVal, yChannel, yVal) {
+        // Determine which color space to use as base
+        const xIsRGB = isRgbChannel(xChannel);
+        const yIsRGB = isRgbChannel(yChannel);
+
+        let r, g, b;
+
+        if (xIsRGB && yIsRGB) {
+            // Both RGB: use pickerColor as base
+            r = pickerColor.r;
+            g = pickerColor.g;
+            b = pickerColor.b;
+            if (xChannel === "r") r = xVal;
+            else if (xChannel === "g") g = xVal;
+            else if (xChannel === "b") b = xVal;
+            if (yChannel === "r") r = yVal;
+            else if (yChannel === "g") g = yVal;
+            else if (yChannel === "b") b = yVal;
+        } else if (!xIsRGB && !yIsRGB) {
+            // Both HSL
+            const baseHSL = rgb2hsl(pickerColor.r, pickerColor.g, pickerColor.b);
+            let h = baseHSL.h, s = baseHSL.s, l = baseHSL.l;
+            if (xChannel === "h") h = xVal;
+            else if (xChannel === "s") s = xVal;
+            else if (xChannel === "l") l = xVal;
+            if (yChannel === "h") h = yVal;
+            else if (yChannel === "s") s = yVal;
+            else if (yChannel === "l") l = yVal;
+            // Wrap hue
+            h = ((h % 360) + 360) % 360;
+            s = Math.max(0, Math.min(100, s));
+            l = Math.max(0, Math.min(100, l));
+            const rgb = hsl2rgb(h, s, l);
+            r = rgb.r; g = rgb.g; b = rgb.b;
+        } else {
+            // Mixed: one RGB, one HSL. Use HSL as base, override.
+            const baseHSL = rgb2hsl(pickerColor.r, pickerColor.g, pickerColor.b);
+            let h = baseHSL.h, s = baseHSL.s, l = baseHSL.l;
+
+            // Apply HSL channel first
+            if (!xIsRGB) {
+                if (xChannel === "h") h = xVal;
+                else if (xChannel === "s") s = xVal;
+                else if (xChannel === "l") l = xVal;
+            }
+            if (!yIsRGB) {
+                if (yChannel === "h") h = yVal;
+                else if (yChannel === "s") s = yVal;
+                else if (yChannel === "l") l = yVal;
+            }
+            h = ((h % 360) + 360) % 360;
+            s = Math.max(0, Math.min(100, s));
+            l = Math.max(0, Math.min(100, l));
+
+            const rgb = hsl2rgb(h, s, l);
+            r = rgb.r; g = rgb.g; b = rgb.b;
+
+            // Now apply RGB channel override
+            if (xIsRGB) {
+                if (xChannel === "r") r = xVal;
+                else if (xChannel === "g") g = xVal;
+                else if (xChannel === "b") b = xVal;
+            }
+            if (yIsRGB) {
+                if (yChannel === "r") r = yVal;
+                else if (yChannel === "g") g = yVal;
+                else if (yChannel === "b") b = yVal;
+            }
+        }
+
+        r = Math.max(0, Math.min(255, Math.round(r)));
+        g = Math.max(0, Math.min(255, Math.round(g)));
+        b = Math.max(0, Math.min(255, Math.round(b)));
+
+        return { r, g, b };
+    }
+
+    function renderNeighborhood() {
+        if (!neighborhoodCanvas) return;
+
+        const xCh = axisX.value;
+        const yCh = axisY.value;
+        const zoom = parseInt(neighborhoodZoom.value) || 64;
+
+        // Get center values for each axis
+        const centerX = getChannelValue(pickerColor, xCh);
+        const centerY = getChannelValue(pickerColor, yCh);
+
+        // Determine ranges (handle hue wrap differently)
+        const xMax = getChannelMax(xCh);
+        const yMax = getChannelMax(yCh);
+
+        // Rendering dimensions
+        const rect = canvasWrap.getBoundingClientRect();
+        const displaySize = Math.min(rect.width, rect.height) || 300;
+        const renderSize = Math.floor(displaySize / 2); // Half-res for performance
+
+        neighborhoodCanvas.width = displaySize;
+        neighborhoodCanvas.height = displaySize;
+
+        // Create/reuse offscreen canvas
+        if (!offscreenCanvas || offscreenCanvas.width !== renderSize) {
+            offscreenCanvas = document.createElement("canvas");
+            offscreenCanvas.width = renderSize;
+            offscreenCanvas.height = renderSize;
+            offscreenCtx = offscreenCanvas.getContext("2d");
+        }
+
+        const imageData = offscreenCtx.createImageData(renderSize, renderSize);
+        const data = imageData.data;
+
+        for (let py = 0; py < renderSize; py++) {
+            for (let px = 0; px < renderSize; px++) {
+                // Map pixel to channel values
+                // X: left = center - zoom, right = center + zoom
+                // Y: top = center + zoom, bottom = center - zoom (inverted)
+                const xVal = centerX - zoom + (px / (renderSize - 1)) * zoom * 2;
+                const yVal = centerY + zoom - (py / (renderSize - 1)) * zoom * 2;
+
+                const color = buildColorFromChannels(xCh, xVal, yCh, yVal);
+                const idx = (py * renderSize + px) * 4;
+                data[idx] = color.r;
+                data[idx + 1] = color.g;
+                data[idx + 2] = color.b;
+                data[idx + 3] = 255;
+            }
+        }
+
+        offscreenCtx.putImageData(imageData, 0, 0);
+
+        // Draw scaled-up on main canvas
+        const ctx = neighborhoodCanvas.getContext("2d");
+        ctx.imageSmoothingEnabled = true;
+        ctx.imageSmoothingQuality = "high";
+        ctx.drawImage(offscreenCanvas, 0, 0, displaySize, displaySize);
+
+        // Plot pins
+        plotCatalogPins(ctx, displaySize, xCh, yCh, centerX, centerY, zoom);
+
+        // Render nearest list
+        renderNearestList();
+
+        // Update preset button states
+        updatePresetButtons();
+    }
+
+    function plotCatalogPins(ctx, size, xCh, yCh, centerX, centerY, zoom) {
+        neighborPins = [];
+
+        const xMax = getChannelMax(xCh);
+        const yMax = getChannelMax(yCh);
+
+        // Determine threshold for non-axis channels (50% of zoom, scaled appropriately)
+        const threshold = zoom * 0.6;
+
+        // Get list of channels that are NOT x or y
+        const allChannels = ["r", "g", "b", "h", "s", "l"];
+        const fixedChannels = allChannels.filter(ch => ch !== xCh && ch !== yCh);
+
+        for (const color of allColors) {
+            // Check if color is within threshold on fixed channels
+            let inRange = true;
+            for (const ch of fixedChannels) {
+                const colorVal = getChannelValue(color, ch);
+                const pickerVal = getChannelValue(pickerColor, ch);
+                const chMax = getChannelMax(ch);
+                // Scale threshold proportionally to channel's max
+                const scaledThreshold = threshold * (chMax / 255);
+                let diff = Math.abs(colorVal - pickerVal);
+                // Handle hue wrap
+                if (ch === "h") {
+                    diff = Math.min(diff, 360 - diff);
+                }
+                if (diff > scaledThreshold) {
+                    inRange = false;
+                    break;
+                }
+            }
+            if (!inRange) continue;
+
+            // Get x,y channel values for this color
+            const colorX = getChannelValue(color, xCh);
+            const colorY = getChannelValue(color, yCh);
+
+            // Check if within zoom range
+            let xDiff = colorX - centerX;
+            let yDiff = colorY - centerY;
+
+            // Handle hue wrap for x axis
+            if (xCh === "h") {
+                if (xDiff > 180) xDiff -= 360;
+                else if (xDiff < -180) xDiff += 360;
+            }
+            if (yCh === "h") {
+                if (yDiff > 180) yDiff -= 360;
+                else if (yDiff < -180) yDiff += 360;
+            }
+
+            if (Math.abs(xDiff) > zoom || Math.abs(yDiff) > zoom) continue;
+
+            // Map to pixel coordinates
+            const px = ((xDiff + zoom) / (zoom * 2)) * size;
+            const py = ((zoom - yDiff) / (zoom * 2)) * size;
+
+            if (px < 0 || px >= size || py < 0 || py >= size) continue;
+
+            // Calculate perceptual distance for sorting
+            const dr = pickerColor.r - color.r;
+            const dg = pickerColor.g - color.g;
+            const db = pickerColor.b - color.b;
+            const dist = Math.sqrt(2 * dr * dr + 4 * dg * dg + 3 * db * db);
+
+            neighborPins.push({ color, x: px, y: py, dist });
+        }
+
+        // Sort by distance, limit to 40
+        neighborPins.sort((a, b) => a.dist - b.dist);
+        neighborPins = neighborPins.slice(0, 40);
+
+        // Draw pins (reversed so closest are on top)
+        for (let i = neighborPins.length - 1; i >= 0; i--) {
+            const pin = neighborPins[i];
+            const { color, x, y } = pin;
+
+            // Draw circle
+            ctx.beginPath();
+            ctx.arc(x, y, 6, 0, Math.PI * 2);
+            ctx.fillStyle = color.hex;
+            ctx.fill();
+
+            // Border for contrast
+            ctx.strokeStyle = textColor(color.r, color.g, color.b);
+            ctx.lineWidth = 2;
+            ctx.stroke();
+        }
+
+        // Draw center crosshair
+        ctx.strokeStyle = "rgba(255,255,255,0.6)";
+        ctx.lineWidth = 1;
+        const cx = size / 2, cy = size / 2;
+        ctx.beginPath();
+        ctx.moveTo(cx - 10, cy);
+        ctx.lineTo(cx + 10, cy);
+        ctx.moveTo(cx, cy - 10);
+        ctx.lineTo(cx, cy + 10);
+        ctx.stroke();
+    }
+
+    function renderNearestList() {
+        if (!nearestList) return;
+        nearestList.innerHTML = "";
+
+        const top8 = neighborPins.slice(0, 8);
+        for (const pin of top8) {
+            const { color, dist } = pin;
+            const el = document.createElement("div");
+            el.className = "nearest-item";
+            el.dataset.hex = color.hex;
+            el.innerHTML =
+                `<div class="ni-swatch" style="background:${color.hex}"></div>` +
+                `<div class="ni-info">` +
+                `<div class="ni-name">${color.displayName}</div>` +
+                `<div class="ni-hex">${color.hex}</div>` +
+                `</div>` +
+                `<div class="ni-dist">${dist.toFixed(0)}</div>`;
+            el.addEventListener("click", () => openPickerWithColor(color.r, color.g, color.b));
+            el.addEventListener("mouseenter", () => highlightPin(color.hex));
+            el.addEventListener("mouseleave", clearPinHighlight);
+            nearestList.appendChild(el);
+        }
+    }
+
+    function highlightPin(hex) {
+        // Highlight the list item
+        nearestList.querySelectorAll(".nearest-item").forEach(el => {
+            el.classList.toggle("highlighted", el.dataset.hex === hex);
+        });
+    }
+
+    function clearPinHighlight() {
+        nearestList.querySelectorAll(".nearest-item").forEach(el => {
+            el.classList.remove("highlighted");
+        });
+    }
+
+    function updatePresetButtons() {
+        const currentX = axisX.value;
+        const currentY = axisY.value;
+        presetBtns.forEach(btn => {
+            const px = btn.dataset.x;
+            const py = btn.dataset.y;
+            const match = (px === currentX && py === currentY) || (px === currentY && py === currentX);
+            btn.classList.toggle("active", match);
+        });
+    }
+
+    function getColorAtCanvasPosition(canvasX, canvasY) {
+        const xCh = axisX.value;
+        const yCh = axisY.value;
+        const zoom = parseInt(neighborhoodZoom.value) || 64;
+        const centerX = getChannelValue(pickerColor, xCh);
+        const centerY = getChannelValue(pickerColor, yCh);
+        const size = neighborhoodCanvas.width;
+
+        // Map pixel to channel values (same formula as render)
+        const xVal = centerX - zoom + (canvasX / size) * zoom * 2;
+        const yVal = centerY + zoom - (canvasY / size) * zoom * 2;
+
+        return buildColorFromChannels(xCh, xVal, yCh, yVal);
+    }
+
+    function findPinNearPosition(canvasX, canvasY) {
+        const hitRadius = 12;
+        for (const pin of neighborPins) {
+            const dx = pin.x - canvasX;
+            const dy = pin.y - canvasY;
+            if (dx * dx + dy * dy <= hitRadius * hitRadius) {
+                return pin;
+            }
+        }
+        return null;
+    }
+
+    // Canvas event handlers
+    if (neighborhoodCanvas) {
+        neighborhoodCanvas.addEventListener("mousemove", (e) => {
+            const rect = neighborhoodCanvas.getBoundingClientRect();
+            const scaleX = neighborhoodCanvas.width / rect.width;
+            const scaleY = neighborhoodCanvas.height / rect.height;
+            const canvasX = (e.clientX - rect.left) * scaleX;
+            const canvasY = (e.clientY - rect.top) * scaleY;
+
+            // Update crosshair bar
+            const color = getColorAtCanvasPosition(canvasX, canvasY);
+            const hex = rgb2hex(color.r, color.g, color.b);
+            crosshairSwatch.style.background = hex;
+            crosshairHex.textContent = hex;
+            crosshairChannels.textContent = `R:${color.r} G:${color.g} B:${color.b}`;
+
+            // Check for pin hover
+            const pin = findPinNearPosition(canvasX, canvasY);
+            if (pin) {
+                // Show tooltip
+                neighborhoodTooltip.classList.remove("hidden");
+                tooltipSwatch.style.background = pin.color.hex;
+                tooltipName.textContent = pin.color.displayName;
+                tooltipHex.textContent = pin.color.hex;
+
+                // Position tooltip (in viewport coords)
+                const tooltipX = e.clientX - rect.left + 15;
+                const tooltipY = e.clientY - rect.top - 10;
+                neighborhoodTooltip.style.left = tooltipX + "px";
+                neighborhoodTooltip.style.top = tooltipY + "px";
+
+                // Highlight in list
+                highlightPin(pin.color.hex);
+            } else {
+                neighborhoodTooltip.classList.add("hidden");
+                clearPinHighlight();
+            }
+        });
+
+        neighborhoodCanvas.addEventListener("mouseleave", () => {
+            neighborhoodTooltip.classList.add("hidden");
+            clearPinHighlight();
+        });
+
+        neighborhoodCanvas.addEventListener("click", (e) => {
+            const rect = neighborhoodCanvas.getBoundingClientRect();
+            const scaleX = neighborhoodCanvas.width / rect.width;
+            const scaleY = neighborhoodCanvas.height / rect.height;
+            const canvasX = (e.clientX - rect.left) * scaleX;
+            const canvasY = (e.clientY - rect.top) * scaleY;
+
+            // Check if clicking on a pin
+            const pin = findPinNearPosition(canvasX, canvasY);
+            if (pin) {
+                // Load the catalog color
+                openPickerWithColor(pin.color.r, pin.color.g, pin.color.b);
+            } else {
+                // Load the exact color at this position
+                const color = getColorAtCanvasPosition(canvasX, canvasY);
+                openPickerWithColor(color.r, color.g, color.b);
+            }
+        });
+    }
+
+    // Axis selector change handlers
+    if (axisX) {
+        axisX.addEventListener("change", renderNeighborhood);
+    }
+    if (axisY) {
+        axisY.addEventListener("change", renderNeighborhood);
+    }
+
+    // Zoom slider
+    if (neighborhoodZoom) {
+        neighborhoodZoom.addEventListener("input", () => {
+            zoomValue.textContent = "±" + neighborhoodZoom.value;
+            renderNeighborhood();
+        });
+    }
+
+    // Preset buttons
+    presetBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+            axisX.value = btn.dataset.x;
+            axisY.value = btn.dataset.y;
+            renderNeighborhood();
+        });
     });
 
     /* ── Init ───────────────────────────────────────────────── */

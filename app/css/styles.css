@@ -204,9 +204,7 @@ body {
     flex-direction: column;
     gap: 12px;
     background: var(--bg);
-    position: sticky;
-    top: 0;
-    z-index: 90;
+    flex-shrink: 0;
 }
 
 #search-row {
@@ -302,8 +300,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
-    overflow-x: hidden;
+    min-height: 0;
 }
 
 /* ── Neighborhood Explorer Panel (right side) ────────────── */
@@ -622,8 +619,13 @@ body {
 }
 
 /* ── Color grid ──────────────────────────────────────────── */
-#grid {
+#grid-scroll {
     flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+#grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 10px;
@@ -1029,6 +1031,10 @@ body {
     }
 
     #grid-section {
+        overflow: visible;
+    }
+
+    #grid-scroll {
         overflow-y: visible;
     }
 

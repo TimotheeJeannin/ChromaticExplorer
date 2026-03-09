@@ -823,15 +823,11 @@
             const pin = neighborPins[i];
             const { color, x, y } = pin;
 
-            // Draw circle
+            // Draw circle (outline only, transparent interior)
             ctx.beginPath();
-            ctx.arc(x, y, 6, 0, Math.PI * 2);
-            ctx.fillStyle = color.hex;
-            ctx.fill();
-
-            // Border for contrast
+            ctx.arc(x, y, 5, 0, Math.PI * 2);
             ctx.strokeStyle = textColor(color.r, color.g, color.b);
-            ctx.lineWidth = 2;
+            ctx.lineWidth = 1.5;
             ctx.stroke();
         }
 

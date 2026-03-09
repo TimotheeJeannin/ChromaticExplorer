@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chromatic Explorer</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #1a1a1e;
+            --surface: #26262b;
+            --surface2: #32323a;
+            --text: #e8e8ec;
+            --text-dim: #9a9aa4;
+            --accent: #7b8cde;
+            --radius: 8px;
+            --palette-h: 110px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.4;
+        }
+
+        /* ── Palette strip (sticky top) ──────────────────────────── */
+        #palette-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--surface);
+            border-bottom: 1px solid var(--surface2);
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-height: 52px;
+            transition: min-height .2s;
+        }
+
+        #palette-bar.has-colors {
+            min-height: var(--palette-h);
+        }
+
+        #palette-label {
+            font-weight: 600;
+            font-size: 13px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            flex-shrink: 0;
+        }
+
+        #palette-colors {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            flex: 1;
+            padding: 4px 0;
+        }
+
+        .palette-swatch {
+            flex-shrink: 0;
+            width: 72px;
+            height: 80px;
+            border-radius: var(--radius);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 4px;
+            position: relative;
+            transition: transform .15s;
+            border: 2px solid transparent;
+        }
+
+        .palette-swatch:hover {
+            transform: scale(1.08);
+            border-color: rgba(255, 255, 255, .4);
+        }
+
+        .palette-swatch .ps-hex {
+            font-size: 10px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+        }
+
+        .palette-swatch .ps-remove {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, .55);
+            color: #fff;
+            font-size: 11px;
+            line-height: 16px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity .15s;
+        }
+
+        .palette-swatch:hover .ps-remove {
+            opacity: 1;
+        }
+
+        #palette-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            flex-shrink: 0;
+        }
+
+        #palette-actions button {
+            font-size: 11px;
+            padding: 5px 10px;
+            border: 1px solid var(--surface2);
+            border-radius: var(--radius);
+            background: var(--surface2);
+            color: var(--text);
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        #palette-actions button:hover {
+            background: var(--accent);
+            color: #fff;
+        }
+
+        #palette-empty {
+            color: var(--text-dim);
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        /* ── Controls bar ────────────────────────────────────────── */
+        #controls {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            background: var(--bg);
+            position: sticky;
+            top: 52px;
+            z-index: 90;
+            transition: top .2s;
+        }
+
+        body.palette-open #controls {
+            top: var(--palette-h);
+        }
+
+        #search-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #search {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px 14px;
+            border: 1px solid var(--surface2);
+            border-radius: var(--radius);
+            background: var(--surface);
+            color: var(--text);
+            font-size: 15px;
+            outline: none;
+        }
+
+        #search:focus {
+            border-color: var(--accent);
+        }
+
+        #search::placeholder {
+            color: var(--text-dim);
+        }
+
+        #sort-select,
+        #clear-btn {
+            padding: 10px 14px;
+            border: 1px solid var(--surface2);
+            border-radius: var(--radius);
+            background: var(--surface);
+            color: var(--text);
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        #clear-btn:hover {
+            background: var(--accent);
+            color: #fff;
+        }
+
+        #family-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .family-chip {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            border: 2px solid var(--surface2);
+            background: var(--surface);
+            color: var(--text-dim);
+            user-select: none;
+            transition: all .15s;
+        }
+
+        .family-chip:hover {
+            border-color: var(--text-dim);
+        }
+
+        .family-chip.active {
+            border-color: var(--accent);
+            background: var(--accent);
+            color: #fff;
+        }
+
+        #result-count {
+            font-size: 13px;
+            color: var(--text-dim);
+            padding: 0 4px;
+        }
+
+        /* ── Color grid ──────────────────────────────────────────── */
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 10px;
+            padding: 0 16px 40px;
+        }
+
+        .swatch {
+            border-radius: var(--radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform .15s, box-shadow .15s;
+            background: var(--surface);
+        }
+
+        .swatch:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, .4);
+        }
+
+        .swatch.in-palette {
+            box-shadow: 0 0 0 3px var(--accent);
+        }
+
+        .swatch-color {
+            width: 100%;
+            aspect-ratio: 1;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 6px;
+        }
+
+        .swatch-color .hex {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .03em;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+            opacity: 0;
+            transition: opacity .15s;
+        }
+
+        .swatch:hover .swatch-color .hex {
+            opacity: 1;
+        }
+
+        .swatch-info {
+            padding: 6px 8px;
+        }
+
+        .swatch-info .name {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .swatch-info .family {
+            font-size: 10px;
+            color: var(--text-dim);
+            margin-top: 2px;
+        }
+
+        /* ── Responsive ──────────────────────────────────────────── */
+        @media (max-width: 600px) {
+            #grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+                gap: 6px;
+            }
+
+            .swatch-info {
+                padding: 4px 6px;
+            }
+
+            .swatch-info .name {
+                font-size: 10px;
+            }
+        }
+
+        /* ── Loading ─────────────────────────────────────────────── */
+        #loading {
+            text-align: center;
+            padding: 80px 20px;
+            font-size: 18px;
+            color: var(--text-dim);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Palette -->
+    <div id="palette-bar">
+        <div id="palette-label">Palette</div>
+        <div id="palette-colors">
+            <span id="palette-empty">Click swatches to build a palette</span>
+        </div>
+        <div id="palette-actions" style="display:none">
+            <button id="copy-palette-btn">Copy Hex</button>
+            <button id="clear-palette-btn">Clear</button>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <div id="controls">
+        <div id="search-row">
+            <input type="text" id="search" placeholder="Search by name, hex, family…" autocomplete="off">
+            <select id="sort-select">
+                <option value="number">Original order</option>
+                <option value="alpha">Alphabetical</option>
+                <option value="hue">By hue</option>
+                <option value="lightness">By lightness</option>
+            </select>
+            <button id="clear-btn">Clear filters</button>
+            <span id="result-count"></span>
+        </div>
+        <div id="family-chips"></div>
+    </div>
+
+    <!-- Grid -->
+    <div id="grid">
+        <div id="loading">Loading colors…</div>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            /* ── State ──────────────────────────────────────────────── */
+            let allColors = [];
+            let palette = [];          // array of color objects
+            let activeFilters = new Set();  // active family filters (empty = show all)
+            let searchTerm = "";
+            let sortMode = "number";
+
+            /* ── DOM refs ───────────────────────────────────────────── */
+            const grid = document.getElementById("grid");
+            const searchInput = document.getElementById("search");
+            const sortSelect = document.getElementById("sort-select");
+            const clearBtn = document.getElementById("clear-btn");
+            const familyChipsEl = document.getElementById("family-chips");
+            const resultCount = document.getElementById("result-count");
+            const paletteBar = document.getElementById("palette-bar");
+            const paletteColors = document.getElementById("palette-colors");
+            const paletteEmpty = document.getElementById("palette-empty");
+            const paletteActions = document.getElementById("palette-actions");
+            const copyPaletteBtn = document.getElementById("copy-palette-btn");
+            const clearPaletteBtn = document.getElementById("clear-palette-btn");
+
+            /* ── Helpers ────────────────────────────────────────────── */
+            function parseName(raw) {
+                // "Chromatic-Dorval-CH2-0042-BLANC-FIESCH"
+                // strip common prefix, extract number, family, descriptor
+                const parts = raw.replace(/[_]/g, "-").split("-");
+                // parts: ["Chromatic", "Dorval", "CH2", "0042", "BLANC", "FIESCH"]
+                const numIdx = parts.findIndex(p => /^\d{4}$/.test(p));
+                const number = numIdx >= 0 ? parseInt(parts[numIdx], 10) : 0;
+                const rest = numIdx >= 0 ? parts.slice(numIdx + 1) : parts;
+                const family = rest.length > 0 ? rest[0] : "";
+                const descriptor = rest.length > 1 ? rest.slice(1).join(" ") : "";
+                const displayName = rest.join(" ");
+                return { number, family, descriptor, displayName };
+            }
+
+            function luminance(r, g, b) {
+                // relative luminance
+                const a = [r, g, b].map(v => {
+                    v /= 255;
+                    return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+                });
+                return 0.2126 * a[0] + 0.7152 * a[1] + 0.0722 * a[2];
+            }
+
+            function textColor(r, g, b) {
+                return luminance(r, g, b) > 0.35 ? "#1a1a1e" : "#ffffff";
+            }
+
+            function rgb2hsl(r, g, b) {
+                r /= 255; g /= 255; b /= 255;
+                const max = Math.max(r, g, b), min = Math.min(r, g, b);
+                let h = 0, s = 0, l = (max + min) / 2;
+                if (max !== min) {
+                    const d = max - min;
+                    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+                    if (max === r) h = ((g - b) / d + (g < b ? 6 : 0)) / 6;
+                    else if (max === g) h = ((b - r) / d + 2) / 6;
+                    else h = ((r - g) / d + 4) / 6;
+                }
+                return { h: h * 360, s: s * 100, l: l * 100 };
+            }
+
+            /* ── Data loading ───────────────────────────────────────── */
+            async function loadColors() {
+                const resp = await fetch("data/NUANCIER-CHROMATIC-DORVAL.json");
+                const raw = await resp.json();
+                allColors = raw.map(c => {
+                    const parsed = parseName(c.name);
+                    const hsl = rgb2hsl(c.r, c.g, c.b);
+                    return { ...c, ...parsed, hsl };
+                });
+
+                buildFamilyChips();
+                restorePalette();
+                render();
+            }
+
+            /* ── Family chips ───────────────────────────────────────── */
+            function buildFamilyChips() {
+                const families = [...new Set(allColors.map(c => c.family))].sort();
+                familyChipsEl.innerHTML = "";
+                for (const f of families) {
+                    const chip = document.createElement("button");
+                    chip.className = "family-chip";
+                    chip.textContent = f;
+                    chip.dataset.family = f;
+                    chip.addEventListener("click", () => toggleFamily(f, chip));
+                    familyChipsEl.appendChild(chip);
+                }
+            }
+
+            function toggleFamily(family, chip) {
+                if (activeFilters.has(family)) {
+                    activeFilters.delete(family);
+                    chip.classList.remove("active");
+                } else {
+                    activeFilters.add(family);
+                    chip.classList.add("active");
+                }
+                render();
+            }
+
+            /* ── Filtering & sorting ────────────────────────────────── */
+            function filtered() {
+                let colors = allColors;
+
+                if (searchTerm) {
+                    const q = searchTerm.toLowerCase();
+                    colors = colors.filter(c =>
+                        c.name.toLowerCase().includes(q) ||
+                        c.hex.toLowerCase().includes(q) ||
+                        c.displayName.toLowerCase().includes(q)
+                    );
+                }
+
+                if (activeFilters.size > 0) {
+                    colors = colors.filter(c => activeFilters.has(c.family));
+                }
+
+                return sorted(colors);
+            }
+
+            function sorted(colors) {
+                const copy = [...colors];
+                switch (sortMode) {
+                    case "alpha":
+                        copy.sort((a, b) => a.displayName.localeCompare(b.displayName));
+                        break;
+                    case "hue":
+                        copy.sort((a, b) => a.hsl.h - b.hsl.h || a.hsl.l - b.hsl.l);
+                        break;
+                    case "lightness":
+                        copy.sort((a, b) => b.hsl.l - a.hsl.l || a.hsl.h - b.hsl.h);
+                        break;
+                    default: // "number"
+                        copy.sort((a, b) => a.number - b.number);
+                }
+                return copy;
+            }
+
+            /* ── Render grid ────────────────────────────────────────── */
+            function render() {
+                const colors = filtered();
+                resultCount.textContent = colors.length + " / " + allColors.length + " colors";
+
+                // Build HTML in one batch for performance
+                const paletteHexes = new Set(palette.map(c => c.hex));
+                const frag = document.createDocumentFragment();
+
+                for (const c of colors) {
+                    const el = document.createElement("div");
+                    el.className = "swatch" + (paletteHexes.has(c.hex) ? " in-palette" : "");
+
+                    const fg = textColor(c.r, c.g, c.b);
+                    el.innerHTML =
+                        `<div class="swatch-color" style="background:${c.hex}">` +
+                        `<span class="hex" style="color:${fg}">${c.hex}</span>` +
+                        `</div>` +
+                        `<div class="swatch-info">` +
+                        `<div class="name" title="${c.displayName}">${c.displayName}</div>` +
+                        `<div class="family">${c.family} · #${String(c.number).padStart(4, "0")}</div>` +
+                        `</div>`;
+
+                    el.addEventListener("click", () => togglePalette(c));
+                    frag.appendChild(el);
+                }
+
+                grid.innerHTML = "";
+                grid.appendChild(frag);
+            }
+
+            /* ── Palette ────────────────────────────────────────────── */
+            function togglePalette(color) {
+                const idx = palette.findIndex(c => c.hex === color.hex && c.number === color.number);
+                if (idx >= 0) {
+                    palette.splice(idx, 1);
+                } else {
+                    palette.push(color);
+                }
+                savePalette();
+                renderPalette();
+                render(); // update .in-palette class
+            }
+
+            function renderPalette() {
+                const hasPalette = palette.length > 0;
+                paletteBar.classList.toggle("has-colors", hasPalette);
+                document.body.classList.toggle("palette-open", hasPalette);
+                paletteEmpty.style.display = hasPalette ? "none" : "";
+                paletteActions.style.display = hasPalette ? "" : "none";
+
+                // Rebuild swatch elements
+                const existing = paletteColors.querySelectorAll(".palette-swatch");
+                existing.forEach(el => el.remove());
+
+                for (const c of palette) {
+                    const el = document.createElement("div");
+                    el.className = "palette-swatch";
+                    el.style.background = c.hex;
+                    const fg = textColor(c.r, c.g, c.b);
+                    el.innerHTML =
+                        `<span class="ps-hex" style="color:${fg}">${c.hex}</span>` +
+                        `<span class="ps-remove">×</span>`;
+                    el.title = c.displayName + " – click to remove";
+                    el.addEventListener("click", () => togglePalette(c));
+                    paletteColors.appendChild(el);
+                }
+            }
+
+            function savePalette() {
+                try {
+                    const data = palette.map(c => ({ hex: c.hex, number: c.number }));
+                    localStorage.setItem("chromatic-palette", JSON.stringify(data));
+                } catch (_) { /* ignore */ }
+            }
+
+            function restorePalette() {
+                try {
+                    const saved = JSON.parse(localStorage.getItem("chromatic-palette"));
+                    if (Array.isArray(saved)) {
+                        for (const item of saved) {
+                            const found = allColors.find(c => c.hex === item.hex && c.number === item.number);
+                            if (found) palette.push(found);
+                        }
+                    }
+                } catch (_) { /* ignore */ }
+                renderPalette();
+            }
+
+            /* ── Events ─────────────────────────────────────────────── */
+            let debounceTimer;
+            searchInput.addEventListener("input", () => {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    searchTerm = searchInput.value.trim();
+                    render();
+                }, 200);
+            });
+
+            sortSelect.addEventListener("change", () => {
+                sortMode = sortSelect.value;
+                render();
+            });
+
+            clearBtn.addEventListener("click", () => {
+                searchInput.value = "";
+                searchTerm = "";
+                sortSelect.value = "number";
+                sortMode = "number";
+                activeFilters.clear();
+                familyChipsEl.querySelectorAll(".family-chip").forEach(c => c.classList.remove("active"));
+                render();
+            });
+
+            copyPaletteBtn.addEventListener("click", () => {
+                const text = palette.map(c => c.hex).join(", ");
+                navigator.clipboard.writeText(text).then(() => {
+                    copyPaletteBtn.textContent = "Copied!";
+                    setTimeout(() => { copyPaletteBtn.textContent = "Copy Hex"; }, 1500);
+                });
+            });
+
+            clearPaletteBtn.addEventListener("click", () => {
+                palette.length = 0;
+                savePalette();
+                renderPalette();
+                render();
+            });
+
+            /* ── Init ───────────────────────────────────────────────── */
+            loadColors();
+        })();
+    </script>
+</body>
+
+</html>

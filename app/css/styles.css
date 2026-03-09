@@ -260,7 +260,7 @@ body {
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
     border: 2px solid var(--surface2);
     background: var(--surface);

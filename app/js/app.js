@@ -18,7 +18,6 @@
     const paletteColors = document.getElementById("palette-colors");
     const paletteEmpty = document.getElementById("palette-empty");
     const paletteActions = document.getElementById("palette-actions");
-    const copyPaletteBtn = document.getElementById("copy-palette-btn");
     const clearPaletteBtn = document.getElementById("clear-palette-btn");
 
     /* ── Helpers ────────────────────────────────────────────── */
@@ -316,14 +315,6 @@
         activeFilters.clear();
         familyChipsEl.querySelectorAll(".family-chip").forEach(c => c.classList.remove("active"));
         render();
-    });
-
-    copyPaletteBtn.addEventListener("click", () => {
-        const text = palette.map(c => c.hex).join(", ");
-        navigator.clipboard.writeText(text).then(() => {
-            copyPaletteBtn.textContent = "Copied!";
-            setTimeout(() => { copyPaletteBtn.textContent = "Copy Hex"; }, 1500);
-        });
     });
 
     clearPaletteBtn.addEventListener("click", () => {

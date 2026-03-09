@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Parse Adobe Color Swatch (.aco) files and extract color data."""
 
-import csv
+import json
 import struct
 import sys
 from pathlib import Path
@@ -92,28 +92,17 @@ def _make_color(space, c1, c2, c3, c4, name=""):
     return color
 
 
-def export_csv(colors, output_path):
-    """Export the color list to a CSV file."""
+def export_json(colors, output_path):
+    """Export the color list to a JSON file."""
     if not colors:
         return
-    fieldnames = list(colors[0].keys())
-    # Gather all possible keys across all entries
-    all_keys = set()
-    for c in colors:
-        all_keys.update(c.keys())
-    fieldnames = [k for k in fieldnames if k in all_keys]
-    for k in sorted(all_keys - set(fieldnames)):
-        fieldnames.append(k)
-
-    with open(output_path, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(colors)
+    with open(output_path, "w") as f:
+        json.dump(colors, f, indent=2)
     print(f"Exported {len(colors)} colors to {output_path}")
 
 
 def main():
-    aco_file = sys.argv[1] if len(sys.argv) > 1 else "NUANCIER-CHROMATIC-DORVAL.aco"
+    aco_file = sys.argv[1] if len(sys.argv) > 1 else "swatches/NUANCIER-CHROMATIC-DORVAL.aco"
     colors = read_aco(aco_file)
 
     print(f"File: {aco_file}")
@@ -130,9 +119,9 @@ def main():
     if len(colors) > 20:
         print(f"  ... and {len(colors) - 20} more colors")
 
-    # Export to CSV
-    csv_path = Path(aco_file).with_suffix(".csv")
-    export_csv(colors, csv_path)
+    # Export to JSON
+    out_path = Path("data") / Path(aco_file).with_suffix(".json").name
+    export_json(colors, out_path)
 
 
 if __name__ == "__main__":

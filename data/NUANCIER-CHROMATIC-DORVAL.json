@@ -1,0 +1,9354 @@
+[
+  {
+    "name": "Chromatic-Dorval-CH2-0001_GRIS_FUSAIN",
+    "space": "RGB",
+    "r": 227,
+    "g": 229,
+    "b": 225,
+    "hex": "#E3E5E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0002-GRIS-HANOI",
+    "space": "RGB",
+    "r": 225,
+    "g": 229,
+    "b": 223,
+    "hex": "#E1E5DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0003-GRIS-JAKARTA",
+    "space": "RGB",
+    "r": 221,
+    "g": 225,
+    "b": 219,
+    "hex": "#DDE1DB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0004-GRIS-LUSAKA",
+    "space": "RGB",
+    "r": 217,
+    "g": 221,
+    "b": 217,
+    "hex": "#D9DDD9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0005-GRIS-CETUS",
+    "space": "RGB",
+    "r": 207,
+    "g": 207,
+    "b": 203,
+    "hex": "#CFCFCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0006-GRIS-APUS",
+    "space": "RGB",
+    "r": 217,
+    "g": 219,
+    "b": 219,
+    "hex": "#D9DBDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0007-GRIS-PLOMB",
+    "space": "RGB",
+    "r": 209,
+    "g": 211,
+    "b": 209,
+    "hex": "#D1D3D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0008-GRIS-HYDRA",
+    "space": "RGB",
+    "r": 209,
+    "g": 209,
+    "b": 207,
+    "hex": "#D1D1CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0009-GRIS-MARCASSITE",
+    "space": "RGB",
+    "r": 211,
+    "g": 215,
+    "b": 209,
+    "hex": "#D3D7D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0010-GRIS-METEORITE",
+    "space": "RGB",
+    "r": 203,
+    "g": 205,
+    "b": 197,
+    "hex": "#CBCDC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0011-GRIS-SEOUL",
+    "space": "RGB",
+    "r": 225,
+    "g": 227,
+    "b": 227,
+    "hex": "#E1E3E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0012-GRIS-MENSA",
+    "space": "RGB",
+    "r": 223,
+    "g": 223,
+    "b": 221,
+    "hex": "#DFDFDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0013-GRIS-RADIUM",
+    "space": "RGB",
+    "r": 219,
+    "g": 219,
+    "b": 217,
+    "hex": "#DBDBD9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0014-GRIS-ABUJA",
+    "space": "RGB",
+    "r": 211,
+    "g": 211,
+    "b": 209,
+    "hex": "#D3D3D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0015-GRIS-BOGOTA",
+    "space": "RGB",
+    "r": 211,
+    "g": 215,
+    "b": 215,
+    "hex": "#D3D7D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0016-GRIS-PICTOR",
+    "space": "RGB",
+    "r": 225,
+    "g": 227,
+    "b": 221,
+    "hex": "#E1E3DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0017-GRIS-SCORPION",
+    "space": "RGB",
+    "r": 225,
+    "g": 225,
+    "b": 217,
+    "hex": "#E1E1D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0018-GRIS-MIRANDA",
+    "space": "RGB",
+    "r": 221,
+    "g": 221,
+    "b": 215,
+    "hex": "#DDDDD7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0019-GRIS-DOHA",
+    "space": "RGB",
+    "r": 235,
+    "g": 239,
+    "b": 235,
+    "hex": "#EBEFEB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0020-GRIS-NICOSIE",
+    "space": "RGB",
+    "r": 223,
+    "g": 215,
+    "b": 201,
+    "hex": "#DFD7C9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0021-BLANC-BRUNNI",
+    "space": "RGB",
+    "r": 233,
+    "g": 237,
+    "b": 235,
+    "hex": "#E9EDEB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0022-BLANC-CHAMPOUSSIN",
+    "space": "RGB",
+    "r": 235,
+    "g": 237,
+    "b": 231,
+    "hex": "#EBEDE7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0023-BLANC-CHAMPAGNY",
+    "space": "RGB",
+    "r": 227,
+    "g": 227,
+    "b": 217,
+    "hex": "#E3E3D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0024-GRIS-TOURS",
+    "space": "RGB",
+    "r": 225,
+    "g": 223,
+    "b": 213,
+    "hex": "#E1DFD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0025-GRIS-VIENNE",
+    "space": "RGB",
+    "r": 217,
+    "g": 209,
+    "b": 197,
+    "hex": "#D9D1C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0026-BLANC-LUCHON",
+    "space": "RGB",
+    "r": 241,
+    "g": 241,
+    "b": 235,
+    "hex": "#F1F1EB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0027-BLANC-VERBIER",
+    "space": "RGB",
+    "r": 249,
+    "g": 245,
+    "b": 235,
+    "hex": "#F9F5EB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0028-BLANC-ISOLA",
+    "space": "RGB",
+    "r": 239,
+    "g": 241,
+    "b": 235,
+    "hex": "#EFF1EB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0029-BLANC-CHALMAZEL",
+    "space": "RGB",
+    "r": 243,
+    "g": 243,
+    "b": 233,
+    "hex": "#F3F3E9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0030-BLANC-ABONDANCE",
+    "space": "RGB",
+    "r": 243,
+    "g": 241,
+    "b": 225,
+    "hex": "#F3F1E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0031-BLANC-ASPEN",
+    "space": "RGB",
+    "r": 245,
+    "g": 245,
+    "b": 235,
+    "hex": "#F5F5EB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0032-BLANC-ARCALIS",
+    "space": "RGB",
+    "r": 237,
+    "g": 239,
+    "b": 235,
+    "hex": "#EDEFEB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0033-BLANC-COURMAYER",
+    "space": "RGB",
+    "r": 239,
+    "g": 237,
+    "b": 229,
+    "hex": "#EFEDE5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0034-BLANC-AVERS",
+    "space": "RGB",
+    "r": 235,
+    "g": 231,
+    "b": 223,
+    "hex": "#EBE7DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0035-BLANC-ORDINO",
+    "space": "RGB",
+    "r": 233,
+    "g": 235,
+    "b": 223,
+    "hex": "#E9EBDF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0036-ROSE-ACHILEE",
+    "space": "RGB",
+    "r": 237,
+    "g": 235,
+    "b": 231,
+    "hex": "#EDEBE7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0037-BLANC-AROLLA",
+    "space": "RGB",
+    "r": 249,
+    "g": 251,
+    "b": 251,
+    "hex": "#F9FBFB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0038-BEIGE-TERREUX",
+    "space": "RGB",
+    "r": 237,
+    "g": 231,
+    "b": 221,
+    "hex": "#EDE7DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0039-BLANC-VILLAROGER",
+    "space": "RGB",
+    "r": 239,
+    "g": 233,
+    "b": 221,
+    "hex": "#EFE9DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0040-BLANC-ARCS",
+    "space": "RGB",
+    "r": 235,
+    "g": 227,
+    "b": 215,
+    "hex": "#EBE3D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0041-BLANC-VERCORIN",
+    "space": "RGB",
+    "r": 245,
+    "g": 251,
+    "b": 253,
+    "hex": "#F5FBFD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0042-BLANC-FIESCH",
+    "space": "RGB",
+    "r": 229,
+    "g": 227,
+    "b": 225,
+    "hex": "#E5E3E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0043-BEIGE-KAMBA",
+    "space": "RGB",
+    "r": 235,
+    "g": 235,
+    "b": 231,
+    "hex": "#EBEBE7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0044-MAUVE-JASIONE",
+    "space": "RGB",
+    "r": 227,
+    "g": 221,
+    "b": 221,
+    "hex": "#E3DDDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0045-MAUVE-GLYCINE",
+    "space": "RGB",
+    "r": 227,
+    "g": 221,
+    "b": 227,
+    "hex": "#E3DDE3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0046-BLANC-LENK",
+    "space": "RGB",
+    "r": 247,
+    "g": 251,
+    "b": 251,
+    "hex": "#F7FBFB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0047-BLANC-MOLESON",
+    "space": "RGB",
+    "r": 237,
+    "g": 233,
+    "b": 237,
+    "hex": "#EDE9ED"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0048-BLANC-THYON",
+    "space": "RGB",
+    "r": 241,
+    "g": 235,
+    "b": 237,
+    "hex": "#F1EBED"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0049-ROSE-CARALINE",
+    "space": "RGB",
+    "r": 237,
+    "g": 223,
+    "b": 227,
+    "hex": "#EDDFE3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0050-ROSE-ASTRAGALE",
+    "space": "RGB",
+    "r": 235,
+    "g": 219,
+    "b": 219,
+    "hex": "#EBDBDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0051-BLANC-NEUDAZ",
+    "space": "RGB",
+    "r": 245,
+    "g": 241,
+    "b": 237,
+    "hex": "#F5F1ED"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0052-BLANC-DAVOS",
+    "space": "RGB",
+    "r": 249,
+    "g": 251,
+    "b": 245,
+    "hex": "#F9FBF5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0053-ROSE-SUELTA",
+    "space": "RGB",
+    "r": 237,
+    "g": 225,
+    "b": 221,
+    "hex": "#EDE1DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0054-ROSE-AMANCAY",
+    "space": "RGB",
+    "r": 237,
+    "g": 225,
+    "b": 221,
+    "hex": "#EDE1DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0055-ROSE-FARANDOLE",
+    "space": "RGB",
+    "r": 243,
+    "g": 227,
+    "b": 227,
+    "hex": "#F3E3E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0056-BLANC-BALME",
+    "space": "RGB",
+    "r": 235,
+    "g": 229,
+    "b": 221,
+    "hex": "#EBE5DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0057-ROSE-GREMIL",
+    "space": "RGB",
+    "r": 237,
+    "g": 231,
+    "b": 223,
+    "hex": "#EDE7DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0058-ROSE-ARUM",
+    "space": "RGB",
+    "r": 243,
+    "g": 233,
+    "b": 227,
+    "hex": "#F3E9E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0059-ROSE-CALYPSO",
+    "space": "RGB",
+    "r": 233,
+    "g": 219,
+    "b": 205,
+    "hex": "#E9DBCD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0060-ROSE-SEGA",
+    "space": "RGB",
+    "r": 227,
+    "g": 215,
+    "b": 203,
+    "hex": "#E3D7CB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0061-BLANC-MODANE",
+    "space": "RGB",
+    "r": 223,
+    "g": 219,
+    "b": 203,
+    "hex": "#DFDBCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0062-BEIGE-DOGON",
+    "space": "RGB",
+    "r": 225,
+    "g": 219,
+    "b": 201,
+    "hex": "#E1DBC9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0063-BEIGE-BAYAKA",
+    "space": "RGB",
+    "r": 239,
+    "g": 233,
+    "b": 209,
+    "hex": "#EFE9D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0064-BEIGE-SILT",
+    "space": "RGB",
+    "r": 217,
+    "g": 207,
+    "b": 183,
+    "hex": "#D9CFB7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0065-BEIGE-BALALI",
+    "space": "RGB",
+    "r": 219,
+    "g": 199,
+    "b": 171,
+    "hex": "#DBC7AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0066-BLANC-JOUGNE",
+    "space": "RGB",
+    "r": 231,
+    "g": 233,
+    "b": 221,
+    "hex": "#E7E9DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0067-BLANC-LA-ROSIERE",
+    "space": "RGB",
+    "r": 225,
+    "g": 219,
+    "b": 199,
+    "hex": "#E1DBC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0068-BEIGE-DRAA",
+    "space": "RGB",
+    "r": 223,
+    "g": 217,
+    "b": 191,
+    "hex": "#DFD9BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0069-BLANC-SAINT-GERVAIS",
+    "space": "RGB",
+    "r": 217,
+    "g": 215,
+    "b": 197,
+    "hex": "#D9D7C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0070-BEIGE-MANDINGUE",
+    "space": "RGB",
+    "r": 217,
+    "g": 203,
+    "b": 181,
+    "hex": "#D9CBB5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0071-BLANC-AULI",
+    "space": "RGB",
+    "r": 237,
+    "g": 231,
+    "b": 217,
+    "hex": "#EDE7D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0072-BLANC-FORMAZZA",
+    "space": "RGB",
+    "r": 237,
+    "g": 227,
+    "b": 209,
+    "hex": "#EDE3D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0073-BEIGE-MICA",
+    "space": "RGB",
+    "r": 223,
+    "g": 219,
+    "b": 199,
+    "hex": "#DFDBC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0074-VERT-MARANTA",
+    "space": "RGB",
+    "r": 225,
+    "g": 215,
+    "b": 189,
+    "hex": "#E1D7BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0075-BEIGE-APPOLO",
+    "space": "RGB",
+    "r": 217,
+    "g": 207,
+    "b": 187,
+    "hex": "#D9CFBB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0076-JAUNE-FRAGONARD",
+    "space": "RGB",
+    "r": 241,
+    "g": 241,
+    "b": 219,
+    "hex": "#F1F1DB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0077-BLANC-AVORIAZ",
+    "space": "RGB",
+    "r": 243,
+    "g": 237,
+    "b": 213,
+    "hex": "#F3EDD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0078-JAUNE-SEURAT",
+    "space": "RGB",
+    "r": 239,
+    "g": 235,
+    "b": 213,
+    "hex": "#EFEBD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0079-JAUNE-MOREAU",
+    "space": "RGB",
+    "r": 243,
+    "g": 239,
+    "b": 213,
+    "hex": "#F3EFD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0080-JAUNE-UTRILLO",
+    "space": "RGB",
+    "r": 243,
+    "g": 237,
+    "b": 203,
+    "hex": "#F3EDCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0081-BLANC-ANZERE",
+    "space": "RGB",
+    "r": 249,
+    "g": 251,
+    "b": 239,
+    "hex": "#F9FBEF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0082-BEIGE-ECRU",
+    "space": "RGB",
+    "r": 247,
+    "g": 243,
+    "b": 227,
+    "hex": "#F7F3E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0083-BLANC-CROSET",
+    "space": "RGB",
+    "r": 241,
+    "g": 237,
+    "b": 217,
+    "hex": "#F1EDD9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0084-BLANC-VENTRON",
+    "space": "RGB",
+    "r": 241,
+    "g": 235,
+    "b": 213,
+    "hex": "#F1EBD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0085-BLANC-AVRON",
+    "space": "RGB",
+    "r": 239,
+    "g": 231,
+    "b": 207,
+    "hex": "#EFE7CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0086-BLANC-TORGON",
+    "space": "RGB",
+    "r": 249,
+    "g": 249,
+    "b": 241,
+    "hex": "#F9F9F1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0087-BLANC-ALBERTVILLE",
+    "space": "RGB",
+    "r": 241,
+    "g": 241,
+    "b": 227,
+    "hex": "#F1F1E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0088-BLANC-ARGENTIERE",
+    "space": "RGB",
+    "r": 241,
+    "g": 237,
+    "b": 219,
+    "hex": "#F1EDDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0089-BLANC-GOURETTE",
+    "space": "RGB",
+    "r": 241,
+    "g": 235,
+    "b": 215,
+    "hex": "#F1EBD7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0090-BLANC-COCHES",
+    "space": "RGB",
+    "r": 239,
+    "g": 233,
+    "b": 215,
+    "hex": "#EFE9D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0091-BLANC-SAMOENS",
+    "space": "RGB",
+    "r": 239,
+    "g": 235,
+    "b": 221,
+    "hex": "#EFEBDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0092-BLANC-MORZINE",
+    "space": "RGB",
+    "r": 237,
+    "g": 233,
+    "b": 219,
+    "hex": "#EDE9DB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0093-BLANC-VARS",
+    "space": "RGB",
+    "r": 237,
+    "g": 235,
+    "b": 223,
+    "hex": "#EDEBDF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0094-BLANC-SAINT-VERAN",
+    "space": "RGB",
+    "r": 235,
+    "g": 233,
+    "b": 221,
+    "hex": "#EBE9DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0095-BLANC-PRALOUP",
+    "space": "RGB",
+    "r": 247,
+    "g": 245,
+    "b": 233,
+    "hex": "#F7F5E9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0096-BLANC-MORGINS",
+    "space": "RGB",
+    "r": 241,
+    "g": 237,
+    "b": 225,
+    "hex": "#F1EDE1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0097-BLANC-METABIEF",
+    "space": "RGB",
+    "r": 237,
+    "g": 233,
+    "b": 219,
+    "hex": "#EDE9DB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0098-BLANC-ARAVIS",
+    "space": "RGB",
+    "r": 249,
+    "g": 247,
+    "b": 233,
+    "hex": "#F9F7E9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0099-BLANC-MORILLON",
+    "space": "RGB",
+    "r": 237,
+    "g": 229,
+    "b": 211,
+    "hex": "#EDE5D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0100-BEIGE-PYRAMIDE",
+    "space": "RGB",
+    "r": 235,
+    "g": 225,
+    "b": 205,
+    "hex": "#EBE1CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0101-BLANC-MERIBEL",
+    "space": "RGB",
+    "r": 233,
+    "g": 227,
+    "b": 213,
+    "hex": "#E9E3D5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0102-BLANC-CASSE",
+    "space": "RGB",
+    "r": 229,
+    "g": 225,
+    "b": 213,
+    "hex": "#E5E1D5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0103-BEIGE-LUNAIRE",
+    "space": "RGB",
+    "r": 229,
+    "g": 225,
+    "b": 211,
+    "hex": "#E5E1D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0104-BLANC-TIGNES",
+    "space": "RGB",
+    "r": 231,
+    "g": 225,
+    "b": 209,
+    "hex": "#E7E1D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0105-BLANC-PRALI",
+    "space": "RGB",
+    "r": 229,
+    "g": 215,
+    "b": 197,
+    "hex": "#E5D7C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0106-BLANC-LAPONIE",
+    "space": "RGB",
+    "r": 233,
+    "g": 227,
+    "b": 207,
+    "hex": "#E9E3CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0107-BLANC-COURCHEVEL",
+    "space": "RGB",
+    "r": 231,
+    "g": 223,
+    "b": 203,
+    "hex": "#E7DFCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0108-BLANC-VALLOIRE",
+    "space": "RGB",
+    "r": 231,
+    "g": 221,
+    "b": 201,
+    "hex": "#E7DDC9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0109-BEIGE-MOBA",
+    "space": "RGB",
+    "r": 227,
+    "g": 211,
+    "b": 183,
+    "hex": "#E3D3B7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0110-BEIGE-BONGO",
+    "space": "RGB",
+    "r": 205,
+    "g": 185,
+    "b": 161,
+    "hex": "#CDB9A1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0111-BLANC-CERVINIA",
+    "space": "RGB",
+    "r": 249,
+    "g": 245,
+    "b": 221,
+    "hex": "#F9F5DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0112-BEIGE-CERUSITE",
+    "space": "RGB",
+    "r": 243,
+    "g": 235,
+    "b": 207,
+    "hex": "#F3EBCF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0113-BLANC-CHATEL",
+    "space": "RGB",
+    "r": 243,
+    "g": 229,
+    "b": 199,
+    "hex": "#F3E5C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0114-BEIGE-ARO",
+    "space": "RGB",
+    "r": 231,
+    "g": 213,
+    "b": 181,
+    "hex": "#E7D5B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0115-BEIGE-JURASSIQUE",
+    "space": "RGB",
+    "r": 227,
+    "g": 215,
+    "b": 189,
+    "hex": "#E3D7BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0116-BLANC-FLAINE",
+    "space": "RGB",
+    "r": 241,
+    "g": 231,
+    "b": 209,
+    "hex": "#F1E7D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0117-BLANC-CONTAMINE",
+    "space": "RGB",
+    "r": 241,
+    "g": 229,
+    "b": 205,
+    "hex": "#F1E5CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0118-BLANC-VAL-THORENS",
+    "space": "RGB",
+    "r": 241,
+    "g": 227,
+    "b": 201,
+    "hex": "#F1E3C9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0119-BLANC-PRALOGNAN",
+    "space": "RGB",
+    "r": 231,
+    "g": 213,
+    "b": 181,
+    "hex": "#E7D5B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0120-BEIGE-VIORNETIN",
+    "space": "RGB",
+    "r": 215,
+    "g": 197,
+    "b": 163,
+    "hex": "#D7C5A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0121-BLANC-KLOSTER",
+    "space": "RGB",
+    "r": 241,
+    "g": 231,
+    "b": 209,
+    "hex": "#F1E7D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0122-BLANC-MEGEVE",
+    "space": "RGB",
+    "r": 243,
+    "g": 233,
+    "b": 207,
+    "hex": "#F3E9CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0123-BEIGE-MARKA",
+    "space": "RGB",
+    "r": 249,
+    "g": 237,
+    "b": 201,
+    "hex": "#F9EDC9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0124-BEIGE-POIX",
+    "space": "RGB",
+    "r": 241,
+    "g": 229,
+    "b": 199,
+    "hex": "#F1E5C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0125-IVOIRE-MACAO",
+    "space": "RGB",
+    "r": 241,
+    "g": 223,
+    "b": 189,
+    "hex": "#F1DFBD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0126-BEIGE-AGATE",
+    "space": "RGB",
+    "r": 243,
+    "g": 233,
+    "b": 211,
+    "hex": "#F3E9D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0127-JAUNE-VERONESE",
+    "space": "RGB",
+    "r": 249,
+    "g": 237,
+    "b": 209,
+    "hex": "#F9EDD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0128-BLANC-ANARPURNA",
+    "space": "RGB",
+    "r": 241,
+    "g": 225,
+    "b": 195,
+    "hex": "#F1E1C3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0129-BLANC-ACONCAGUA",
+    "space": "RGB",
+    "r": 241,
+    "g": 225,
+    "b": 191,
+    "hex": "#F1E1BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0130-IVOIRE-KARACHI",
+    "space": "RGB",
+    "r": 235,
+    "g": 221,
+    "b": 191,
+    "hex": "#EBDDBF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0131-JAUNE-PIETRO",
+    "space": "RGB",
+    "r": 249,
+    "g": 233,
+    "b": 203,
+    "hex": "#F9E9CB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0132-BEIGE-OBSIDIENNE",
+    "space": "RGB",
+    "r": 249,
+    "g": 233,
+    "b": 205,
+    "hex": "#F9E9CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0133-JAUNE-ROSLIN",
+    "space": "RGB",
+    "r": 249,
+    "g": 227,
+    "b": 187,
+    "hex": "#F9E3BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0134-CREME-SOLOGNE",
+    "space": "RGB",
+    "r": 241,
+    "g": 213,
+    "b": 175,
+    "hex": "#F1D5AF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0135-JAUNE-BONNARD",
+    "space": "RGB",
+    "r": 243,
+    "g": 213,
+    "b": 161,
+    "hex": "#F3D5A1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0136-BLANC-CARROZ",
+    "space": "RGB",
+    "r": 239,
+    "g": 227,
+    "b": 203,
+    "hex": "#EFE3CB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0137-BEIGE-SHARI",
+    "space": "RGB",
+    "r": 233,
+    "g": 213,
+    "b": 181,
+    "hex": "#E9D5B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0138-JAUNE-DORE",
+    "space": "RGB",
+    "r": 241,
+    "g": 213,
+    "b": 175,
+    "hex": "#F1D5AF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0139-JAUNE-TOGO",
+    "space": "RGB",
+    "r": 237,
+    "g": 209,
+    "b": 161,
+    "hex": "#EDD1A1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0140-OCRE-CAMPANIE",
+    "space": "RGB",
+    "r": 235,
+    "g": 199,
+    "b": 155,
+    "hex": "#EBC79B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0141-BEIGE-CALCAIRE",
+    "space": "RGB",
+    "r": 243,
+    "g": 229,
+    "b": 213,
+    "hex": "#F3E5D5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0142-BEIGE-ARGILE",
+    "space": "RGB",
+    "r": 231,
+    "g": 217,
+    "b": 195,
+    "hex": "#E7D9C3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0143-BEIGE-ARKOSE",
+    "space": "RGB",
+    "r": 237,
+    "g": 209,
+    "b": 179,
+    "hex": "#EDD1B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0144-BEIGE-ARIZE",
+    "space": "RGB",
+    "r": 237,
+    "g": 205,
+    "b": 171,
+    "hex": "#EDCDAB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0145-OCRE-TIBESTI",
+    "space": "RGB",
+    "r": 227,
+    "g": 199,
+    "b": 163,
+    "hex": "#E3C7A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0146-BEIGE-ROCHE",
+    "space": "RGB",
+    "r": 237,
+    "g": 223,
+    "b": 205,
+    "hex": "#EDDFCD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0147-BEIGE-SABLE",
+    "space": "RGB",
+    "r": 245,
+    "g": 229,
+    "b": 209,
+    "hex": "#F5E5D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0148-BEIGE-CHAUX",
+    "space": "RGB",
+    "r": 237,
+    "g": 217,
+    "b": 191,
+    "hex": "#EDD9BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0149-BLANC-CHAMROUSSE",
+    "space": "RGB",
+    "r": 235,
+    "g": 219,
+    "b": 189,
+    "hex": "#EBDBBD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0150-BEIGE-LITHOGRAPHIQUE",
+    "space": "RGB",
+    "r": 231,
+    "g": 211,
+    "b": 185,
+    "hex": "#E7D3B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0151-BEIGE-CARRIERE",
+    "space": "RGB",
+    "r": 243,
+    "g": 231,
+    "b": 211,
+    "hex": "#F3E7D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0152-BEIGE-PIERRE",
+    "space": "RGB",
+    "r": 241,
+    "g": 227,
+    "b": 203,
+    "hex": "#F1E3CB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0153-BLANC-MONT-GENEVRE",
+    "space": "RGB",
+    "r": 235,
+    "g": 219,
+    "b": 195,
+    "hex": "#EBDBC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0154-BLANC-ZERMATT",
+    "space": "RGB",
+    "r": 247,
+    "g": 235,
+    "b": 211,
+    "hex": "#F7EBD3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0155-BEIGE-DUNE",
+    "space": "RGB",
+    "r": 239,
+    "g": 219,
+    "b": 193,
+    "hex": "#EFDBC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0156-BEIGE-DIKES",
+    "space": "RGB",
+    "r": 239,
+    "g": 229,
+    "b": 209,
+    "hex": "#EFE5D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0157-ROSE-CORONILLE",
+    "space": "RGB",
+    "r": 237,
+    "g": 221,
+    "b": 203,
+    "hex": "#EDDDCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0158-BEIGE-SCHISTE",
+    "space": "RGB",
+    "r": 245,
+    "g": 223,
+    "b": 195,
+    "hex": "#F5DFC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0159-BEIGE-TRILOBITE",
+    "space": "RGB",
+    "r": 243,
+    "g": 225,
+    "b": 197,
+    "hex": "#F3E1C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0160-BEIGE-GRANIT",
+    "space": "RGB",
+    "r": 237,
+    "g": 221,
+    "b": 193,
+    "hex": "#EDDDC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0161-BEIGE-AKEM",
+    "space": "RGB",
+    "r": 229,
+    "g": 205,
+    "b": 179,
+    "hex": "#E5CDB3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0162-BEIGE-BROCATELLE",
+    "space": "RGB",
+    "r": 225,
+    "g": 207,
+    "b": 185,
+    "hex": "#E1CFB9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0163-BEIGE-CRAIE",
+    "space": "RGB",
+    "r": 219,
+    "g": 205,
+    "b": 187,
+    "hex": "#DBCDBB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0164-BEIGE-SAHEL",
+    "space": "RGB",
+    "r": 217,
+    "g": 199,
+    "b": 177,
+    "hex": "#D9C7B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0165-BEIGE-QUARTZ",
+    "space": "RGB",
+    "r": 209,
+    "g": 195,
+    "b": 177,
+    "hex": "#D1C3B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0166-ROSE-PETALE",
+    "space": "RGB",
+    "r": 245,
+    "g": 229,
+    "b": 213,
+    "hex": "#F5E5D5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0167-BEIGE-CASSONNADE",
+    "space": "RGB",
+    "r": 247,
+    "g": 231,
+    "b": 213,
+    "hex": "#F7E7D5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0168-BEIGE-POUDRE",
+    "space": "RGB",
+    "r": 223,
+    "g": 207,
+    "b": 189,
+    "hex": "#DFCFBD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0169-BEIGE-GALET",
+    "space": "RGB",
+    "r": 219,
+    "g": 201,
+    "b": 181,
+    "hex": "#DBC9B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0170-BEIGE-GABBROS",
+    "space": "RGB",
+    "r": 221,
+    "g": 205,
+    "b": 179,
+    "hex": "#DDCDB3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0171-BEIGE-MASSAI",
+    "space": "RGB",
+    "r": 243,
+    "g": 229,
+    "b": 215,
+    "hex": "#F3E5D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0172-BEIGE-AMERU",
+    "space": "RGB",
+    "r": 245,
+    "g": 225,
+    "b": 205,
+    "hex": "#F5E1CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0173-BEIGE-BAGAS",
+    "space": "RGB",
+    "r": 247,
+    "g": 219,
+    "b": 201,
+    "hex": "#F7DBC9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0174-BEIGE-BAKELE",
+    "space": "RGB",
+    "r": 245,
+    "g": 209,
+    "b": 185,
+    "hex": "#F5D1B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0175-BEIGE-CIPOLIN",
+    "space": "RGB",
+    "r": 241,
+    "g": 213,
+    "b": 183,
+    "hex": "#F1D5B7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0176-ROSE-BALISIER",
+    "space": "RGB",
+    "r": 241,
+    "g": 215,
+    "b": 193,
+    "hex": "#F1D7C1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0177-BEIGE-PETRA",
+    "space": "RGB",
+    "r": 247,
+    "g": 219,
+    "b": 187,
+    "hex": "#F7DBBB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0178-BEIGE-SARLAT",
+    "space": "RGB",
+    "r": 241,
+    "g": 207,
+    "b": 181,
+    "hex": "#F1CFB5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0179-OCRE-SARAHOUI",
+    "space": "RGB",
+    "r": 223,
+    "g": 181,
+    "b": 151,
+    "hex": "#DFB597"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0180-GOLD-MANOSQUE",
+    "space": "RGB",
+    "r": 211,
+    "g": 173,
+    "b": 147,
+    "hex": "#D3AD93"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0181-ROSE-BALADI",
+    "space": "RGB",
+    "r": 245,
+    "g": 219,
+    "b": 203,
+    "hex": "#F5DBCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0182-BEIGE-HEMA",
+    "space": "RGB",
+    "r": 245,
+    "g": 221,
+    "b": 197,
+    "hex": "#F5DDC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0183-BEIGE-EDO",
+    "space": "RGB",
+    "r": 241,
+    "g": 223,
+    "b": 203,
+    "hex": "#F1DFCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0184-OCRE-KARAKOUM",
+    "space": "RGB",
+    "r": 225,
+    "g": 191,
+    "b": 163,
+    "hex": "#E1BFA3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0185-GOLD-TOUAREG",
+    "space": "RGB",
+    "r": 227,
+    "g": 187,
+    "b": 159,
+    "hex": "#E3BB9F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0186-ROSE-SCILLE",
+    "space": "RGB",
+    "r": 243,
+    "g": 219,
+    "b": 205,
+    "hex": "#F3DBCD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0187-ROSE-BOOGIE",
+    "space": "RGB",
+    "r": 249,
+    "g": 223,
+    "b": 205,
+    "hex": "#F9DFCD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0188-ROSE-CELOSIE",
+    "space": "RGB",
+    "r": 239,
+    "g": 201,
+    "b": 185,
+    "hex": "#EFC9B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0189-ROSE-GOTA",
+    "space": "RGB",
+    "r": 247,
+    "g": 211,
+    "b": 191,
+    "hex": "#F7D3BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0190-ROSE-JERK",
+    "space": "RGB",
+    "r": 235,
+    "g": 181,
+    "b": 163,
+    "hex": "#EBB5A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0191-ROSE-ZUMBA",
+    "space": "RGB",
+    "r": 233,
+    "g": 219,
+    "b": 207,
+    "hex": "#E9DBCF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0192-ROSE-FORRO",
+    "space": "RGB",
+    "r": 231,
+    "g": 209,
+    "b": 199,
+    "hex": "#E7D1C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0193-ROSE-FORLANE",
+    "space": "RGB",
+    "r": 217,
+    "g": 201,
+    "b": 197,
+    "hex": "#D9C9C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0194-BEIGE-RUNGU",
+    "space": "RGB",
+    "r": 219,
+    "g": 199,
+    "b": 189,
+    "hex": "#DBC7BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0195-BEIGE-BAUXITE",
+    "space": "RGB",
+    "r": 219,
+    "g": 195,
+    "b": 185,
+    "hex": "#DBC3B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0196-BEIGE-MAKURIA",
+    "space": "RGB",
+    "r": 237,
+    "g": 229,
+    "b": 219,
+    "hex": "#EDE5DB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0197-ROSE-ARROCHE",
+    "space": "RGB",
+    "r": 243,
+    "g": 235,
+    "b": 223,
+    "hex": "#F3EBDF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0198-ROSE-GERMAUDREE",
+    "space": "RGB",
+    "r": 235,
+    "g": 225,
+    "b": 215,
+    "hex": "#EBE1D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0199-BEIGE-CRISTAL",
+    "space": "RGB",
+    "r": 217,
+    "g": 203,
+    "b": 191,
+    "hex": "#D9CBBF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0200-BEIGE-STATUE",
+    "space": "RGB",
+    "r": 201,
+    "g": 177,
+    "b": 163,
+    "hex": "#C9B1A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0201-ROSE-QUADRILLE",
+    "space": "RGB",
+    "r": 241,
+    "g": 221,
+    "b": 219,
+    "hex": "#F1DDDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0202-ROSE-RONDEAU",
+    "space": "RGB",
+    "r": 241,
+    "g": 215,
+    "b": 207,
+    "hex": "#F1D7CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0203-ROSE-BALLERINE",
+    "space": "RGB",
+    "r": 237,
+    "g": 219,
+    "b": 215,
+    "hex": "#EDDBD7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0204-ROSE-VOLUBILIS",
+    "space": "RGB",
+    "r": 229,
+    "g": 205,
+    "b": 197,
+    "hex": "#E5CDC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0205-BEIGE-MINERAL",
+    "space": "RGB",
+    "r": 227,
+    "g": 205,
+    "b": 193,
+    "hex": "#E3CDC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0206-ROSE-CERISIER",
+    "space": "RGB",
+    "r": 245,
+    "g": 217,
+    "b": 215,
+    "hex": "#F5D9D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0207-ROSE-LONGOSE",
+    "space": "RGB",
+    "r": 253,
+    "g": 225,
+    "b": 229,
+    "hex": "#FDE1E5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0208-ROSE-TARENTELLE",
+    "space": "RGB",
+    "r": 245,
+    "g": 207,
+    "b": 209,
+    "hex": "#F5CFD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0209-ROSE-PRIMEROSE",
+    "space": "RGB",
+    "r": 239,
+    "g": 203,
+    "b": 203,
+    "hex": "#EFCBCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0210-ROSE-JAVA",
+    "space": "RGB",
+    "r": 243,
+    "g": 197,
+    "b": 199,
+    "hex": "#F3C5C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0211-ROSE-ORCHIDEE",
+    "space": "RGB",
+    "r": 245,
+    "g": 207,
+    "b": 203,
+    "hex": "#F5CFCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0212-ROSE-GIROFLEE",
+    "space": "RGB",
+    "r": 241,
+    "g": 203,
+    "b": 207,
+    "hex": "#F1CBCF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0213-ROSE-MATRICAIRE",
+    "space": "RGB",
+    "r": 241,
+    "g": 191,
+    "b": 197,
+    "hex": "#F1BFC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0214-ROSE-RHODODENDRON",
+    "space": "RGB",
+    "r": 245,
+    "g": 191,
+    "b": 193,
+    "hex": "#F5BFC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0215-ROSE-SLOW",
+    "space": "RGB",
+    "r": 233,
+    "g": 177,
+    "b": 177,
+    "hex": "#E9B1B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0216-ROSE-MORESQUE",
+    "space": "RGB",
+    "r": 237,
+    "g": 197,
+    "b": 197,
+    "hex": "#EDC5C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0217-ROSE-TREMIERE",
+    "space": "RGB",
+    "r": 245,
+    "g": 205,
+    "b": 203,
+    "hex": "#F5CDCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0218-ROSE-JABADAO",
+    "space": "RGB",
+    "r": 225,
+    "g": 187,
+    "b": 183,
+    "hex": "#E1BBB7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0219-ROSE-REGGAETON",
+    "space": "RGB",
+    "r": 207,
+    "g": 163,
+    "b": 159,
+    "hex": "#CFA39F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0220-ROSE-JAZZ",
+    "space": "RGB",
+    "r": 215,
+    "g": 157,
+    "b": 153,
+    "hex": "#D79D99"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0221-ROSE-TAMBOURIN",
+    "space": "RGB",
+    "r": 225,
+    "g": 203,
+    "b": 199,
+    "hex": "#E1CBC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0222-ROSE-LAMBADA",
+    "space": "RGB",
+    "r": 239,
+    "g": 219,
+    "b": 219,
+    "hex": "#EFDBDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0223-ROSE-LISERON",
+    "space": "RGB",
+    "r": 239,
+    "g": 191,
+    "b": 199,
+    "hex": "#EFBFC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0224-ROSE-LIMBO",
+    "space": "RGB",
+    "r": 229,
+    "g": 191,
+    "b": 197,
+    "hex": "#E5BFC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0225-ROSE-CLARKIA",
+    "space": "RGB",
+    "r": 213,
+    "g": 177,
+    "b": 183,
+    "hex": "#D5B1B7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0226-ROSE-LUDWIGIA",
+    "space": "RGB",
+    "r": 245,
+    "g": 211,
+    "b": 215,
+    "hex": "#F5D3D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0227-ROSE-BUTO",
+    "space": "RGB",
+    "r": 247,
+    "g": 203,
+    "b": 219,
+    "hex": "#F7CBDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0228-ROSE-CAPOEIRA",
+    "space": "RGB",
+    "r": 237,
+    "g": 171,
+    "b": 187,
+    "hex": "#EDABBB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0229-ROSE-TIMBA",
+    "space": "RGB",
+    "r": 231,
+    "g": 169,
+    "b": 189,
+    "hex": "#E7A9BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0230-ROSE-TOUPIE",
+    "space": "RGB",
+    "r": 215,
+    "g": 159,
+    "b": 173,
+    "hex": "#D79FAD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0231-ROSE-MYRTUS",
+    "space": "RGB",
+    "r": 229,
+    "g": 205,
+    "b": 215,
+    "hex": "#E5CDD7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0232-ROSE-NANGAILLE",
+    "space": "RGB",
+    "r": 227,
+    "g": 185,
+    "b": 205,
+    "hex": "#E3B9CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0233-ROSE-LOURE",
+    "space": "RGB",
+    "r": 209,
+    "g": 171,
+    "b": 203,
+    "hex": "#D1ABCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0234-FLEUR-DE-VIOLETTE",
+    "space": "RGB",
+    "r": 193,
+    "g": 177,
+    "b": 191,
+    "hex": "#C1B1BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0235-ROSE-CAMELIA",
+    "space": "RGB",
+    "r": 195,
+    "g": 163,
+    "b": 177,
+    "hex": "#C3A3B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0236-VIOLET-RAISIN",
+    "space": "RGB",
+    "r": 219,
+    "g": 209,
+    "b": 217,
+    "hex": "#DBD1D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0237-MAUVE-CASOAR.psd",
+    "space": "RGB",
+    "r": 221,
+    "g": 213,
+    "b": 231,
+    "hex": "#DDD5E7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0238-MAUVE-CHILIA",
+    "space": "RGB",
+    "r": 217,
+    "g": 209,
+    "b": 235,
+    "hex": "#D9D1EB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0239-MAUVE-PERRUCHE",
+    "space": "RGB",
+    "r": 209,
+    "g": 201,
+    "b": 217,
+    "hex": "#D1C9D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0240-MAUVE-COUROL",
+    "space": "RGB",
+    "r": 201,
+    "g": 189,
+    "b": 225,
+    "hex": "#C9BDE1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0241-MAUVE-MESANGE",
+    "space": "RGB",
+    "r": 225,
+    "g": 225,
+    "b": 233,
+    "hex": "#E1E1E9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0242-MAUVE-ONORE",
+    "space": "RGB",
+    "r": 221,
+    "g": 219,
+    "b": 231,
+    "hex": "#DDDBE7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0243-MAUVE-ARABETTE",
+    "space": "RGB",
+    "r": 215,
+    "g": 215,
+    "b": 227,
+    "hex": "#D7D7E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0244-VIOLET-PRUNE",
+    "space": "RGB",
+    "r": 215,
+    "g": 205,
+    "b": 219,
+    "hex": "#D7CDDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0245-VIOLET-CARDINAL",
+    "space": "RGB",
+    "r": 217,
+    "g": 215,
+    "b": 237,
+    "hex": "#D9D7ED"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0246-MAUVE-JACANA",
+    "space": "RGB",
+    "r": 221,
+    "g": 213,
+    "b": 223,
+    "hex": "#DDD5DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0247-MAUVE-FREGATE",
+    "space": "RGB",
+    "r": 227,
+    "g": 223,
+    "b": 235,
+    "hex": "#E3DFEB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0248-MAUVE-CORMORAN",
+    "space": "RGB",
+    "r": 191,
+    "g": 181,
+    "b": 191,
+    "hex": "#BFB5BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0249-MAUVE-MOINEAU",
+    "space": "RGB",
+    "r": 181,
+    "g": 167,
+    "b": 177,
+    "hex": "#B5A7B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0250-MAUVE-COMMELINA",
+    "space": "RGB",
+    "r": 171,
+    "g": 161,
+    "b": 169,
+    "hex": "#ABA1A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0251-MAUVE-COLIOU",
+    "space": "RGB",
+    "r": 201,
+    "g": 193,
+    "b": 213,
+    "hex": "#C9C1D5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0252-VIOLET-BERGAMOTTE",
+    "space": "RGB",
+    "r": 193,
+    "g": 187,
+    "b": 209,
+    "hex": "#C1BBD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0253-VIOLET-MYRTILLE",
+    "space": "RGB",
+    "r": 183,
+    "g": 169,
+    "b": 191,
+    "hex": "#B7A9BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0254-VIOLET-CASSIS",
+    "space": "RGB",
+    "r": 165,
+    "g": 149,
+    "b": 167,
+    "hex": "#A595A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0255-VIOLET-ALOUETTE",
+    "space": "RGB",
+    "r": 149,
+    "g": 137,
+    "b": 145,
+    "hex": "#958991"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0256-BLEU-DORDOGNE",
+    "space": "RGB",
+    "r": 187,
+    "g": 203,
+    "b": 221,
+    "hex": "#BBCBDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0257-BLEU-BACAN",
+    "space": "RGB",
+    "r": 185,
+    "g": 207,
+    "b": 235,
+    "hex": "#B9CFEB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0258-BLEU-LAVANDE",
+    "space": "RGB",
+    "r": 153,
+    "g": 181,
+    "b": 223,
+    "hex": "#99B5DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0259-BLEU-BURU",
+    "space": "RGB",
+    "r": 153,
+    "g": 181,
+    "b": 223,
+    "hex": "#99B5DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0260-MAUVE-ASTRILD",
+    "space": "RGB",
+    "r": 171,
+    "g": 185,
+    "b": 217,
+    "hex": "#ABB9D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0261-MAUVE-NIELLES",
+    "space": "RGB",
+    "r": 215,
+    "g": 219,
+    "b": 223,
+    "hex": "#D7DBDF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0262-MAUVE-CABOSSE",
+    "space": "RGB",
+    "r": 211,
+    "g": 215,
+    "b": 223,
+    "hex": "#D3D7DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0263-GRIS-HORLOGE",
+    "space": "RGB",
+    "r": 207,
+    "g": 211,
+    "b": 217,
+    "hex": "#CFD3D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0264-MAUVE-GARCINIE",
+    "space": "RGB",
+    "r": 197,
+    "g": 203,
+    "b": 217,
+    "hex": "#C5CBD9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0265-GRIS-NANTES",
+    "space": "RGB",
+    "r": 189,
+    "g": 187,
+    "b": 195,
+    "hex": "#BDBBC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0266-BLEU-ELBA",
+    "space": "RGB",
+    "r": 203,
+    "g": 215,
+    "b": 231,
+    "hex": "#CBD7E7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0267-BLEU-TOMINI",
+    "space": "RGB",
+    "r": 195,
+    "g": 209,
+    "b": 221,
+    "hex": "#C3D1DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0268-BLEU-LINOSA",
+    "space": "RGB",
+    "r": 175,
+    "g": 191,
+    "b": 209,
+    "hex": "#AFBFD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0269-BLEU-LAMPEDUSA",
+    "space": "RGB",
+    "r": 149,
+    "g": 163,
+    "b": 179,
+    "hex": "#95A3B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0270-BLEU-TAUPO",
+    "space": "RGB",
+    "r": 139,
+    "g": 153,
+    "b": 169,
+    "hex": "#8B99A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0271-GRIS-PLUTON",
+    "space": "RGB",
+    "r": 207,
+    "g": 213,
+    "b": 215,
+    "hex": "#CFD5D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0272-GRIS-LOUP",
+    "space": "RGB",
+    "r": 181,
+    "g": 191,
+    "b": 201,
+    "hex": "#B5BFC9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0273-GRIS-URANUS",
+    "space": "RGB",
+    "r": 175,
+    "g": 187,
+    "b": 193,
+    "hex": "#AFBBC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0274-BLEU-STROMBOLI",
+    "space": "RGB",
+    "r": 161,
+    "g": 173,
+    "b": 183,
+    "hex": "#A1ADB7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0275-BLEU-TAHOE",
+    "space": "RGB",
+    "r": 149,
+    "g": 163,
+    "b": 173,
+    "hex": "#95A3AD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0276-BLEU-MARAONE",
+    "space": "RGB",
+    "r": 195,
+    "g": 209,
+    "b": 221,
+    "hex": "#C3D1DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0277-BLEU-CHAMBON",
+    "space": "RGB",
+    "r": 177,
+    "g": 207,
+    "b": 219,
+    "hex": "#B1CFDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0278-BLEU-AUTIER",
+    "space": "RGB",
+    "r": 153,
+    "g": 181,
+    "b": 197,
+    "hex": "#99B5C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0279-BLEU-GANGE",
+    "space": "RGB",
+    "r": 141,
+    "g": 161,
+    "b": 171,
+    "hex": "#8DA1AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0280-BLEU-TANGANY",
+    "space": "RGB",
+    "r": 127,
+    "g": 151,
+    "b": 167,
+    "hex": "#7F97A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0281-BLEU-SPORADES",
+    "space": "RGB",
+    "r": 201,
+    "g": 233,
+    "b": 245,
+    "hex": "#C9E9F5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0282-BLEU-HOURTIN",
+    "space": "RGB",
+    "r": 167,
+    "g": 205,
+    "b": 215,
+    "hex": "#A7CDD7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0283-BLEU-ARIAKE",
+    "space": "RGB",
+    "r": 157,
+    "g": 191,
+    "b": 197,
+    "hex": "#9DBFC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0284-BLEU-CUPCAKE",
+    "space": "RGB",
+    "r": 169,
+    "g": 189,
+    "b": 193,
+    "hex": "#A9BDC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0285-BLEU-VERSA",
+    "space": "RGB",
+    "r": 145,
+    "g": 173,
+    "b": 179,
+    "hex": "#91ADB3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0286-BLEU-DOZEN",
+    "space": "RGB",
+    "r": 213,
+    "g": 237,
+    "b": 243,
+    "hex": "#D5EDF3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0287-BLEU-WALES",
+    "space": "RGB",
+    "r": 201,
+    "g": 219,
+    "b": 229,
+    "hex": "#C9DBE5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0288-BLEU-NAKANO",
+    "space": "RGB",
+    "r": 189,
+    "g": 217,
+    "b": 223,
+    "hex": "#BDD9DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0289-BLEU-POYANG",
+    "space": "RGB",
+    "r": 183,
+    "g": 207,
+    "b": 221,
+    "hex": "#B7CFDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0290-BLEU-CHIBURI",
+    "space": "RGB",
+    "r": 165,
+    "g": 203,
+    "b": 219,
+    "hex": "#A5CBDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0291-BLEU-AWA",
+    "space": "RGB",
+    "r": 227,
+    "g": 231,
+    "b": 233,
+    "hex": "#E3E7E9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0292-BLEU-KO",
+    "space": "RGB",
+    "r": 225,
+    "g": 241,
+    "b": 247,
+    "hex": "#E1F1F7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0293-BLEU-NIOLON",
+    "space": "RGB",
+    "r": 213,
+    "g": 229,
+    "b": 237,
+    "hex": "#D5E5ED"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0294-BLEU-MI",
+    "space": "RGB",
+    "r": 207,
+    "g": 229,
+    "b": 241,
+    "hex": "#CFE5F1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0295-BLEU-OKI",
+    "space": "RGB",
+    "r": 189,
+    "g": 215,
+    "b": 231,
+    "hex": "#BDD7E7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0296-BLEU-ERDRE",
+    "space": "RGB",
+    "r": 233,
+    "g": 237,
+    "b": 235,
+    "hex": "#E9EDEB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0297-BLEU-DEVENSON",
+    "space": "RGB",
+    "r": 225,
+    "g": 239,
+    "b": 243,
+    "hex": "#E1EFF3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0298-BLEU-FLORA",
+    "space": "RGB",
+    "r": 219,
+    "g": 225,
+    "b": 225,
+    "hex": "#DBE1E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0299-BLEU-ELTON",
+    "space": "RGB",
+    "r": 209,
+    "g": 225,
+    "b": 227,
+    "hex": "#D1E1E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0300-BLEU-SEE",
+    "space": "RGB",
+    "r": 199,
+    "g": 217,
+    "b": 221,
+    "hex": "#C7D9DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0301-BLEU-REBUN",
+    "space": "RGB",
+    "r": 223,
+    "g": 231,
+    "b": 227,
+    "hex": "#DFE7E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0302-BLEU-PIANA",
+    "space": "RGB",
+    "r": 221,
+    "g": 235,
+    "b": 239,
+    "hex": "#DDEBEF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0303-VERT-PIRON",
+    "space": "RGB",
+    "r": 221,
+    "g": 233,
+    "b": 233,
+    "hex": "#DDE9E9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0304-BLEU-MORGIOU",
+    "space": "RGB",
+    "r": 215,
+    "g": 231,
+    "b": 239,
+    "hex": "#D7E7EF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0305-BLEU-SORGIOU",
+    "space": "RGB",
+    "r": 213,
+    "g": 233,
+    "b": 243,
+    "hex": "#D5E9F3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0306-BLEU-FEROE",
+    "space": "RGB",
+    "r": 219,
+    "g": 229,
+    "b": 223,
+    "hex": "#DBE5DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0307-VERT-COPSE",
+    "space": "RGB",
+    "r": 201,
+    "g": 227,
+    "b": 223,
+    "hex": "#C9E3DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0308-VERT-IROKO",
+    "space": "RGB",
+    "r": 203,
+    "g": 227,
+    "b": 223,
+    "hex": "#CBE3DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0309-VERT-MYRTHE",
+    "space": "RGB",
+    "r": 201,
+    "g": 221,
+    "b": 217,
+    "hex": "#C9DDD9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0310-VERT-AZARA",
+    "space": "RGB",
+    "r": 205,
+    "g": 241,
+    "b": 245,
+    "hex": "#CDF1F5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0311-BLEU-ARC",
+    "space": "RGB",
+    "r": 209,
+    "g": 227,
+    "b": 225,
+    "hex": "#D1E3E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0312-BLEU-PRUNELLI",
+    "space": "RGB",
+    "r": 183,
+    "g": 215,
+    "b": 217,
+    "hex": "#B7D7D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0313-BLEU-AMAKUSA",
+    "space": "RGB",
+    "r": 191,
+    "g": 235,
+    "b": 243,
+    "hex": "#BFEBF3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0314-BLEU-OSUMI",
+    "space": "RGB",
+    "r": 175,
+    "g": 231,
+    "b": 245,
+    "hex": "#AFE7F5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0315-BLEU-BAHAMAS",
+    "space": "RGB",
+    "r": 133,
+    "g": 193,
+    "b": 211,
+    "hex": "#85C1D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0316-BLEU-CANAVERAL",
+    "space": "RGB",
+    "r": 189,
+    "g": 223,
+    "b": 225,
+    "hex": "#BDDFE1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0317-VERT-GYPSOPHILE",
+    "space": "RGB",
+    "r": 179,
+    "g": 225,
+    "b": 219,
+    "hex": "#B3E1DB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0318-BLEU-ROSS",
+    "space": "RGB",
+    "r": 153,
+    "g": 215,
+    "b": 217,
+    "hex": "#99D7D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0319-VERT-ANDALE",
+    "space": "RGB",
+    "r": 155,
+    "g": 207,
+    "b": 209,
+    "hex": "#9BCFD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0320-VERT-CABIN",
+    "space": "RGB",
+    "r": 133,
+    "g": 185,
+    "b": 185,
+    "hex": "#85B9B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0321-VERT-MIDO",
+    "space": "RGB",
+    "r": 217,
+    "g": 239,
+    "b": 235,
+    "hex": "#D9EFEB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0322-VERT-DISPLAY",
+    "space": "RGB",
+    "r": 173,
+    "g": 191,
+    "b": 187,
+    "hex": "#ADBFBB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0323-VERT-BENGUIAT",
+    "space": "RGB",
+    "r": 161,
+    "g": 193,
+    "b": 187,
+    "hex": "#A1C1BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0324-BLEU-ODET",
+    "space": "RGB",
+    "r": 139,
+    "g": 163,
+    "b": 157,
+    "hex": "#8BA39D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0325-BLEU-IMPERIAL",
+    "space": "RGB",
+    "r": 112,
+    "g": 153,
+    "b": 153,
+    "hex": "#709999"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0326-VERT-GOTHIC",
+    "space": "RGB",
+    "r": 215,
+    "g": 219,
+    "b": 219,
+    "hex": "#D7DBDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0327-GRIS-EDIMBOURG",
+    "space": "RGB",
+    "r": 195,
+    "g": 197,
+    "b": 191,
+    "hex": "#C3C5BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0328-VERT-PALATINO",
+    "space": "RGB",
+    "r": 191,
+    "g": 205,
+    "b": 193,
+    "hex": "#BFCDC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0329-VERT-BELL",
+    "space": "RGB",
+    "r": 189,
+    "g": 207,
+    "b": 195,
+    "hex": "#BDCFC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0330-VERT-OPUNTIA",
+    "space": "RGB",
+    "r": 181,
+    "g": 197,
+    "b": 191,
+    "hex": "#B5C5BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0331-VERT-SERPOLET",
+    "space": "RGB",
+    "r": 223,
+    "g": 231,
+    "b": 223,
+    "hex": "#DFE7DF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0332-VERT-SARIETTE",
+    "space": "RGB",
+    "r": 213,
+    "g": 231,
+    "b": 225,
+    "hex": "#D5E7E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0333-VERT-MIBUNA",
+    "space": "RGB",
+    "r": 195,
+    "g": 227,
+    "b": 217,
+    "hex": "#C3E3D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0334-VERT-TCHITOLA",
+    "space": "RGB",
+    "r": 187,
+    "g": 207,
+    "b": 195,
+    "hex": "#BBCFC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0335-VERT-ALCEA",
+    "space": "RGB",
+    "r": 167,
+    "g": 209,
+    "b": 199,
+    "hex": "#A7D1C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0336-VERT-ALIBOUFIER",
+    "space": "RGB",
+    "r": 235,
+    "g": 239,
+    "b": 231,
+    "hex": "#EBEFE7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0337-VERT-NENUPHAR",
+    "space": "RGB",
+    "r": 233,
+    "g": 239,
+    "b": 221,
+    "hex": "#E9EFDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0338-VERT-MELISSE",
+    "space": "RGB",
+    "r": 221,
+    "g": 237,
+    "b": 221,
+    "hex": "#DDEDDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0339-VERT-ANIS",
+    "space": "RGB",
+    "r": 217,
+    "g": 235,
+    "b": 219,
+    "hex": "#D9EBDB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0340-VERT-EPICEA",
+    "space": "RGB",
+    "r": 211,
+    "g": 233,
+    "b": 215,
+    "hex": "#D3E9D7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0341-VERT-FRUTIGER",
+    "space": "RGB",
+    "r": 233,
+    "g": 235,
+    "b": 225,
+    "hex": "#E9EBE1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0342-VERT-SCRIPT",
+    "space": "RGB",
+    "r": 237,
+    "g": 245,
+    "b": 225,
+    "hex": "#EDF5E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0343-VERT-CLARENDON",
+    "space": "RGB",
+    "r": 241,
+    "g": 251,
+    "b": 233,
+    "hex": "#F1FBE9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0344-VERT-CAMBRIA",
+    "space": "RGB",
+    "r": 239,
+    "g": 251,
+    "b": 207,
+    "hex": "#EFFBCF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0345-VERT-CASLON",
+    "space": "RGB",
+    "r": 231,
+    "g": 249,
+    "b": 211,
+    "hex": "#E7F9D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0346-GRIS-TUCANA",
+    "space": "RGB",
+    "r": 235,
+    "g": 237,
+    "b": 221,
+    "hex": "#EBEDDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0347-VERT-ABSINTHE",
+    "space": "RGB",
+    "r": 219,
+    "g": 221,
+    "b": 197,
+    "hex": "#DBDDC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0348-VERT-SERIF",
+    "space": "RGB",
+    "r": 227,
+    "g": 225,
+    "b": 197,
+    "hex": "#E3E1C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0349-BEIGE-GRENAILLE",
+    "space": "RGB",
+    "r": 213,
+    "g": 209,
+    "b": 187,
+    "hex": "#D5D1BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0350-VERT-LAURIER",
+    "space": "RGB",
+    "r": 211,
+    "g": 209,
+    "b": 183,
+    "hex": "#D3D1B7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0351-VERT-ALPISTE",
+    "space": "RGB",
+    "r": 241,
+    "g": 245,
+    "b": 227,
+    "hex": "#F1F5E3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0352-VERT-MENTHE",
+    "space": "RGB",
+    "r": 229,
+    "g": 235,
+    "b": 203,
+    "hex": "#E5EBCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0353-VERT-CERFEUIL",
+    "space": "RGB",
+    "r": 227,
+    "g": 235,
+    "b": 189,
+    "hex": "#E3EBBD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0354-VERT-HEVEA",
+    "space": "RGB",
+    "r": 221,
+    "g": 233,
+    "b": 179,
+    "hex": "#DDE9B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0355-VERT-CHARCOAL",
+    "space": "RGB",
+    "r": 211,
+    "g": 217,
+    "b": 167,
+    "hex": "#D3D9A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0356-VERT-OZIGO",
+    "space": "RGB",
+    "r": 237,
+    "g": 239,
+    "b": 205,
+    "hex": "#EDEFCD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0357-VERT-BETE",
+    "space": "RGB",
+    "r": 235,
+    "g": 239,
+    "b": 199,
+    "hex": "#EBEFC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0358-JAUNE-KHALO",
+    "space": "RGB",
+    "r": 249,
+    "g": 241,
+    "b": 161,
+    "hex": "#F9F1A1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0359-JAUNE-LARSSON",
+    "space": "RGB",
+    "r": 249,
+    "g": 237,
+    "b": 155,
+    "hex": "#F9ED9B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0360-JAUNE-SCHEFFER",
+    "space": "RGB",
+    "r": 249,
+    "g": 241,
+    "b": 137,
+    "hex": "#F9F189"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0361-JAUNE-MUNCH",
+    "space": "RGB",
+    "r": 251,
+    "g": 245,
+    "b": 217,
+    "hex": "#FBF5D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0362-JAUNE-STAEL",
+    "space": "RGB",
+    "r": 241,
+    "g": 241,
+    "b": 207,
+    "hex": "#F1F1CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0363-JAUNE-AGUELI",
+    "space": "RGB",
+    "r": 249,
+    "g": 243,
+    "b": 207,
+    "hex": "#F9F3CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0364-JAUNE-MONET",
+    "space": "RGB",
+    "r": 245,
+    "g": 233,
+    "b": 189,
+    "hex": "#F5E9BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0365-JAUNE-BONNIER",
+    "space": "RGB",
+    "r": 243,
+    "g": 233,
+    "b": 187,
+    "hex": "#F3E9BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0366-JAUNE-MONDRIAN",
+    "space": "RGB",
+    "r": 243,
+    "g": 241,
+    "b": 213,
+    "hex": "#F3F1D5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0367-JAUNE-ANCHER",
+    "space": "RGB",
+    "r": 249,
+    "g": 247,
+    "b": 203,
+    "hex": "#F9F7CB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0368-JAUNE-BOMBAY",
+    "space": "RGB",
+    "r": 239,
+    "g": 235,
+    "b": 179,
+    "hex": "#EFEBB3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0369-JAUNE-TUXEN",
+    "space": "RGB",
+    "r": 249,
+    "g": 239,
+    "b": 169,
+    "hex": "#F9EFA9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0370-JAUNE-VIVIEN",
+    "space": "RGB",
+    "r": 231,
+    "g": 211,
+    "b": 143,
+    "hex": "#E7D38F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0371-JAUNE-TRACHEL",
+    "space": "RGB",
+    "r": 251,
+    "g": 233,
+    "b": 167,
+    "hex": "#FBE9A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0372-JAUNE-LATOUR",
+    "space": "RGB",
+    "r": 251,
+    "g": 229,
+    "b": 151,
+    "hex": "#FBE597"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0373-JAUNE-LE-LORRAIN",
+    "space": "RGB",
+    "r": 249,
+    "g": 225,
+    "b": 131,
+    "hex": "#F9E183"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0375-JAUNE-SANZIO",
+    "space": "RGB",
+    "r": 231,
+    "g": 195,
+    "b": 117,
+    "hex": "#E7C375"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0376-JAUNE-ROUAULT",
+    "space": "RGB",
+    "r": 245,
+    "g": 233,
+    "b": 193,
+    "hex": "#F5E9C1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0377-JAUNE-BRAQUE",
+    "space": "RGB",
+    "r": 245,
+    "g": 233,
+    "b": 179,
+    "hex": "#F5E9B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0378-JAUNE-GOTTMAN",
+    "space": "RGB",
+    "r": 249,
+    "g": 231,
+    "b": 159,
+    "hex": "#F9E79F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0379-JAUNE-Du\u0308RER",
+    "space": "RGB",
+    "r": 243,
+    "g": 227,
+    "b": 155,
+    "hex": "#F3E39B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0380-JAUNE-CEZANNE",
+    "space": "RGB",
+    "r": 251,
+    "g": 223,
+    "b": 141,
+    "hex": "#FBDF8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0381-JAUNE-VUILLARD",
+    "space": "RGB",
+    "r": 243,
+    "g": 229,
+    "b": 187,
+    "hex": "#F3E5BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0382-JAUNE-MEMLING",
+    "space": "RGB",
+    "r": 243,
+    "g": 227,
+    "b": 189,
+    "hex": "#F3E3BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0383-JAUNE-AUBER",
+    "space": "RGB",
+    "r": 245,
+    "g": 225,
+    "b": 181,
+    "hex": "#F5E1B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0384-JAUNE-TURNER",
+    "space": "RGB",
+    "r": 247,
+    "g": 227,
+    "b": 173,
+    "hex": "#F7E3AD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0385-JAUNE-CHAGALL",
+    "space": "RGB",
+    "r": 245,
+    "g": 207,
+    "b": 147,
+    "hex": "#F5CF93"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0386-JAUNE-RENOIR",
+    "space": "RGB",
+    "r": 239,
+    "g": 221,
+    "b": 181,
+    "hex": "#EFDDB5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0387-BEIGE-GRAVILLON",
+    "space": "RGB",
+    "r": 233,
+    "g": 219,
+    "b": 187,
+    "hex": "#E9DBBB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0388-BEIGE-TASS",
+    "space": "RGB",
+    "r": 227,
+    "g": 211,
+    "b": 177,
+    "hex": "#E3D3B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0389-BEIGE-MINE",
+    "space": "RGB",
+    "r": 223,
+    "g": 203,
+    "b": 161,
+    "hex": "#DFCBA1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0390-BEIGE-ENYA",
+    "space": "RGB",
+    "r": 237,
+    "g": 205,
+    "b": 165,
+    "hex": "#EDCDA5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0391-JAUNE-VAN-DONGEN",
+    "space": "RGB",
+    "r": 243,
+    "g": 217,
+    "b": 157,
+    "hex": "#F3D99D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0392-JAUNE-ROUSSEAU",
+    "space": "RGB",
+    "r": 249,
+    "g": 221,
+    "b": 147,
+    "hex": "#F9DD93"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0393-JAUNE-INGRES",
+    "space": "RGB",
+    "r": 247,
+    "g": 221,
+    "b": 149,
+    "hex": "#F7DD95"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0394-JAUNE-SISLEY",
+    "space": "RGB",
+    "r": 251,
+    "g": 215,
+    "b": 129,
+    "hex": "#FBD781"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0395-JAUNE-HOLBEIN",
+    "space": "RGB",
+    "r": 241,
+    "g": 201,
+    "b": 119,
+    "hex": "#F1C977"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0396-JAUNE-KLIMT",
+    "space": "RGB",
+    "r": 253,
+    "g": 207,
+    "b": 131,
+    "hex": "#FDCF83"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0397-JAUNE-MAES",
+    "space": "RGB",
+    "r": 253,
+    "g": 199,
+    "b": 113,
+    "hex": "#FDC771"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0398-JAUNE-DELAUNAY",
+    "space": "RGB",
+    "r": 249,
+    "g": 193,
+    "b": 90,
+    "hex": "#F9C15A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0399-JAUNE-GUARDI",
+    "space": "RGB",
+    "r": 239,
+    "g": 181,
+    "b": 97,
+    "hex": "#EFB561"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0400-JAUNE-MORET",
+    "space": "RGB",
+    "r": 231,
+    "g": 171,
+    "b": 73,
+    "hex": "#E7AB49"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0401-JAUNE-DUFY",
+    "space": "RGB",
+    "r": 249,
+    "g": 211,
+    "b": 145,
+    "hex": "#F9D391"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0402-JAUNE-DELHI",
+    "space": "RGB",
+    "r": 251,
+    "g": 203,
+    "b": 131,
+    "hex": "#FBCB83"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0403-JAUNE-LAUTREC",
+    "space": "RGB",
+    "r": 245,
+    "g": 195,
+    "b": 121,
+    "hex": "#F5C379"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0404-JAUNE-CAPPELEN",
+    "space": "RGB",
+    "r": 233,
+    "g": 171,
+    "b": 98,
+    "hex": "#E9AB62"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0405-JAUNE-BENSA",
+    "space": "RGB",
+    "r": 223,
+    "g": 167,
+    "b": 104,
+    "hex": "#DFA768"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0406-OCRE-GUADELOUPE",
+    "space": "RGB",
+    "r": 239,
+    "g": 187,
+    "b": 120,
+    "hex": "#EFBB78"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0407-OCRE-VICTORIA",
+    "space": "RGB",
+    "r": 217,
+    "g": 175,
+    "b": 117,
+    "hex": "#D9AF75"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0408-OCRE-ROCHEUSE",
+    "space": "RGB",
+    "r": 207,
+    "g": 161,
+    "b": 108,
+    "hex": "#CFA16C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0409-OCRE-DANAKIL",
+    "space": "RGB",
+    "r": 175,
+    "g": 133,
+    "b": 90,
+    "hex": "#AF855A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0410-JAUNE-VALLAURIS",
+    "space": "RGB",
+    "r": 179,
+    "g": 129,
+    "b": 68,
+    "hex": "#B38144"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0411-ORANGE-SOCA",
+    "space": "RGB",
+    "r": 241,
+    "g": 187,
+    "b": 137,
+    "hex": "#F1BB89"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0412-OCRE-CHARENTE.psd",
+    "space": "RGB",
+    "r": 233,
+    "g": 185,
+    "b": 129,
+    "hex": "#E9B981"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0413-GOLD-RAVENNE",
+    "space": "RGB",
+    "r": 215,
+    "g": 167,
+    "b": 125,
+    "hex": "#D7A77D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0414-OCRE-NAMIBIE",
+    "space": "RGB",
+    "r": 219,
+    "g": 161,
+    "b": 110,
+    "hex": "#DBA16E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0415-OCRE-AOSTE",
+    "space": "RGB",
+    "r": 161,
+    "g": 110,
+    "b": 58,
+    "hex": "#A16E3A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0416-ORANGE-BAROQUE",
+    "space": "RGB",
+    "r": 249,
+    "g": 189,
+    "b": 119,
+    "hex": "#F9BD77"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0417-JAUNE-BOUCHEZ",
+    "space": "RGB",
+    "r": 251,
+    "g": 193,
+    "b": 139,
+    "hex": "#FBC18B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0418-ORANGE-AKENE",
+    "space": "RGB",
+    "r": 251,
+    "g": 175,
+    "b": 124,
+    "hex": "#FBAF7C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0419-ORANGE-CARYOPSE",
+    "space": "RGB",
+    "r": 249,
+    "g": 171,
+    "b": 106,
+    "hex": "#F9AB6A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0420-ORANGE-CHARLESTON",
+    "space": "RGB",
+    "r": 243,
+    "g": 161,
+    "b": 89,
+    "hex": "#F3A159"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0421-ORANGE-GRIND.psd",
+    "space": "RGB",
+    "r": 231,
+    "g": 163,
+    "b": 126,
+    "hex": "#E7A37E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0422-ORANGE-COMPTINE",
+    "space": "RGB",
+    "r": 227,
+    "g": 163,
+    "b": 127,
+    "hex": "#E3A37F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0423-ORANGE-CABARET",
+    "space": "RGB",
+    "r": 209,
+    "g": 141,
+    "b": 99,
+    "hex": "#D18D63"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0424-ORANGE-JAVANAISE",
+    "space": "RGB",
+    "r": 215,
+    "g": 133,
+    "b": 87,
+    "hex": "#D78557"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0425-ORANGE-LOUANGE",
+    "space": "RGB",
+    "r": 203,
+    "g": 129,
+    "b": 91,
+    "hex": "#CB815B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0426-OCRE-MOJAVE",
+    "space": "RGB",
+    "r": 225,
+    "g": 187,
+    "b": 165,
+    "hex": "#E1BBA5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0427-OCRE-TOZEUR",
+    "space": "RGB",
+    "r": 215,
+    "g": 169,
+    "b": 143,
+    "hex": "#D7A98F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0428-OCRE-SONORA",
+    "space": "RGB",
+    "r": 207,
+    "g": 153,
+    "b": 125,
+    "hex": "#CF997D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0429-OCRE-WADI",
+    "space": "RGB",
+    "r": 189,
+    "g": 137,
+    "b": 117,
+    "hex": "#BD8975"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0430-OCRE-JUDEE",
+    "space": "RGB",
+    "r": 177,
+    "g": 131,
+    "b": 108,
+    "hex": "#B1836C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0431-OCRE-GUYANE",
+    "space": "RGB",
+    "r": 227,
+    "g": 181,
+    "b": 163,
+    "hex": "#E3B5A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0432-GOLD-LIMOUSIN",
+    "space": "RGB",
+    "r": 225,
+    "g": 165,
+    "b": 133,
+    "hex": "#E1A585"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0433-ROSE-ASTER",
+    "space": "RGB",
+    "r": 215,
+    "g": 157,
+    "b": 125,
+    "hex": "#D79D7D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0434-OCRE-ABRUZZES",
+    "space": "RGB",
+    "r": 209,
+    "g": 153,
+    "b": 115,
+    "hex": "#D19973"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0435-OCRE-BLEDOW",
+    "space": "RGB",
+    "r": 193,
+    "g": 141,
+    "b": 113,
+    "hex": "#C18D71"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0436-OCRE-BARDENAS",
+    "space": "RGB",
+    "r": 237,
+    "g": 173,
+    "b": 145,
+    "hex": "#EDAD91"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0437-GOLD-ARIEGE",
+    "space": "RGB",
+    "r": 225,
+    "g": 155,
+    "b": 126,
+    "hex": "#E19B7E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0438-OCRE-TERNET.psd",
+    "space": "RGB",
+    "r": 209,
+    "g": 143,
+    "b": 120,
+    "hex": "#D18F78"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0439-OCRE-NUBIE",
+    "space": "RGB",
+    "r": 201,
+    "g": 133,
+    "b": 111,
+    "hex": "#C9856F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0440-OCRE-TANAMI",
+    "space": "RGB",
+    "r": 191,
+    "g": 123,
+    "b": 112,
+    "hex": "#BF7B70"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0441-ROSE-BOLERO",
+    "space": "RGB",
+    "r": 249,
+    "g": 191,
+    "b": 177,
+    "hex": "#F9BFB1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0442-ROSE-CORETE",
+    "space": "RGB",
+    "r": 225,
+    "g": 157,
+    "b": 141,
+    "hex": "#E19D8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0443-ROSE-CAMPANULE",
+    "space": "RGB",
+    "r": 217,
+    "g": 145,
+    "b": 125,
+    "hex": "#D9917D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0444-ROSE-FAHAM",
+    "space": "RGB",
+    "r": 195,
+    "g": 129,
+    "b": 115,
+    "hex": "#C38173"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0445-ROSE-MERENGUE",
+    "space": "RGB",
+    "r": 181,
+    "g": 121,
+    "b": 109,
+    "hex": "#B5796D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0446-ROSE-BALBOA",
+    "space": "RGB",
+    "r": 231,
+    "g": 153,
+    "b": 155,
+    "hex": "#E7999B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0447-ROSE-BEBOP",
+    "space": "RGB",
+    "r": 227,
+    "g": 137,
+    "b": 141,
+    "hex": "#E3898D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0448-ROSE-AMARYLIS",
+    "space": "RGB",
+    "r": 175,
+    "g": 101,
+    "b": 103,
+    "hex": "#AF6567"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0449-ROSE-ORPHRYS.psd",
+    "space": "RGB",
+    "r": 173,
+    "g": 93,
+    "b": 92,
+    "hex": "#AD5D5C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0450-ROSE-PHLOMIS",
+    "space": "RGB",
+    "r": 143,
+    "g": 79,
+    "b": 80,
+    "hex": "#8F4F50"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0451-ROSE-CACHUCHA",
+    "space": "RGB",
+    "r": 245,
+    "g": 143,
+    "b": 137,
+    "hex": "#F58F89"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0452-ROSE-CAROLE",
+    "space": "RGB",
+    "r": 229,
+    "g": 108,
+    "b": 108,
+    "hex": "#E56C6C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0453-ROSE-TULIPE",
+    "space": "RGB",
+    "r": 225,
+    "g": 101,
+    "b": 109,
+    "hex": "#E1656D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0454-ROUGE-FLEURY",
+    "space": "RGB",
+    "r": 207,
+    "g": 80,
+    "b": 89,
+    "hex": "#CF5059"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0455-ROUGE-AMARONE",
+    "space": "RGB",
+    "r": 187,
+    "g": 64,
+    "b": 72,
+    "hex": "#BB4048"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0456-ROSE-GERANIUM",
+    "space": "RGB",
+    "r": 213,
+    "g": 77,
+    "b": 83,
+    "hex": "#D54D53"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0457-ROUGE-VOUGEOT",
+    "space": "RGB",
+    "r": 209,
+    "g": 64,
+    "b": 73,
+    "hex": "#D14049"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0458-ROUGE-SAUVIGNON",
+    "space": "RGB",
+    "r": 189,
+    "g": 66,
+    "b": 65,
+    "hex": "#BD4241"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0459-ROUGE-SAINT-VERAN",
+    "space": "RGB",
+    "r": 187,
+    "g": 71,
+    "b": 73,
+    "hex": "#BB4749"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0460-ROUGE-SEMILLON",
+    "space": "RGB",
+    "r": 173,
+    "g": 52,
+    "b": 63,
+    "hex": "#AD343F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0461-ROUGE-SAINT-AMOUR",
+    "space": "RGB",
+    "r": 201,
+    "g": 66,
+    "b": 65,
+    "hex": "#C94241"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0462-ROUGE-SANCERRE",
+    "space": "RGB",
+    "r": 201,
+    "g": 64,
+    "b": 63,
+    "hex": "#C9403F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0463-ROUGE-PARIS",
+    "space": "RGB",
+    "r": 201,
+    "g": 52,
+    "b": 54,
+    "hex": "#C93436"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0464-ROUGE-BUZET",
+    "space": "RGB",
+    "r": 183,
+    "g": 57,
+    "b": 55,
+    "hex": "#B73937"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0465-ROUGE-MUSCAT",
+    "space": "RGB",
+    "r": 167,
+    "g": 59,
+    "b": 54,
+    "hex": "#A73B36"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0466-ORANGE-SANGUINE",
+    "space": "RGB",
+    "r": 217,
+    "g": 86,
+    "b": 62,
+    "hex": "#D9563E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0467-ORANGE-TOLEDE",
+    "space": "RGB",
+    "r": 209,
+    "g": 75,
+    "b": 55,
+    "hex": "#D14B37"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0468-ORANGE-KUMQUAT",
+    "space": "RGB",
+    "r": 205,
+    "g": 71,
+    "b": 56,
+    "hex": "#CD4738"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0469-ROUGE-ASTI",
+    "space": "RGB",
+    "r": 193,
+    "g": 70,
+    "b": 57,
+    "hex": "#C14639"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0470-ROUGE-LAFITE",
+    "space": "RGB",
+    "r": 147,
+    "g": 62,
+    "b": 57,
+    "hex": "#933E39"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0471-ROUGE-BANDOLE",
+    "space": "RGB",
+    "r": 233,
+    "g": 127,
+    "b": 104,
+    "hex": "#E97F68"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0472-ROUGE-TARIQUET",
+    "space": "RGB",
+    "r": 223,
+    "g": 99,
+    "b": 81,
+    "hex": "#DF6351"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0473-ROUGE-PROSECCO",
+    "space": "RGB",
+    "r": 209,
+    "g": 72,
+    "b": 69,
+    "hex": "#D14845"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0474-ROUGE-POMMARD",
+    "space": "RGB",
+    "r": 199,
+    "g": 67,
+    "b": 69,
+    "hex": "#C74345"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0475-ROUGE-COTE",
+    "space": "RGB",
+    "r": 159,
+    "g": 55,
+    "b": 48,
+    "hex": "#9F3730"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0476-ROUGE-TRICASTIN",
+    "space": "RGB",
+    "r": 167,
+    "g": 61,
+    "b": 58,
+    "hex": "#A73D3A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0477-ROUGE-MEDOC",
+    "space": "RGB",
+    "r": 165,
+    "g": 62,
+    "b": 60,
+    "hex": "#A53E3C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0478-ROUGE-POUILLY",
+    "space": "RGB",
+    "r": 165,
+    "g": 52,
+    "b": 56,
+    "hex": "#A53438"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0479-ROUGE-SAINT-EMILION",
+    "space": "RGB",
+    "r": 165,
+    "g": 50,
+    "b": 60,
+    "hex": "#A5323C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0480-ROUGE-CHINON",
+    "space": "RGB",
+    "r": 159,
+    "g": 49,
+    "b": 60,
+    "hex": "#9F313C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0481-ROUGE-FAUGERE",
+    "space": "RGB",
+    "r": 165,
+    "g": 74,
+    "b": 77,
+    "hex": "#A54A4D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0482-ROUGE-PATRIMONIO",
+    "space": "RGB",
+    "r": 155,
+    "g": 72,
+    "b": 77,
+    "hex": "#9B484D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0483-ROUGE-CHARDONNAY",
+    "space": "RGB",
+    "r": 171,
+    "g": 55,
+    "b": 75,
+    "hex": "#AB374B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0484-ROUGE-MUSIGNY",
+    "space": "RGB",
+    "r": 129,
+    "g": 53,
+    "b": 53,
+    "hex": "#813535"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0485-ROUGE-PALETTE",
+    "space": "RGB",
+    "r": 101,
+    "g": 50,
+    "b": 49,
+    "hex": "#653231"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0486-ROSE-VIRA",
+    "space": "RGB",
+    "r": 235,
+    "g": 141,
+    "b": 155,
+    "hex": "#EB8D9B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0487-ROSE-HIBISCUS",
+    "space": "RGB",
+    "r": 207,
+    "g": 126,
+    "b": 135,
+    "hex": "#CF7E87"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0488-ROSE-SAMBA",
+    "space": "RGB",
+    "r": 209,
+    "g": 118,
+    "b": 131,
+    "hex": "#D17683"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0489-ROSE-PALMYRE",
+    "space": "RGB",
+    "r": 205,
+    "g": 95,
+    "b": 116,
+    "hex": "#CD5F74"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0490-ROSE-LYCHNIS",
+    "space": "RGB",
+    "r": 181,
+    "g": 65,
+    "b": 86,
+    "hex": "#B54156"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0491-ROSE-CRANK",
+    "space": "RGB",
+    "r": 205,
+    "g": 100,
+    "b": 119,
+    "hex": "#CD6477"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0492-ROSE-TROIKA",
+    "space": "RGB",
+    "r": 191,
+    "g": 79,
+    "b": 101,
+    "hex": "#BF4F65"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0493-ROSE-RUMBA",
+    "space": "RGB",
+    "r": 197,
+    "g": 76,
+    "b": 101,
+    "hex": "#C54C65"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0494-ROSE-COTILLON",
+    "space": "RGB",
+    "r": 195,
+    "g": 80,
+    "b": 111,
+    "hex": "#C3506F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0495-ROSE-CARIOCA",
+    "space": "RGB",
+    "r": 171,
+    "g": 71,
+    "b": 97,
+    "hex": "#AB4761"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0496-ROSE-CHAHUT",
+    "space": "RGB",
+    "r": 215,
+    "g": 133,
+    "b": 151,
+    "hex": "#D78597"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0497-ROSE-CLAQUETTE",
+    "space": "RGB",
+    "r": 201,
+    "g": 127,
+    "b": 139,
+    "hex": "#C97F8B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0498-ROSE-MADISON",
+    "space": "RGB",
+    "r": 193,
+    "g": 108,
+    "b": 121,
+    "hex": "#C16C79"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0499-ROSE-SARRASIN",
+    "space": "RGB",
+    "r": 191,
+    "g": 87,
+    "b": 109,
+    "hex": "#BF576D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0500-ROUGE-CHINURI",
+    "space": "RGB",
+    "r": 145,
+    "g": 69,
+    "b": 78,
+    "hex": "#91454E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0501-ROUGE-CERON",
+    "space": "RGB",
+    "r": 143,
+    "g": 70,
+    "b": 82,
+    "hex": "#8F4652"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0502-ROUGE-SANTAREM",
+    "space": "RGB",
+    "r": 135,
+    "g": 58,
+    "b": 72,
+    "hex": "#873A48"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0503-ROUGE-VAROSA",
+    "space": "RGB",
+    "r": 114,
+    "g": 64,
+    "b": 80,
+    "hex": "#724050"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0504-ROUGE-VASILAKI",
+    "space": "RGB",
+    "r": 94,
+    "g": 64,
+    "b": 74,
+    "hex": "#5E404A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0505-ROUGE-MALAGA",
+    "space": "RGB",
+    "r": 94,
+    "g": 57,
+    "b": 61,
+    "hex": "#5E393D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0506-ROSE-CINTO",
+    "space": "RGB",
+    "r": 167,
+    "g": 126,
+    "b": 135,
+    "hex": "#A77E87"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0507-ROSE-FOXTROT",
+    "space": "RGB",
+    "r": 161,
+    "g": 112,
+    "b": 124,
+    "hex": "#A1707C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0508-ROSE-HAKA",
+    "space": "RGB",
+    "r": 149,
+    "g": 94,
+    "b": 101,
+    "hex": "#955E65"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0509-ROSE-HORA",
+    "space": "RGB",
+    "r": 141,
+    "g": 95,
+    "b": 104,
+    "hex": "#8D5F68"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0510-ROSE-MAZURKA",
+    "space": "RGB",
+    "r": 139,
+    "g": 76,
+    "b": 88,
+    "hex": "#8B4C58"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0511-ROSE-SAINT-PAULIA",
+    "space": "RGB",
+    "r": 167,
+    "g": 111,
+    "b": 127,
+    "hex": "#A76F7F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0512-ROSE-RENONCULE",
+    "space": "RGB",
+    "r": 159,
+    "g": 93,
+    "b": 111,
+    "hex": "#9F5D6F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0513-ROSE-GAVOTTE",
+    "space": "RGB",
+    "r": 110,
+    "g": 84,
+    "b": 97,
+    "hex": "#6E5461"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0514-VIOLET-FAISAN",
+    "space": "RGB",
+    "r": 104,
+    "g": 80,
+    "b": 92,
+    "hex": "#68505C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0515-VIOLET-ALBATROS",
+    "space": "RGB",
+    "r": 74,
+    "g": 64,
+    "b": 69,
+    "hex": "#4A4045"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0516-ROSE-SAXIFRAGE",
+    "space": "RGB",
+    "r": 131,
+    "g": 80,
+    "b": 96,
+    "hex": "#835060"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0517-ROSE-STELLAIRE",
+    "space": "RGB",
+    "r": 199,
+    "g": 86,
+    "b": 133,
+    "hex": "#C75685"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0518-ROSE-GIGUE",
+    "space": "RGB",
+    "r": 187,
+    "g": 84,
+    "b": 121,
+    "hex": "#BB5479"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0519-ROSE-JOTA",
+    "space": "RGB",
+    "r": 175,
+    "g": 74,
+    "b": 106,
+    "hex": "#AF4A6A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0520-ROSE-LANTANIER",
+    "space": "RGB",
+    "r": 159,
+    "g": 63,
+    "b": 100,
+    "hex": "#9F3F64"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0521-ROSE-MACUMBA",
+    "space": "RGB",
+    "r": 201,
+    "g": 96,
+    "b": 137,
+    "hex": "#C96089"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0522-ROSE-PAVANE",
+    "space": "RGB",
+    "r": 197,
+    "g": 84,
+    "b": 120,
+    "hex": "#C55478"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0523-ROSE-REDOWA",
+    "space": "RGB",
+    "r": 185,
+    "g": 73,
+    "b": 110,
+    "hex": "#B9496E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0524-ROSE-BAMBA",
+    "space": "RGB",
+    "r": 163,
+    "g": 59,
+    "b": 95,
+    "hex": "#A33B5F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0525-ROSE-DAPHNE",
+    "space": "RGB",
+    "r": 155,
+    "g": 78,
+    "b": 110,
+    "hex": "#9B4E6E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0526-ROSE-LYCOPODE",
+    "space": "RGB",
+    "r": 193,
+    "g": 97,
+    "b": 157,
+    "hex": "#C1619D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0527-ROSE-LAVATERE",
+    "space": "RGB",
+    "r": 193,
+    "g": 83,
+    "b": 139,
+    "hex": "#C1538B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0528-ROSE-JIVE",
+    "space": "RGB",
+    "r": 177,
+    "g": 72,
+    "b": 125,
+    "hex": "#B1487D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0529-ROSE-EPAZOTE",
+    "space": "RGB",
+    "r": 141,
+    "g": 73,
+    "b": 106,
+    "hex": "#8D496A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0530-VIOLET-BOUVREUIL",
+    "space": "RGB",
+    "r": 109,
+    "g": 70,
+    "b": 89,
+    "hex": "#6D4659"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0531-ROSE-TAMATIA",
+    "space": "RGB",
+    "r": 213,
+    "g": 135,
+    "b": 181,
+    "hex": "#D587B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0532-ROSE-PHALENGERE",
+    "space": "RGB",
+    "r": 183,
+    "g": 105,
+    "b": 155,
+    "hex": "#B7699B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0533-ROSE-MONARDE",
+    "space": "RGB",
+    "r": 179,
+    "g": 90,
+    "b": 147,
+    "hex": "#B35A93"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0534-ROSE-VALSE",
+    "space": "RGB",
+    "r": 147,
+    "g": 74,
+    "b": 115,
+    "hex": "#934A73"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0535-ROSE-GUARANA",
+    "space": "RGB",
+    "r": 143,
+    "g": 62,
+    "b": 108,
+    "hex": "#8F3E6C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0536-MAUVE-CHLORELLE",
+    "space": "RGB",
+    "r": 171,
+    "g": 126,
+    "b": 155,
+    "hex": "#AB7E9B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0537-VIOLET-CHASSELAS",
+    "space": "RGB",
+    "r": 151,
+    "g": 104,
+    "b": 139,
+    "hex": "#97688B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0538-VIOLET-PIMPRENELLE",
+    "space": "RGB",
+    "r": 117,
+    "g": 83,
+    "b": 109,
+    "hex": "#75536D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0539-VIOLET-CARIAMA",
+    "space": "RGB",
+    "r": 103,
+    "g": 70,
+    "b": 94,
+    "hex": "#67465E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0540-VIOLET-GUIMAUVE",
+    "space": "RGB",
+    "r": 112,
+    "g": 67,
+    "b": 99,
+    "hex": "#704363"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0541-VIOLET-GOELAND",
+    "space": "RGB",
+    "r": 169,
+    "g": 165,
+    "b": 173,
+    "hex": "#A9A5AD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0542-VIOLET-FAUCON",
+    "space": "RGB",
+    "r": 135,
+    "g": 131,
+    "b": 139,
+    "hex": "#87838B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0543-VIOLET-ETOURNEAU",
+    "space": "RGB",
+    "r": 118,
+    "g": 116,
+    "b": 127,
+    "hex": "#76747F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0544-VIOLET-ECHASSE",
+    "space": "RGB",
+    "r": 110,
+    "g": 107,
+    "b": 119,
+    "hex": "#6E6B77"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0545-VIOLET-DUC",
+    "space": "RGB",
+    "r": 87,
+    "g": 83,
+    "b": 91,
+    "hex": "#57535B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0546-MAUVE-CAREX",
+    "space": "RGB",
+    "r": 197,
+    "g": 187,
+    "b": 197,
+    "hex": "#C5BBC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0547-GRIS-LYRE",
+    "space": "RGB",
+    "r": 171,
+    "g": 159,
+    "b": 177,
+    "hex": "#AB9FB1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0548-GRIS-INDUS",
+    "space": "RGB",
+    "r": 133,
+    "g": 125,
+    "b": 141,
+    "hex": "#857D8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0549-VIOLET-URUBU",
+    "space": "RGB",
+    "r": 108,
+    "g": 111,
+    "b": 135,
+    "hex": "#6C6F87"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0550-GRIS-CROIX-DU-SUD",
+    "space": "RGB",
+    "r": 109,
+    "g": 100,
+    "b": 116,
+    "hex": "#6D6474"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0551-MAUVE-COURLIS",
+    "space": "RGB",
+    "r": 117,
+    "g": 105,
+    "b": 125,
+    "hex": "#75697D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0552-VIOLET-LONGANE",
+    "space": "RGB",
+    "r": 113,
+    "g": 87,
+    "b": 111,
+    "hex": "#71576F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0553-VIOLET-HELIPTERUM",
+    "space": "RGB",
+    "r": 95,
+    "g": 69,
+    "b": 92,
+    "hex": "#5F455C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0554-VIOLET-CAROUBE",
+    "space": "RGB",
+    "r": 79,
+    "g": 65,
+    "b": 83,
+    "hex": "#4F4153"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0555-BLEU-TUREIA",
+    "space": "RGB",
+    "r": 62,
+    "g": 57,
+    "b": 72,
+    "hex": "#3E3948"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0556-VIOLET-ADA",
+    "space": "RGB",
+    "r": 153,
+    "g": 117,
+    "b": 173,
+    "hex": "#9975AD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0557-VIOLET-MONARQUE",
+    "space": "RGB",
+    "r": 155,
+    "g": 119,
+    "b": 177,
+    "hex": "#9B77B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0558-VIOLET-VIGNE",
+    "space": "RGB",
+    "r": 135,
+    "g": 81,
+    "b": 139,
+    "hex": "#87518B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0559-VIOLET-HOCCO",
+    "space": "RGB",
+    "r": 123,
+    "g": 85,
+    "b": 139,
+    "hex": "#7B558B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0560-VIOLET-ROSELIN",
+    "space": "RGB",
+    "r": 99,
+    "g": 74,
+    "b": 117,
+    "hex": "#634A75"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0561-MAUVE-BATARA",
+    "space": "RGB",
+    "r": 193,
+    "g": 173,
+    "b": 213,
+    "hex": "#C1ADD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0562-VIOLET-AMADINE",
+    "space": "RGB",
+    "r": 169,
+    "g": 145,
+    "b": 193,
+    "hex": "#A991C1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0563-VIOLET-HIRONDELLE",
+    "space": "RGB",
+    "r": 149,
+    "g": 117,
+    "b": 171,
+    "hex": "#9575AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0564-VIOLET-MORIO",
+    "space": "RGB",
+    "r": 115,
+    "g": 94,
+    "b": 135,
+    "hex": "#735E87"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0565-VIOLET-TACCO",
+    "space": "RGB",
+    "r": 95,
+    "g": 67,
+    "b": 105,
+    "hex": "#5F4369"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0566-MAUVE-ORTOLAN",
+    "space": "RGB",
+    "r": 159,
+    "g": 157,
+    "b": 203,
+    "hex": "#9F9DCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0567-VIOLET-GRIOTTE",
+    "space": "RGB",
+    "r": 155,
+    "g": 139,
+    "b": 189,
+    "hex": "#9B8BBD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0568-VIOLET-COLOMBINE",
+    "space": "RGB",
+    "r": 124,
+    "g": 117,
+    "b": 183,
+    "hex": "#7C75B7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0569-VIOLET-BOLDO",
+    "space": "RGB",
+    "r": 94,
+    "g": 73,
+    "b": 129,
+    "hex": "#5E4981"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0570-VIOLET-IRENE",
+    "space": "RGB",
+    "r": 93,
+    "g": 83,
+    "b": 126,
+    "hex": "#5D537E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0571-VIOLET-GELINOTTE",
+    "space": "RGB",
+    "r": 159,
+    "g": 157,
+    "b": 203,
+    "hex": "#9F9DCB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0572-VIOLET-PARADIS",
+    "space": "RGB",
+    "r": 131,
+    "g": 145,
+    "b": 201,
+    "hex": "#8391C9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0573-VIOLET-DAMIER",
+    "space": "RGB",
+    "r": 127,
+    "g": 133,
+    "b": 171,
+    "hex": "#7F85AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0574-VIOLET-TETEMA",
+    "space": "RGB",
+    "r": 116,
+    "g": 126,
+    "b": 185,
+    "hex": "#747EB9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0575-VIOLET-ERIONE",
+    "space": "RGB",
+    "r": 117,
+    "g": 116,
+    "b": 159,
+    "hex": "#75749F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0576-MAUVE-BENGALI",
+    "space": "RGB",
+    "r": 147,
+    "g": 157,
+    "b": 185,
+    "hex": "#939DB9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0577-MAUVE-BERNACHE",
+    "space": "RGB",
+    "r": 141,
+    "g": 141,
+    "b": 175,
+    "hex": "#8D8DAF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0578-MAUVE-GEAI",
+    "space": "RGB",
+    "r": 120,
+    "g": 118,
+    "b": 155,
+    "hex": "#78769B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0579-MAUVE-COLOMBE",
+    "space": "RGB",
+    "r": 100,
+    "g": 95,
+    "b": 133,
+    "hex": "#645F85"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0580-VIOLET-GRUE",
+    "space": "RGB",
+    "r": 75,
+    "g": 86,
+    "b": 126,
+    "hex": "#4B567E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0581-BLEU-OLONA",
+    "space": "RGB",
+    "r": 95,
+    "g": 101,
+    "b": 149,
+    "hex": "#5F6595"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0582-BLEU-INDIGO",
+    "space": "RGB",
+    "r": 91,
+    "g": 95,
+    "b": 153,
+    "hex": "#5B5F99"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0583-BLEU-SARDAIGNE",
+    "space": "RGB",
+    "r": 81,
+    "g": 89,
+    "b": 155,
+    "hex": "#51599B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0584-BLEU-KERAMA",
+    "space": "RGB",
+    "r": 53,
+    "g": 73,
+    "b": 133,
+    "hex": "#354985"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0585-BLEU-ROSELLE",
+    "space": "RGB",
+    "r": 71,
+    "g": 74,
+    "b": 120,
+    "hex": "#474A78"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0586-VIOLET-SIRLI",
+    "space": "RGB",
+    "r": 109,
+    "g": 100,
+    "b": 153,
+    "hex": "#6D6499"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0587-VIOLET-TINAMOU",
+    "space": "RGB",
+    "r": 76,
+    "g": 81,
+    "b": 141,
+    "hex": "#4C518D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0588-VIOLET-ELENIE",
+    "space": "RGB",
+    "r": 61,
+    "g": 70,
+    "b": 109,
+    "hex": "#3D466D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0589-VIOLET-TOURACO",
+    "space": "RGB",
+    "r": 70,
+    "g": 63,
+    "b": 102,
+    "hex": "#463F66"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0590-VIOLET-AIGRETTE",
+    "space": "RGB",
+    "r": 61,
+    "g": 66,
+    "b": 91,
+    "hex": "#3D425B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0591-VIOLET-ROITELET",
+    "space": "RGB",
+    "r": 86,
+    "g": 90,
+    "b": 121,
+    "hex": "#565A79"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0592-BLEU-SORONG",
+    "space": "RGB",
+    "r": 65,
+    "g": 78,
+    "b": 105,
+    "hex": "#414E69"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0593-BLEU-AMAMI",
+    "space": "RGB",
+    "r": 62,
+    "g": 70,
+    "b": 99,
+    "hex": "#3E4663"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0594-BLEU-DE-FOXE",
+    "space": "RGB",
+    "r": 58,
+    "g": 60,
+    "b": 84,
+    "hex": "#3A3C54"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0595-BLEU-CORINTHE",
+    "space": "RGB",
+    "r": 59,
+    "g": 62,
+    "b": 73,
+    "hex": "#3B3E49"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0596-BLEU-BRACCIANO",
+    "space": "RGB",
+    "r": 122,
+    "g": 129,
+    "b": 155,
+    "hex": "#7A819B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0597-BLEU-TANA",
+    "space": "RGB",
+    "r": 100,
+    "g": 106,
+    "b": 135,
+    "hex": "#646A87"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0598-BLEU-HIVA",
+    "space": "RGB",
+    "r": 78,
+    "g": 93,
+    "b": 117,
+    "hex": "#4E5D75"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0599-BLEU-MARINE",
+    "space": "RGB",
+    "r": 56,
+    "g": 76,
+    "b": 99,
+    "hex": "#384C63"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0600-BLEU-MITIARO",
+    "space": "RGB",
+    "r": 61,
+    "g": 71,
+    "b": 90,
+    "hex": "#3D475A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0601-BLEU-TIDONE",
+    "space": "RGB",
+    "r": 149,
+    "g": 171,
+    "b": 197,
+    "hex": "#95ABC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0602-BLEU-LINCOLN",
+    "space": "RGB",
+    "r": 113,
+    "g": 143,
+    "b": 173,
+    "hex": "#718FAD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0603-BLEU-CHISOLA",
+    "space": "RGB",
+    "r": 93,
+    "g": 106,
+    "b": 141,
+    "hex": "#5D6A8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0604-BLEU-FIDJI",
+    "space": "RGB",
+    "r": 54,
+    "g": 68,
+    "b": 103,
+    "hex": "#364467"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0605-BLEU-ROTALDO",
+    "space": "RGB",
+    "r": 56,
+    "g": 67,
+    "b": 91,
+    "hex": "#38435B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0606-BLEU-NIVA",
+    "space": "RGB",
+    "r": 181,
+    "g": 193,
+    "b": 217,
+    "hex": "#B5C1D9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0607-BLEU-ADDA",
+    "space": "RGB",
+    "r": 173,
+    "g": 181,
+    "b": 205,
+    "hex": "#ADB5CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0608-BLEU-VICTORIA",
+    "space": "RGB",
+    "r": 145,
+    "g": 161,
+    "b": 189,
+    "hex": "#91A1BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0609-BLEU-TEURI",
+    "space": "RGB",
+    "r": 137,
+    "g": 161,
+    "b": 197,
+    "hex": "#89A1C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0610-BLEU-PODESTAT",
+    "space": "RGB",
+    "r": 153,
+    "g": 155,
+    "b": 173,
+    "hex": "#999BAD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0611-BLEU-ANTIGUA",
+    "space": "RGB",
+    "r": 183,
+    "g": 201,
+    "b": 221,
+    "hex": "#B7C9DD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0612-BLEU-MINCIO",
+    "space": "RGB",
+    "r": 143,
+    "g": 171,
+    "b": 207,
+    "hex": "#8FABCF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0613-BLEU-TEZA",
+    "space": "RGB",
+    "r": 109,
+    "g": 137,
+    "b": 183,
+    "hex": "#6D89B7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0614-BLEU-BORNEO",
+    "space": "RGB",
+    "r": 81,
+    "g": 119,
+    "b": 167,
+    "hex": "#5177A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0615-BLEU-LUZIEN",
+    "space": "RGB",
+    "r": 56,
+    "g": 71,
+    "b": 89,
+    "hex": "#384759"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0616-BLEU-COCOA",
+    "space": "RGB",
+    "r": 149,
+    "g": 175,
+    "b": 213,
+    "hex": "#95AFD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0617-BLEU-IOS",
+    "space": "RGB",
+    "r": 106,
+    "g": 149,
+    "b": 205,
+    "hex": "#6A95CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0618-BLEU-MALTE",
+    "space": "RGB",
+    "r": 100,
+    "g": 139,
+    "b": 199,
+    "hex": "#648BC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0619-BLEU-SCRIVIA",
+    "space": "RGB",
+    "r": 59,
+    "g": 129,
+    "b": 181,
+    "hex": "#3B81B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0620-BLEU-TOM",
+    "space": "RGB",
+    "r": 65,
+    "g": 112,
+    "b": 169,
+    "hex": "#4170A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0621-BLEU-TINOS",
+    "space": "RGB",
+    "r": 62,
+    "g": 108,
+    "b": 163,
+    "hex": "#3E6CA3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0622-BLEU-SIRNA",
+    "space": "RGB",
+    "r": 75,
+    "g": 110,
+    "b": 165,
+    "hex": "#4B6EA5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0623-BLEU-KIVU",
+    "space": "RGB",
+    "r": 71,
+    "g": 102,
+    "b": 149,
+    "hex": "#476695"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0624-BLEU-MARACAIBO",
+    "space": "RGB",
+    "r": 64,
+    "g": 97,
+    "b": 151,
+    "hex": "#406197"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0625-BLEU-GALA",
+    "space": "RGB",
+    "r": 56,
+    "g": 94,
+    "b": 133,
+    "hex": "#385E85"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0626-BLEU-AMOUR",
+    "space": "RGB",
+    "r": 63,
+    "g": 93,
+    "b": 117,
+    "hex": "#3F5D75"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0627-BLEU-CELAC",
+    "space": "RGB",
+    "r": 50,
+    "g": 89,
+    "b": 122,
+    "hex": "#32597A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0628-BLEU-TOURA",
+    "space": "RGB",
+    "r": 64,
+    "g": 86,
+    "b": 108,
+    "hex": "#40566C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0629-BLEU-HAO",
+    "space": "RGB",
+    "r": 55,
+    "g": 67,
+    "b": 92,
+    "hex": "#37435C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0630-BLEU-APATAKI",
+    "space": "RGB",
+    "r": 53,
+    "g": 60,
+    "b": 74,
+    "hex": "#353C4A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0631-BLEU-BALTIQUE",
+    "space": "RGB",
+    "r": 110,
+    "g": 131,
+    "b": 153,
+    "hex": "#6E8399"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0632-BLEU-RAPA",
+    "space": "RGB",
+    "r": 97,
+    "g": 124,
+    "b": 151,
+    "hex": "#617C97"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0633-BLEU-SERAM",
+    "space": "RGB",
+    "r": 69,
+    "g": 103,
+    "b": 129,
+    "hex": "#456781"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0634-BLEU-VERNOIS",
+    "space": "RGB",
+    "r": 45,
+    "g": 82,
+    "b": 109,
+    "hex": "#2D526D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0635-BLEU-DE-BERING",
+    "space": "RGB",
+    "r": 57,
+    "g": 81,
+    "b": 106,
+    "hex": "#39516A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0636-BLEU-COOK",
+    "space": "RGB",
+    "r": 110,
+    "g": 143,
+    "b": 171,
+    "hex": "#6E8FAB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0637-BLEU-ADOUR",
+    "space": "RGB",
+    "r": 92,
+    "g": 133,
+    "b": 171,
+    "hex": "#5C85AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0638-BLEU-GARONNE",
+    "space": "RGB",
+    "r": 70,
+    "g": 113,
+    "b": 151,
+    "hex": "#467197"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0639-BLEU-WETAR",
+    "space": "RGB",
+    "r": 52,
+    "g": 106,
+    "b": 141,
+    "hex": "#346A8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0640-BLEU-MINGAN",
+    "space": "RGB",
+    "r": 46,
+    "g": 101,
+    "b": 141,
+    "hex": "#2E658D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0641-BLEU-MIDOUZE",
+    "space": "RGB",
+    "r": 0,
+    "g": 127,
+    "b": 181,
+    "hex": "#007FB5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0642-BLEU-KHANKA",
+    "space": "RGB",
+    "r": 26,
+    "g": 114,
+    "b": 169,
+    "hex": "#1A72A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0643-BLEU-MAIRA",
+    "space": "RGB",
+    "r": 0,
+    "g": 104,
+    "b": 145,
+    "hex": "#006891"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0644-BLEU-AMORGOS",
+    "space": "RGB",
+    "r": 47,
+    "g": 106,
+    "b": 155,
+    "hex": "#2F6A9B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0645-BLEU-DE-KOSSOU",
+    "space": "RGB",
+    "r": 0,
+    "g": 97,
+    "b": 159,
+    "hex": "#00619F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0646-BLEU-MOOREA",
+    "space": "RGB",
+    "r": 108,
+    "g": 157,
+    "b": 179,
+    "hex": "#6C9DB3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0647-BLEU-LAFFREY",
+    "space": "RGB",
+    "r": 63,
+    "g": 109,
+    "b": 135,
+    "hex": "#3F6D87"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0648-BLEU-CANACARI",
+    "space": "RGB",
+    "r": 43,
+    "g": 97,
+    "b": 129,
+    "hex": "#2B6181"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0649-BLEU-ATTU",
+    "space": "RGB",
+    "r": 39,
+    "g": 93,
+    "b": 119,
+    "hex": "#275D77"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0650-BLEU-NIPISSING",
+    "space": "RGB",
+    "r": 26,
+    "g": 88,
+    "b": 118,
+    "hex": "#1A5876"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0651-BLEU-MOLOGA",
+    "space": "RGB",
+    "r": 60,
+    "g": 143,
+    "b": 175,
+    "hex": "#3C8FAF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0652-BLEU-LOVAT",
+    "space": "RGB",
+    "r": 12,
+    "g": 127,
+    "b": 155,
+    "hex": "#0C7F9B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0653-BLEU-ACHEN",
+    "space": "RGB",
+    "r": 51,
+    "g": 115,
+    "b": 147,
+    "hex": "#337393"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0654-BLEU-SOK",
+    "space": "RGB",
+    "r": 41,
+    "g": 105,
+    "b": 135,
+    "hex": "#296987"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0655-BLEU-MADURA",
+    "space": "RGB",
+    "r": 85,
+    "g": 116,
+    "b": 131,
+    "hex": "#557483"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0656-BLEU-ISEO",
+    "space": "RGB",
+    "r": 61,
+    "g": 159,
+    "b": 195,
+    "hex": "#3D9FC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0657-BLEU-CELEBES",
+    "space": "RGB",
+    "r": 0,
+    "g": 149,
+    "b": 195,
+    "hex": "#0095C3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0658-BLEU-DE-FURMA",
+    "space": "RGB",
+    "r": 48,
+    "g": 135,
+    "b": 179,
+    "hex": "#3087B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0659-BLEU-MARUTEA",
+    "space": "RGB",
+    "r": 34,
+    "g": 123,
+    "b": 173,
+    "hex": "#227BAD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0660-BLEU-AMALFI",
+    "space": "RGB",
+    "r": 0,
+    "g": 115,
+    "b": 165,
+    "hex": "#0073A5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0661-BLEU-GAVI",
+    "space": "RGB",
+    "r": 151,
+    "g": 201,
+    "b": 233,
+    "hex": "#97C9E9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0662-BLEU-OKINO",
+    "space": "RGB",
+    "r": 145,
+    "g": 185,
+    "b": 211,
+    "hex": "#91B9D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0663-BLEU-GOTO",
+    "space": "RGB",
+    "r": 155,
+    "g": 199,
+    "b": 235,
+    "hex": "#9BC7EB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0664-BLEU-IKI",
+    "space": "RGB",
+    "r": 151,
+    "g": 203,
+    "b": 237,
+    "hex": "#97CBED"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0665-BLEU-UGI",
+    "space": "RGB",
+    "r": 127,
+    "g": 177,
+    "b": 211,
+    "hex": "#7FB1D3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0666-BLEU-ABITIBI",
+    "space": "RGB",
+    "r": 185,
+    "g": 207,
+    "b": 223,
+    "hex": "#B9CFDF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0667-BLEU-ROYA",
+    "space": "RGB",
+    "r": 179,
+    "g": 211,
+    "b": 231,
+    "hex": "#B3D3E7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0668-BLEU-ALENE",
+    "space": "RGB",
+    "r": 155,
+    "g": 187,
+    "b": 213,
+    "hex": "#9BBBD5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0669-BLEU-VALUA",
+    "space": "RGB",
+    "r": 131,
+    "g": 165,
+    "b": 195,
+    "hex": "#83A5C3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0670-BLEU-LEVANZO",
+    "space": "RGB",
+    "r": 116,
+    "g": 151,
+    "b": 177,
+    "hex": "#7497B1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0671-BLEU-PONZA",
+    "space": "RGB",
+    "r": 191,
+    "g": 223,
+    "b": 241,
+    "hex": "#BFDFF1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0672-BLEU-ARLET",
+    "space": "RGB",
+    "r": 179,
+    "g": 205,
+    "b": 225,
+    "hex": "#B3CDE1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0673-BLEU-AIGUEBELLE",
+    "space": "RGB",
+    "r": 163,
+    "g": 195,
+    "b": 219,
+    "hex": "#A3C3DB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0674-BLEU-HIRADO",
+    "space": "RGB",
+    "r": 157,
+    "g": 201,
+    "b": 225,
+    "hex": "#9DC9E1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0675-BLEU-JALLES",
+    "space": "RGB",
+    "r": 133,
+    "g": 177,
+    "b": 199,
+    "hex": "#85B1C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0676-BLEU-MALONE",
+    "space": "RGB",
+    "r": 131,
+    "g": 185,
+    "b": 203,
+    "hex": "#83B9CB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0677-BLEU-PRESPA",
+    "space": "RGB",
+    "r": 123,
+    "g": 177,
+    "b": 191,
+    "hex": "#7BB1BF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0678-BLEU-MILFORD",
+    "space": "RGB",
+    "r": 84,
+    "g": 179,
+    "b": 205,
+    "hex": "#54B3CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0679-BLEU-LACANAU",
+    "space": "RGB",
+    "r": 46,
+    "g": 147,
+    "b": 171,
+    "hex": "#2E93AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0680-BLEU-NITSA",
+    "space": "RGB",
+    "r": 4,
+    "g": 135,
+    "b": 165,
+    "hex": "#0487A5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0681-BLEU-ALOR",
+    "space": "RGB",
+    "r": 107,
+    "g": 145,
+    "b": 159,
+    "hex": "#6B919F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0682-BLEU-JAMBI",
+    "space": "RGB",
+    "r": 77,
+    "g": 119,
+    "b": 131,
+    "hex": "#4D7783"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0683-BLEU-COMORES",
+    "space": "RGB",
+    "r": 61,
+    "g": 101,
+    "b": 116,
+    "hex": "#3D6574"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0684-BLEU-SEYCHELLES",
+    "space": "RGB",
+    "r": 52,
+    "g": 87,
+    "b": 103,
+    "hex": "#345767"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0685-BLEU-MAYOTTE",
+    "space": "RGB",
+    "r": 52,
+    "g": 69,
+    "b": 76,
+    "hex": "#34454C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0686-BLEU-BANGKA",
+    "space": "RGB",
+    "r": 36,
+    "g": 99,
+    "b": 119,
+    "hex": "#246377"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0687-BLEU-JAVA",
+    "space": "RGB",
+    "r": 19,
+    "g": 95,
+    "b": 110,
+    "hex": "#135F6E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0688-BLEU-PAPEETE",
+    "space": "RGB",
+    "r": 37,
+    "g": 90,
+    "b": 95,
+    "hex": "#255A5F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0689-BLEU-BANTEN",
+    "space": "RGB",
+    "r": 41,
+    "g": 79,
+    "b": 84,
+    "hex": "#294F54"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0690-BLEU-MAUPITI",
+    "space": "RGB",
+    "r": 57,
+    "g": 79,
+    "b": 90,
+    "hex": "#394F5A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0691-VERT-SISTES",
+    "space": "RGB",
+    "r": 50,
+    "g": 127,
+    "b": 127,
+    "hex": "#327F7F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0692-BLEU-PARMA",
+    "space": "RGB",
+    "r": 34,
+    "g": 121,
+    "b": 127,
+    "hex": "#22797F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0693-BLEU-POP",
+    "space": "RGB",
+    "r": 37,
+    "g": 120,
+    "b": 125,
+    "hex": "#25787D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0694-BLEU-AINHOA",
+    "space": "RGB",
+    "r": 39,
+    "g": 98,
+    "b": 112,
+    "hex": "#276270"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0695-BLEU-HERS",
+    "space": "RGB",
+    "r": 49,
+    "g": 95,
+    "b": 106,
+    "hex": "#315F6A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0696-BLEU-MANSEL",
+    "space": "RGB",
+    "r": 116,
+    "g": 191,
+    "b": 197,
+    "hex": "#74BFC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0697-BLEU-SANGIR",
+    "space": "RGB",
+    "r": 103,
+    "g": 183,
+    "b": 199,
+    "hex": "#67B7C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0698-BLEU-SERIBU",
+    "space": "RGB",
+    "r": 81,
+    "g": 183,
+    "b": 205,
+    "hex": "#51B7CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0699-BLEU-NATUNA",
+    "space": "RGB",
+    "r": 60,
+    "g": 153,
+    "b": 169,
+    "hex": "#3C99A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0700-BLEU-FLORES",
+    "space": "RGB",
+    "r": 18,
+    "g": 125,
+    "b": 149,
+    "hex": "#127D95"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0701-BLEU-KOMODO",
+    "space": "RGB",
+    "r": 110,
+    "g": 201,
+    "b": 209,
+    "hex": "#6EC9D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0702-BLEU-LAMBRO",
+    "space": "RGB",
+    "r": 82,
+    "g": 189,
+    "b": 187,
+    "hex": "#52BDBB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0703-BLEU-SOLOR",
+    "space": "RGB",
+    "r": 68,
+    "g": 177,
+    "b": 183,
+    "hex": "#44B1B7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0704-BLEU-SUMBA",
+    "space": "RGB",
+    "r": 0,
+    "g": 155,
+    "b": 165,
+    "hex": "#009BA5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0705-BLEU-MALEKULA",
+    "space": "RGB",
+    "r": 0,
+    "g": 133,
+    "b": 147,
+    "hex": "#008593"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0706-VERT-LUXI",
+    "space": "RGB",
+    "r": 54,
+    "g": 171,
+    "b": 171,
+    "hex": "#36ABAB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0707-VERT-BASKERVILLE",
+    "space": "RGB",
+    "r": 40,
+    "g": 165,
+    "b": 169,
+    "hex": "#28A5A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0708-VERT-EGERIA",
+    "space": "RGB",
+    "r": 0,
+    "g": 155,
+    "b": 151,
+    "hex": "#009B97"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0709-VERT-PARODIA",
+    "space": "RGB",
+    "r": 0,
+    "g": 147,
+    "b": 149,
+    "hex": "#009395"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0710-VERT-CONSTANTIA",
+    "space": "RGB",
+    "r": 0,
+    "g": 135,
+    "b": 139,
+    "hex": "#00878B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0711-VERT-AMBAVILLE",
+    "space": "RGB",
+    "r": 139,
+    "g": 213,
+    "b": 205,
+    "hex": "#8BD5CD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0712-VERT-PRIMA",
+    "space": "RGB",
+    "r": 119,
+    "g": 201,
+    "b": 193,
+    "hex": "#77C9C1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0713-VERT-SKIA",
+    "space": "RGB",
+    "r": 115,
+    "g": 201,
+    "b": 199,
+    "hex": "#73C9C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0714-VERT-TREBUCHET",
+    "space": "RGB",
+    "r": 88,
+    "g": 175,
+    "b": 163,
+    "hex": "#58AFA3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0715-VERT-HELVETICA",
+    "space": "RGB",
+    "r": 54,
+    "g": 151,
+    "b": 139,
+    "hex": "#36978B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0716-VERT-BOOK",
+    "space": "RGB",
+    "r": 112,
+    "g": 201,
+    "b": 189,
+    "hex": "#70C9BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0717-VERT-TIMES",
+    "space": "RGB",
+    "r": 76,
+    "g": 191,
+    "b": 175,
+    "hex": "#4CBFAF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0718-VERT-ROCKWELL",
+    "space": "RGB",
+    "r": 0,
+    "g": 163,
+    "b": 149,
+    "hex": "#00A395"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0719-VERT-ROMAN",
+    "space": "RGB",
+    "r": 0,
+    "g": 155,
+    "b": 153,
+    "hex": "#009B99"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0720-VERT-COOPER",
+    "space": "RGB",
+    "r": 0,
+    "g": 149,
+    "b": 133,
+    "hex": "#009585"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0721-VERT-FRANKLIN",
+    "space": "RGB",
+    "r": 88,
+    "g": 175,
+    "b": 163,
+    "hex": "#58AFA3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0722-VERT-CONSOLAS",
+    "space": "RGB",
+    "r": 69,
+    "g": 153,
+    "b": 143,
+    "hex": "#45998F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0723-VERT-CHICAGO",
+    "space": "RGB",
+    "r": 45,
+    "g": 135,
+    "b": 125,
+    "hex": "#2D877D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0724-VERT-NAJAS",
+    "space": "RGB",
+    "r": 46,
+    "g": 127,
+    "b": 118,
+    "hex": "#2E7F76"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0725-VERT-BLYXA",
+    "space": "RGB",
+    "r": 23,
+    "g": 108,
+    "b": 104,
+    "hex": "#176C68"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0726-BLEU-MANCHE",
+    "space": "RGB",
+    "r": 126,
+    "g": 175,
+    "b": 181,
+    "hex": "#7EAFB5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0727-BLEU-RIAU",
+    "space": "RGB",
+    "r": 98,
+    "g": 131,
+    "b": 129,
+    "hex": "#628381"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0728-VERT-PACIFICO",
+    "space": "RGB",
+    "r": 84,
+    "g": 137,
+    "b": 135,
+    "hex": "#548987"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0729-BLEU-MELVILLE",
+    "space": "RGB",
+    "r": 84,
+    "g": 129,
+    "b": 131,
+    "hex": "#548183"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0730-VERT-HOSTA",
+    "space": "RGB",
+    "r": 73,
+    "g": 104,
+    "b": 107,
+    "hex": "#49686B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0731-BLEU-ESCAU",
+    "space": "RGB",
+    "r": 67,
+    "g": 119,
+    "b": 112,
+    "hex": "#437770"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0732-VERT-PIN",
+    "space": "RGB",
+    "r": 12,
+    "g": 116,
+    "b": 100,
+    "hex": "#0C7464"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0733-VERT-ESPY",
+    "space": "RGB",
+    "r": 46,
+    "g": 97,
+    "b": 84,
+    "hex": "#2E6154"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0734-VERT-LIERRE",
+    "space": "RGB",
+    "r": 40,
+    "g": 80,
+    "b": 77,
+    "hex": "#28504D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0735-VERT-ARMERIE",
+    "space": "RGB",
+    "r": 55,
+    "g": 84,
+    "b": 81,
+    "hex": "#375451"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0736-VERT-ZAPFINO",
+    "space": "RGB",
+    "r": 74,
+    "g": 110,
+    "b": 95,
+    "hex": "#4A6E5F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0737-VERT-CARDO",
+    "space": "RGB",
+    "r": 45,
+    "g": 89,
+    "b": 75,
+    "hex": "#2D594B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0738-VERT-RONCE",
+    "space": "RGB",
+    "r": 57,
+    "g": 85,
+    "b": 77,
+    "hex": "#39554D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0739-VERT-BIDARRAY",
+    "space": "RGB",
+    "r": 46,
+    "g": 82,
+    "b": 70,
+    "hex": "#2E5246"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0740-VERT-TIBET",
+    "space": "RGB",
+    "r": 57,
+    "g": 69,
+    "b": 68,
+    "hex": "#394544"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0741-VERT-COMIC",
+    "space": "RGB",
+    "r": 96,
+    "g": 129,
+    "b": 109,
+    "hex": "#60816D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0742-VERT-ROTUNDA",
+    "space": "RGB",
+    "r": 56,
+    "g": 111,
+    "b": 85,
+    "hex": "#386F55"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0743-VERT-ATHAMANTA",
+    "space": "RGB",
+    "r": 36,
+    "g": 91,
+    "b": 64,
+    "hex": "#245B40"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0744-VERT-CLOTURE",
+    "space": "RGB",
+    "r": 38,
+    "g": 89,
+    "b": 70,
+    "hex": "#265946"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0745-VERT-KOCHI",
+    "space": "RGB",
+    "r": 46,
+    "g": 84,
+    "b": 72,
+    "hex": "#2E5448"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0746-VERT-MONA",
+    "space": "RGB",
+    "r": 101,
+    "g": 161,
+    "b": 101,
+    "hex": "#65A165"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0747-VERT-BANGALAY",
+    "space": "RGB",
+    "r": 77,
+    "g": 131,
+    "b": 78,
+    "hex": "#4D834E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0748-VERT-BELOMBRA",
+    "space": "RGB",
+    "r": 30,
+    "g": 117,
+    "b": 74,
+    "hex": "#1E754A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0749-VERT-CRESSON",
+    "space": "RGB",
+    "r": 33,
+    "g": 123,
+    "b": 88,
+    "hex": "#217B58"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0750-VERT-PORTOBELLO",
+    "space": "RGB",
+    "r": 54,
+    "g": 94,
+    "b": 65,
+    "hex": "#365E41"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0751-VERT-CHENE",
+    "space": "RGB",
+    "r": 153,
+    "g": 185,
+    "b": 149,
+    "hex": "#99B995"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0752-VERT-ARIAL",
+    "space": "RGB",
+    "r": 165,
+    "g": 183,
+    "b": 149,
+    "hex": "#A5B795"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0753-VERT-SIMSUN",
+    "space": "RGB",
+    "r": 135,
+    "g": 163,
+    "b": 139,
+    "hex": "#87A38B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0754-VERT-CEVENNES",
+    "space": "RGB",
+    "r": 109,
+    "g": 143,
+    "b": 118,
+    "hex": "#6D8F76"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0755-VERT-ARUNDO",
+    "space": "RGB",
+    "r": 103,
+    "g": 131,
+    "b": 106,
+    "hex": "#67836A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0756-VERT-WADALAB",
+    "space": "RGB",
+    "r": 155,
+    "g": 175,
+    "b": 141,
+    "hex": "#9BAF8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0757-VERT-TAMIER",
+    "space": "RGB",
+    "r": 135,
+    "g": 167,
+    "b": 121,
+    "hex": "#87A779"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0758-VERT-ROTALA",
+    "space": "RGB",
+    "r": 139,
+    "g": 159,
+    "b": 127,
+    "hex": "#8B9F7F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0759-VERT-CAFEIER",
+    "space": "RGB",
+    "r": 109,
+    "g": 143,
+    "b": 99,
+    "hex": "#6D8F63"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0760-VERT-EVERSON",
+    "space": "RGB",
+    "r": 120,
+    "g": 131,
+    "b": 93,
+    "hex": "#78835D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0761-VERT-CITRONNIER",
+    "space": "RGB",
+    "r": 171,
+    "g": 185,
+    "b": 147,
+    "hex": "#ABB993"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0762-VERT-ASTRANCE",
+    "space": "RGB",
+    "r": 126,
+    "g": 151,
+    "b": 97,
+    "hex": "#7E9761"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0763-VERT-KERMES",
+    "space": "RGB",
+    "r": 114,
+    "g": 141,
+    "b": 91,
+    "hex": "#728D5B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0764-VERT-OLIVERAIE",
+    "space": "RGB",
+    "r": 81,
+    "g": 116,
+    "b": 73,
+    "hex": "#517449"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0765-VERT-JURA",
+    "space": "RGB",
+    "r": 76,
+    "g": 107,
+    "b": 78,
+    "hex": "#4C6B4E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0766-VERT-TILLEUL",
+    "space": "RGB",
+    "r": 199,
+    "g": 221,
+    "b": 195,
+    "hex": "#C7DDC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0767-VERT-CARDERE",
+    "space": "RGB",
+    "r": 173,
+    "g": 203,
+    "b": 159,
+    "hex": "#ADCB9F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0768-VERT-HANDEL",
+    "space": "RGB",
+    "r": 145,
+    "g": 173,
+    "b": 131,
+    "hex": "#91AD83"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0769-VERT-ASARET",
+    "space": "RGB",
+    "r": 127,
+    "g": 169,
+    "b": 115,
+    "hex": "#7FA973"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0770-VERT-ACROPERA",
+    "space": "RGB",
+    "r": 101,
+    "g": 161,
+    "b": 101,
+    "hex": "#65A165"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0771-VERT-CALIBRI",
+    "space": "RGB",
+    "r": 165,
+    "g": 219,
+    "b": 143,
+    "hex": "#A5DB8F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0772-VERT-ATTIER",
+    "space": "RGB",
+    "r": 105,
+    "g": 201,
+    "b": 117,
+    "hex": "#69C975"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0773-VERT-BAUHAUS",
+    "space": "RGB",
+    "r": 116,
+    "g": 189,
+    "b": 120,
+    "hex": "#74BD78"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0774-VERT-KAHANA",
+    "space": "RGB",
+    "r": 67,
+    "g": 171,
+    "b": 98,
+    "hex": "#43AB62"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0775-VERT-INUIT",
+    "space": "RGB",
+    "r": 31,
+    "g": 147,
+    "b": 94,
+    "hex": "#1F935E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0776-VERT-CORBEL",
+    "space": "RGB",
+    "r": 193,
+    "g": 219,
+    "b": 147,
+    "hex": "#C1DB93"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0777-VERT-FUTURA",
+    "space": "RGB",
+    "r": 175,
+    "g": 215,
+    "b": 117,
+    "hex": "#AFD775"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0778-VERT-GENEVA",
+    "space": "RGB",
+    "r": 145,
+    "g": 197,
+    "b": 103,
+    "hex": "#91C567"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0779-VERT-KABEL",
+    "space": "RGB",
+    "r": 111,
+    "g": 171,
+    "b": 72,
+    "hex": "#6FAB48"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0780-VERT-IMPACT",
+    "space": "RGB",
+    "r": 82,
+    "g": 143,
+    "b": 67,
+    "hex": "#528F43"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0781-VERT-ESSIA",
+    "space": "RGB",
+    "r": 213,
+    "g": 227,
+    "b": 157,
+    "hex": "#D5E39D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0782-VERT-JOKERMAN",
+    "space": "RGB",
+    "r": 213,
+    "g": 205,
+    "b": 115,
+    "hex": "#D5CD73"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0783-VERT-WESTMINSTER",
+    "space": "RGB",
+    "r": 183,
+    "g": 197,
+    "b": 76,
+    "hex": "#B7C54C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0784-VERT-KRISTEN",
+    "space": "RGB",
+    "r": 183,
+    "g": 175,
+    "b": 65,
+    "hex": "#B7AF41"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0785-VERT-SWISS",
+    "space": "RGB",
+    "r": 167,
+    "g": 157,
+    "b": 42,
+    "hex": "#A79D2A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0786-VERT-AILANTE.psd",
+    "space": "RGB",
+    "r": 217,
+    "g": 229,
+    "b": 161,
+    "hex": "#D9E5A1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0787-VERT-KOMBU",
+    "space": "RGB",
+    "r": 199,
+    "g": 217,
+    "b": 133,
+    "hex": "#C7D985"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0788-VERT-PLATANE",
+    "space": "RGB",
+    "r": 193,
+    "g": 207,
+    "b": 104,
+    "hex": "#C1CF68"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0789-VERT-WAKAME",
+    "space": "RGB",
+    "r": 183,
+    "g": 197,
+    "b": 76,
+    "hex": "#B7C54C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0790-VERT-BULOKE",
+    "space": "RGB",
+    "r": 175,
+    "g": 193,
+    "b": 72,
+    "hex": "#AFC148"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0791-VERT-BOTRICHE",
+    "space": "RGB",
+    "r": 189,
+    "g": 199,
+    "b": 123,
+    "hex": "#BDC77B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0792-VERT-CIRIER",
+    "space": "RGB",
+    "r": 159,
+    "g": 175,
+    "b": 90,
+    "hex": "#9FAF5A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0793-VERT-OPTIMA",
+    "space": "RGB",
+    "r": 169,
+    "g": 165,
+    "b": 110,
+    "hex": "#A9A56E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0794-VERT-CALAMENT",
+    "space": "RGB",
+    "r": 165,
+    "g": 165,
+    "b": 102,
+    "hex": "#A5A566"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0795-VERT-MYRIAD",
+    "space": "RGB",
+    "r": 129,
+    "g": 141,
+    "b": 78,
+    "hex": "#818D4E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0796-VERT-GILL",
+    "space": "RGB",
+    "r": 157,
+    "g": 151,
+    "b": 124,
+    "hex": "#9D977C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0797-VERT-KERUING",
+    "space": "RGB",
+    "r": 161,
+    "g": 157,
+    "b": 131,
+    "hex": "#A19D83"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0798-VERT-JUJUBIER",
+    "space": "RGB",
+    "r": 169,
+    "g": 165,
+    "b": 122,
+    "hex": "#A9A57A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0799-VERT-UNIVERS",
+    "space": "RGB",
+    "r": 103,
+    "g": 98,
+    "b": 72,
+    "hex": "#676248"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0800-VERT-VERDANA",
+    "space": "RGB",
+    "r": 78,
+    "g": 78,
+    "b": 61,
+    "hex": "#4E4E3D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0801-VERT-GASPESIE",
+    "space": "RGB",
+    "r": 177,
+    "g": 177,
+    "b": 151,
+    "hex": "#B1B197"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0802-VERT-CALGARY",
+    "space": "RGB",
+    "r": 157,
+    "g": 159,
+    "b": 127,
+    "hex": "#9D9F7F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0803-VERT-KAKI",
+    "space": "RGB",
+    "r": 147,
+    "g": 147,
+    "b": 106,
+    "hex": "#93936A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0804-VERT-SOPHORA",
+    "space": "RGB",
+    "r": 116,
+    "g": 124,
+    "b": 90,
+    "hex": "#747C5A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0805-VERT-BEMBO",
+    "space": "RGB",
+    "r": 106,
+    "g": 109,
+    "b": 89,
+    "hex": "#6A6D59"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0806-VERT-BALDELLIA",
+    "space": "RGB",
+    "r": 189,
+    "g": 193,
+    "b": 147,
+    "hex": "#BDC193"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0807-VERT-ARISTATA",
+    "space": "RGB",
+    "r": 181,
+    "g": 185,
+    "b": 127,
+    "hex": "#B5B97F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0808-VERT-ULLUCO",
+    "space": "RGB",
+    "r": 169,
+    "g": 165,
+    "b": 122,
+    "hex": "#A9A57A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0809-VERT-TAHOMA",
+    "space": "RGB",
+    "r": 157,
+    "g": 149,
+    "b": 100,
+    "hex": "#9D9564"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0810-VERT-CALOPILE",
+    "space": "RGB",
+    "r": 151,
+    "g": 153,
+    "b": 107,
+    "hex": "#97996B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0811-JAUNE-SABATIER",
+    "space": "RGB",
+    "r": 227,
+    "g": 215,
+    "b": 151,
+    "hex": "#E3D797"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0812-JAUNE-EGEDIUS",
+    "space": "RGB",
+    "r": 211,
+    "g": 189,
+    "b": 124,
+    "hex": "#D3BD7C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0813-VERT-CAPULIN",
+    "space": "RGB",
+    "r": 195,
+    "g": 189,
+    "b": 131,
+    "hex": "#C3BD83"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0814-JAUNE-JACOBSEN",
+    "space": "RGB",
+    "r": 199,
+    "g": 175,
+    "b": 124,
+    "hex": "#C7AF7C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0815-JAUNE-THAULOW",
+    "space": "RGB",
+    "r": 199,
+    "g": 175,
+    "b": 127,
+    "hex": "#C7AF7F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0816-JAUNE-MUCHA",
+    "space": "RGB",
+    "r": 229,
+    "g": 221,
+    "b": 115,
+    "hex": "#E5DD73"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0817-JAUNE-BRAZ",
+    "space": "RGB",
+    "r": 235,
+    "g": 207,
+    "b": 74,
+    "hex": "#EBCF4A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0818-VERT-CARYER",
+    "space": "RGB",
+    "r": 201,
+    "g": 197,
+    "b": 75,
+    "hex": "#C9C54B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0819-VERT-ACER",
+    "space": "RGB",
+    "r": 199,
+    "g": 173,
+    "b": 84,
+    "hex": "#C7AD54"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0820-VERT-SYMBOL",
+    "space": "RGB",
+    "r": 171,
+    "g": 153,
+    "b": 61,
+    "hex": "#AB993D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0821-JAUNE-ANGELICO",
+    "space": "RGB",
+    "r": 247,
+    "g": 223,
+    "b": 105,
+    "hex": "#F7DF69"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0822-JAUNE-REYNOLDS",
+    "space": "RGB",
+    "r": 241,
+    "g": 205,
+    "b": 66,
+    "hex": "#F1CD42"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0823-JAUNE-GRAF",
+    "space": "RGB",
+    "r": 241,
+    "g": 199,
+    "b": 78,
+    "hex": "#F1C74E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0824-JAUNE-VALADON",
+    "space": "RGB",
+    "r": 215,
+    "g": 191,
+    "b": 22,
+    "hex": "#D7BF16"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0825-JAUNE-LISS",
+    "space": "RGB",
+    "r": 205,
+    "g": 161,
+    "b": 50,
+    "hex": "#CDA132"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0826-JAUNE-SINDING",
+    "space": "RGB",
+    "r": 239,
+    "g": 225,
+    "b": 149,
+    "hex": "#EFE195"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0827-JAUNE-MATEJKO",
+    "space": "RGB",
+    "r": 225,
+    "g": 199,
+    "b": 108,
+    "hex": "#E1C76C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0828-JAUNE-PESKE",
+    "space": "RGB",
+    "r": 231,
+    "g": 197,
+    "b": 102,
+    "hex": "#E7C566"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0829-JAUNE-MAJORELLE",
+    "space": "RGB",
+    "r": 205,
+    "g": 161,
+    "b": 85,
+    "hex": "#CDA155"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0830-JAUNE-DOU",
+    "space": "RGB",
+    "r": 185,
+    "g": 139,
+    "b": 62,
+    "hex": "#B98B3E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0831-JAUNE-LAVEAUX",
+    "space": "RGB",
+    "r": 241,
+    "g": 211,
+    "b": 120,
+    "hex": "#F1D378"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0832-JAUNE-MEHOFFER",
+    "space": "RGB",
+    "r": 243,
+    "g": 205,
+    "b": 100,
+    "hex": "#F3CD64"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0833-JAUNE-MERWAT",
+    "space": "RGB",
+    "r": 225,
+    "g": 185,
+    "b": 79,
+    "hex": "#E1B94F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0834-JAUNE-MEMMI",
+    "space": "RGB",
+    "r": 225,
+    "g": 165,
+    "b": 38,
+    "hex": "#E1A526"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0835-JAUNE-DIDAY",
+    "space": "RGB",
+    "r": 207,
+    "g": 159,
+    "b": 61,
+    "hex": "#CF9F3D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0836-JAUNE-DELVAUX",
+    "space": "RGB",
+    "r": 253,
+    "g": 217,
+    "b": 120,
+    "hex": "#FDD978"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0837-JAUNE-NIKI",
+    "space": "RGB",
+    "r": 239,
+    "g": 191,
+    "b": 109,
+    "hex": "#EFBF6D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0838-JAUNE-CAILLEBOTTE",
+    "space": "RGB",
+    "r": 255,
+    "g": 189,
+    "b": 72,
+    "hex": "#FFBD48"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0839-JAUNE-BINGHAM",
+    "space": "RGB",
+    "r": 255,
+    "g": 183,
+    "b": 54,
+    "hex": "#FFB736"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0840-JAUNE-KANDINSKY",
+    "space": "RGB",
+    "r": 249,
+    "g": 187,
+    "b": 44,
+    "hex": "#F9BB2C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0841-ORANGE-ANANAS",
+    "space": "RGB",
+    "r": 253,
+    "g": 173,
+    "b": 75,
+    "hex": "#FDAD4B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0842-JAUNE-FRICERO",
+    "space": "RGB",
+    "r": 245,
+    "g": 177,
+    "b": 19,
+    "hex": "#F5B113"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0843-JAUNE-SEGUIN",
+    "space": "RGB",
+    "r": 241,
+    "g": 161,
+    "b": 8,
+    "hex": "#F1A108"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0844-JAUNE-ZIEM",
+    "space": "RGB",
+    "r": 209,
+    "g": 147,
+    "b": 41,
+    "hex": "#D19329"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0845-JAUNE-PROVIDENCE",
+    "space": "RGB",
+    "r": 219,
+    "g": 153,
+    "b": 46,
+    "hex": "#DB992E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0846-ORANGE-CHAYOTE",
+    "space": "RGB",
+    "r": 245,
+    "g": 161,
+    "b": 66,
+    "hex": "#F5A142"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0847-ORANGE-GOSPEL",
+    "space": "RGB",
+    "r": 229,
+    "g": 149,
+    "b": 83,
+    "hex": "#E59553"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0848-OCRE-SALENTINA",
+    "space": "RGB",
+    "r": 215,
+    "g": 133,
+    "b": 75,
+    "hex": "#D7854B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0849-ORANGE-FOLK",
+    "space": "RGB",
+    "r": 197,
+    "g": 111,
+    "b": 58,
+    "hex": "#C56F3A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0850-ORANGE-OPERA",
+    "space": "RGB",
+    "r": 193,
+    "g": 106,
+    "b": 57,
+    "hex": "#C16A39"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0851-ORANGE-MELON",
+    "space": "RGB",
+    "r": 253,
+    "g": 159,
+    "b": 84,
+    "hex": "#FD9F54"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0852-ORANGE-ARENA",
+    "space": "RGB",
+    "r": 237,
+    "g": 135,
+    "b": 131,
+    "hex": "#ED8783"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0853-ORANGE-MUROISE",
+    "space": "RGB",
+    "r": 253,
+    "g": 125,
+    "b": 50,
+    "hex": "#FD7D32"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0854-ORANGE-FANFARE",
+    "space": "RGB",
+    "r": 231,
+    "g": 125,
+    "b": 60,
+    "hex": "#E77D3C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0855-ORANGE-COLOQUINTE",
+    "space": "RGB",
+    "r": 231,
+    "g": 105,
+    "b": 49,
+    "hex": "#E76931"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0856-ORANGE-MARANG",
+    "space": "RGB",
+    "r": 253,
+    "g": 157,
+    "b": 81,
+    "hex": "#FD9D51"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0857-ORANGE-VALENCIA",
+    "space": "RGB",
+    "r": 237,
+    "g": 131,
+    "b": 69,
+    "hex": "#ED8345"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0858-ORANGE-POMELO",
+    "space": "RGB",
+    "r": 225,
+    "g": 117,
+    "b": 60,
+    "hex": "#E1753C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0859-ORANGE-CHABADA",
+    "space": "RGB",
+    "r": 199,
+    "g": 94,
+    "b": 53,
+    "hex": "#C75E35"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0860-ORANGE-RAP",
+    "space": "RGB",
+    "r": 165,
+    "g": 84,
+    "b": 59,
+    "hex": "#A5543B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0861-ORANGE-NASHI",
+    "space": "RGB",
+    "r": 239,
+    "g": 123,
+    "b": 92,
+    "hex": "#EF7B5C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0862-ORANGE-CHORALE",
+    "space": "RGB",
+    "r": 219,
+    "g": 113,
+    "b": 86,
+    "hex": "#DB7156"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0863-ORANGE-MAKINA",
+    "space": "RGB",
+    "r": 213,
+    "g": 96,
+    "b": 62,
+    "hex": "#D5603E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0864-ORANGE-CLUB",
+    "space": "RGB",
+    "r": 199,
+    "g": 96,
+    "b": 69,
+    "hex": "#C76045"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0865-ROUGE-CONDRIEU",
+    "space": "RGB",
+    "r": 183,
+    "g": 81,
+    "b": 62,
+    "hex": "#B7513E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0866-OCRE-COLORADO",
+    "space": "RGB",
+    "r": 231,
+    "g": 143,
+    "b": 116,
+    "hex": "#E78F74"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0867-ORANGE-CAPPELLA",
+    "space": "RGB",
+    "r": 209,
+    "g": 126,
+    "b": 100,
+    "hex": "#D17E64"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0868-ORANGE-SWING",
+    "space": "RGB",
+    "r": 207,
+    "g": 115,
+    "b": 90,
+    "hex": "#CF735A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0869-OCRE-OULA",
+    "space": "RGB",
+    "r": 201,
+    "g": 113,
+    "b": 88,
+    "hex": "#C97158"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0870-ORANGE-VERNIA",
+    "space": "RGB",
+    "r": 201,
+    "g": 107,
+    "b": 79,
+    "hex": "#C96B4F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0871-ORANGE-MARGOSE",
+    "space": "RGB",
+    "r": 213,
+    "g": 141,
+    "b": 95,
+    "hex": "#D58D5F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0872-GOLD-VENDEE",
+    "space": "RGB",
+    "r": 193,
+    "g": 129,
+    "b": 92,
+    "hex": "#C1815C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0873-OCRE-KOUM",
+    "space": "RGB",
+    "r": 165,
+    "g": 110,
+    "b": 78,
+    "hex": "#A56E4E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0874-MARRON-TON-BOIS",
+    "space": "RGB",
+    "r": 157,
+    "g": 113,
+    "b": 83,
+    "hex": "#9D7153"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0875-BRUN-THURINGE",
+    "space": "RGB",
+    "r": 127,
+    "g": 98,
+    "b": 72,
+    "hex": "#7F6248"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0876-MARRON-JUNIN.psd",
+    "space": "RGB",
+    "r": 167,
+    "g": 120,
+    "b": 89,
+    "hex": "#A77859"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0877-HAVANE-BALKANS",
+    "space": "RGB",
+    "r": 133,
+    "g": 91,
+    "b": 67,
+    "hex": "#855B43"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0878-MARRON-PAYS-DE-LOIRE",
+    "space": "RGB",
+    "r": 127,
+    "g": 93,
+    "b": 72,
+    "hex": "#7F5D48"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0879-MARRON-COMINO",
+    "space": "RGB",
+    "r": 115,
+    "g": 84,
+    "b": 67,
+    "hex": "#735443"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0880-MARRON-MEUSE",
+    "space": "RGB",
+    "r": 99,
+    "g": 72,
+    "b": 54,
+    "hex": "#634836"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0881-ROSE-MENUET",
+    "space": "RGB",
+    "r": 195,
+    "g": 141,
+    "b": 114,
+    "hex": "#C38D72"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0882-BRUN-VISO.psd",
+    "space": "RGB",
+    "r": 181,
+    "g": 115,
+    "b": 94,
+    "hex": "#B5735E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0883-BRUN-ALASKA",
+    "space": "RGB",
+    "r": 169,
+    "g": 115,
+    "b": 91,
+    "hex": "#A9735B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0884-BRUN-BOHEME.psd",
+    "space": "RGB",
+    "r": 131,
+    "g": 80,
+    "b": 60,
+    "hex": "#83503C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0885-MARRON-BRENNER",
+    "space": "RGB",
+    "r": 119,
+    "g": 81,
+    "b": 64,
+    "hex": "#775140"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0886-MARRON-AUVERGNE",
+    "space": "RGB",
+    "r": 179,
+    "g": 95,
+    "b": 80,
+    "hex": "#B35F50"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0887-MARRON-FLANDRE",
+    "space": "RGB",
+    "r": 193,
+    "g": 94,
+    "b": 79,
+    "hex": "#C15E4F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0888-ROUGE-MEURSAULT",
+    "space": "RGB",
+    "r": 169,
+    "g": 79,
+    "b": 65,
+    "hex": "#A94F41"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0889-BRUN-ADRAR",
+    "space": "RGB",
+    "r": 139,
+    "g": 75,
+    "b": 66,
+    "hex": "#8B4B42"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0890-ROUGE-MONASTRELL",
+    "space": "RGB",
+    "r": 120,
+    "g": 67,
+    "b": 63,
+    "hex": "#78433F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0891-ROUGE-TELAVIE",
+    "space": "RGB",
+    "r": 217,
+    "g": 129,
+    "b": 114,
+    "hex": "#D98172"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0892-ROUGE-CHATEAUNEUF",
+    "space": "RGB",
+    "r": 193,
+    "g": 96,
+    "b": 90,
+    "hex": "#C1605A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0893-ROUGE-CHIANTI",
+    "space": "RGB",
+    "r": 183,
+    "g": 92,
+    "b": 81,
+    "hex": "#B75C51"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0894-OCRE-SUCHET",
+    "space": "RGB",
+    "r": 157,
+    "g": 85,
+    "b": 75,
+    "hex": "#9D554B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0895-OCRE-TOMETTE",
+    "space": "RGB",
+    "r": 151,
+    "g": 94,
+    "b": 87,
+    "hex": "#975E57"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0896-ROSE-BENOITE",
+    "space": "RGB",
+    "r": 185,
+    "g": 117,
+    "b": 97,
+    "hex": "#B97561"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0897-MARRON-LANDES",
+    "space": "RGB",
+    "r": 183,
+    "g": 104,
+    "b": 82,
+    "hex": "#B76852"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0898-MARRON-CASTILLE",
+    "space": "RGB",
+    "r": 171,
+    "g": 100,
+    "b": 86,
+    "hex": "#AB6456"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0899-MARRON-COTE-D-AZUR",
+    "space": "RGB",
+    "r": 167,
+    "g": 89,
+    "b": 73,
+    "hex": "#A75949"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0900-ROUGE-GAMAY",
+    "space": "RGB",
+    "r": 139,
+    "g": 83,
+    "b": 67,
+    "hex": "#8B5343"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0901-ROUGE-JOY",
+    "space": "RGB",
+    "r": 157,
+    "g": 74,
+    "b": 75,
+    "hex": "#9D4A4B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0902-ROUGE-MORGON",
+    "space": "RGB",
+    "r": 141,
+    "g": 64,
+    "b": 62,
+    "hex": "#8D403E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0903-ROUGE-ESTEREL",
+    "space": "RGB",
+    "r": 135,
+    "g": 68,
+    "b": 58,
+    "hex": "#87443A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0904-ROUGE-BASQUE",
+    "space": "RGB",
+    "r": 127,
+    "g": 69,
+    "b": 60,
+    "hex": "#7F453C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0905-MARRON-BAVIERE",
+    "space": "RGB",
+    "r": 111,
+    "g": 55,
+    "b": 48,
+    "hex": "#6F3730"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0906-ROUGE-BERGERAC",
+    "space": "RGB",
+    "r": 151,
+    "g": 51,
+    "b": 58,
+    "hex": "#97333A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0907-ROUGE-SAINT-ESTEPHE",
+    "space": "RGB",
+    "r": 131,
+    "g": 60,
+    "b": 62,
+    "hex": "#833C3E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0908-ROUGE-FRONSAC",
+    "space": "RGB",
+    "r": 126,
+    "g": 56,
+    "b": 63,
+    "hex": "#7E383F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0909-ROUGE-MARGAUX",
+    "space": "RGB",
+    "r": 125,
+    "g": 54,
+    "b": 60,
+    "hex": "#7D363C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0910-ROUGE-SYRA",
+    "space": "RGB",
+    "r": 82,
+    "g": 53,
+    "b": 53,
+    "hex": "#523535"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0911-BRUN-ROMAGNE",
+    "space": "RGB",
+    "r": 126,
+    "g": 65,
+    "b": 61,
+    "hex": "#7E413D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0912-BRUN-OLYMPE",
+    "space": "RGB",
+    "r": 113,
+    "g": 68,
+    "b": 65,
+    "hex": "#714441"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0913-ROUGE-BAYONNE",
+    "space": "RGB",
+    "r": 111,
+    "g": 67,
+    "b": 63,
+    "hex": "#6F433F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0914-ROUGE-BAIGORRY",
+    "space": "RGB",
+    "r": 113,
+    "g": 65,
+    "b": 63,
+    "hex": "#71413F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0915-MARRON-RHONE",
+    "space": "RGB",
+    "r": 82,
+    "g": 61,
+    "b": 53,
+    "hex": "#523D35"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0916-ROSE-CORYDALE",
+    "space": "RGB",
+    "r": 175,
+    "g": 116,
+    "b": 107,
+    "hex": "#AF746B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0917-GOLD-BAUGES",
+    "space": "RGB",
+    "r": 157,
+    "g": 106,
+    "b": 97,
+    "hex": "#9D6A61"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0918-ROSE-BOIS-GENTIL",
+    "space": "RGB",
+    "r": 149,
+    "g": 99,
+    "b": 93,
+    "hex": "#95635D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0919-ROSE-NARCISSE",
+    "space": "RGB",
+    "r": 143,
+    "g": 86,
+    "b": 87,
+    "hex": "#8F5657"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0920-OCRE-THAR",
+    "space": "RGB",
+    "r": 135,
+    "g": 78,
+    "b": 78,
+    "hex": "#874E4E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0921-GOLD-CENTRE",
+    "space": "RGB",
+    "r": 143,
+    "g": 102,
+    "b": 93,
+    "hex": "#8F665D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0922-BRUN-BOURBONNAIS",
+    "space": "RGB",
+    "r": 137,
+    "g": 94,
+    "b": 85,
+    "hex": "#895E55"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0923-GOLD-BRETAGNE",
+    "space": "RGB",
+    "r": 131,
+    "g": 85,
+    "b": 76,
+    "hex": "#83554C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0924-BRUN-TROMS",
+    "space": "RGB",
+    "r": 122,
+    "g": 81,
+    "b": 76,
+    "hex": "#7A514C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0925-BRUN-ANETO",
+    "space": "RGB",
+    "r": 103,
+    "g": 75,
+    "b": 74,
+    "hex": "#674B4A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0926-BRUN-MIDI",
+    "space": "RGB",
+    "r": 173,
+    "g": 145,
+    "b": 139,
+    "hex": "#AD918B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0927-BEIGE-CRIMEE",
+    "space": "RGB",
+    "r": 151,
+    "g": 124,
+    "b": 115,
+    "hex": "#977C73"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0928-BRUN-MANITOBA",
+    "space": "RGB",
+    "r": 151,
+    "g": 122,
+    "b": 121,
+    "hex": "#977A79"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0929-BRUN-FUJI",
+    "space": "RGB",
+    "r": 137,
+    "g": 106,
+    "b": 102,
+    "hex": "#896A66"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0930-MARRON-ALPES",
+    "space": "RGB",
+    "r": 124,
+    "g": 90,
+    "b": 82,
+    "hex": "#7C5A52"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0931-MARRON-ARAGON",
+    "space": "RGB",
+    "r": 117,
+    "g": 97,
+    "b": 88,
+    "hex": "#756158"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0932-MARRON-PROVENCE",
+    "space": "RGB",
+    "r": 98,
+    "g": 79,
+    "b": 69,
+    "hex": "#624F45"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0933-MARRON-SARTHE",
+    "space": "RGB",
+    "r": 86,
+    "g": 68,
+    "b": 61,
+    "hex": "#56443D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0934-MARRON-INDRE",
+    "space": "RGB",
+    "r": 77,
+    "g": 65,
+    "b": 62,
+    "hex": "#4D413E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0935-MARRON-OSLO",
+    "space": "RGB",
+    "r": 72,
+    "g": 67,
+    "b": 66,
+    "hex": "#484342"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0936-MARRON-TARN",
+    "space": "RGB",
+    "r": 139,
+    "g": 121,
+    "b": 115,
+    "hex": "#8B7973"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0937-MARRON-AVEYRON",
+    "space": "RGB",
+    "r": 123,
+    "g": 103,
+    "b": 97,
+    "hex": "#7B6761"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0938-BRUN-BARONNIES",
+    "space": "RGB",
+    "r": 105,
+    "g": 86,
+    "b": 82,
+    "hex": "#695652"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0939-BRUN-MARY",
+    "space": "RGB",
+    "r": 94,
+    "g": 89,
+    "b": 79,
+    "hex": "#5E594F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0940-MARRON-CHATAIGNE",
+    "space": "RGB",
+    "r": 90,
+    "g": 68,
+    "b": 62,
+    "hex": "#5A443E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0941-MARRON-THESSALIE",
+    "space": "RGB",
+    "r": 147,
+    "g": 122,
+    "b": 108,
+    "hex": "#937A6C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0942-MARRON-SAXE",
+    "space": "RGB",
+    "r": 143,
+    "g": 112,
+    "b": 95,
+    "hex": "#8F705F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0943-MARRON-DOLOMITE",
+    "space": "RGB",
+    "r": 129,
+    "g": 101,
+    "b": 85,
+    "hex": "#816555"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0944-MARRON-PERCHE",
+    "space": "RGB",
+    "r": 124,
+    "g": 93,
+    "b": 74,
+    "hex": "#7C5D4A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0945-MARRON-GOA",
+    "space": "RGB",
+    "r": 101,
+    "g": 80,
+    "b": 62,
+    "hex": "#65503E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0946-BEIGE-OPALE",
+    "space": "RGB",
+    "r": 215,
+    "g": 203,
+    "b": 195,
+    "hex": "#D7CBC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0947-ROSE-NIVEOLE",
+    "space": "RGB",
+    "r": 209,
+    "g": 191,
+    "b": 183,
+    "hex": "#D1BFB7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0948-BRUN-VENETIE",
+    "space": "RGB",
+    "r": 185,
+    "g": 163,
+    "b": 149,
+    "hex": "#B9A395"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0949-BRUN-SICILE",
+    "space": "RGB",
+    "r": 175,
+    "g": 155,
+    "b": 145,
+    "hex": "#AF9B91"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0950-ROSE-PLANTAGO",
+    "space": "RGB",
+    "r": 189,
+    "g": 157,
+    "b": 147,
+    "hex": "#BD9D93"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0951-ROSE-ZOUK",
+    "space": "RGB",
+    "r": 229,
+    "g": 221,
+    "b": 221,
+    "hex": "#E5DDDD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0952-ROSE-PILOSELLE",
+    "space": "RGB",
+    "r": 189,
+    "g": 177,
+    "b": 175,
+    "hex": "#BDB1AF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0953-GRIS-BANGKOK",
+    "space": "RGB",
+    "r": 185,
+    "g": 177,
+    "b": 179,
+    "hex": "#B9B1B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0954-BRUN-POUILLES",
+    "space": "RGB",
+    "r": 167,
+    "g": 155,
+    "b": 151,
+    "hex": "#A79B97"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0955-BRUN-TAUPE",
+    "space": "RGB",
+    "r": 165,
+    "g": 149,
+    "b": 143,
+    "hex": "#A5958F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0956-BEIGE-LUNTU",
+    "space": "RGB",
+    "r": 215,
+    "g": 209,
+    "b": 207,
+    "hex": "#D7D1CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0957-ROSE-PEPINO",
+    "space": "RGB",
+    "r": 203,
+    "g": 189,
+    "b": 183,
+    "hex": "#CBBDB7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0958-ROSE-GAGEE",
+    "space": "RGB",
+    "r": 207,
+    "g": 191,
+    "b": 189,
+    "hex": "#CFBFBD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0959-ROSE-JACEE",
+    "space": "RGB",
+    "r": 195,
+    "g": 175,
+    "b": 175,
+    "hex": "#C3AFAF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0960-ROSE-LUNAIRE",
+    "space": "RGB",
+    "r": 185,
+    "g": 169,
+    "b": 169,
+    "hex": "#B9A9A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0961-BRUN-VALAIS",
+    "space": "RGB",
+    "r": 197,
+    "g": 167,
+    "b": 143,
+    "hex": "#C5A78F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0962-BRUN-CERVIN",
+    "space": "RGB",
+    "r": 185,
+    "g": 149,
+    "b": 127,
+    "hex": "#B9957F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0963-OCRE-SIMPSON",
+    "space": "RGB",
+    "r": 167,
+    "g": 131,
+    "b": 107,
+    "hex": "#A7836B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0964-BRUN-TYROL",
+    "space": "RGB",
+    "r": 145,
+    "g": 118,
+    "b": 98,
+    "hex": "#917662"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0965-BRUN-ALGARVE",
+    "space": "RGB",
+    "r": 151,
+    "g": 119,
+    "b": 100,
+    "hex": "#977764"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0966-BEIGE-PLAGE",
+    "space": "RGB",
+    "r": 191,
+    "g": 167,
+    "b": 141,
+    "hex": "#BFA78D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0967-BEIGE-PERLITE",
+    "space": "RGB",
+    "r": 173,
+    "g": 147,
+    "b": 124,
+    "hex": "#AD937C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0968-BEIGE-CASTINE",
+    "space": "RGB",
+    "r": 169,
+    "g": 145,
+    "b": 121,
+    "hex": "#A99179"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0969-BRUN-VADUZ",
+    "space": "RGB",
+    "r": 149,
+    "g": 125,
+    "b": 102,
+    "hex": "#957D66"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0970-BRUN-TOUR-EIFFEL",
+    "space": "RGB",
+    "r": 119,
+    "g": 98,
+    "b": 82,
+    "hex": "#776252"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0971-BEIGE-SILICE",
+    "space": "RGB",
+    "r": 215,
+    "g": 197,
+    "b": 171,
+    "hex": "#D7C5AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0972-BEIGE-AKAN",
+    "space": "RGB",
+    "r": 209,
+    "g": 189,
+    "b": 169,
+    "hex": "#D1BDA9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0973-BEIGE-SABLON",
+    "space": "RGB",
+    "r": 205,
+    "g": 183,
+    "b": 155,
+    "hex": "#CDB79B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0974-BEIGE-CAILLOUX",
+    "space": "RGB",
+    "r": 205,
+    "g": 185,
+    "b": 163,
+    "hex": "#CDB9A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0975-BEIGE-BAMANA",
+    "space": "RGB",
+    "r": 187,
+    "g": 167,
+    "b": 147,
+    "hex": "#BBA793"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0976-BEIGE-FELDSPATH",
+    "space": "RGB",
+    "r": 215,
+    "g": 191,
+    "b": 163,
+    "hex": "#D7BFA3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0977-BEIGE-FANGS",
+    "space": "RGB",
+    "r": 221,
+    "g": 189,
+    "b": 149,
+    "hex": "#DDBD95"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0978-BEIGE-DOUALA",
+    "space": "RGB",
+    "r": 189,
+    "g": 153,
+    "b": 122,
+    "hex": "#BD997A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0979-BEIGE-BOYELA",
+    "space": "RGB",
+    "r": 185,
+    "g": 157,
+    "b": 129,
+    "hex": "#B99D81"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0980-BEIGE-AJA",
+    "space": "RGB",
+    "r": 177,
+    "g": 149,
+    "b": 120,
+    "hex": "#B19578"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0981-BEIGE-ALBATRE",
+    "space": "RGB",
+    "r": 197,
+    "g": 177,
+    "b": 147,
+    "hex": "#C5B193"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0982-BEIGE-MAU",
+    "space": "RGB",
+    "r": 195,
+    "g": 171,
+    "b": 139,
+    "hex": "#C3AB8B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0983-BRUN-PICO",
+    "space": "RGB",
+    "r": 175,
+    "g": 145,
+    "b": 117,
+    "hex": "#AF9175"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0984-BRUN-VERCORS",
+    "space": "RGB",
+    "r": 167,
+    "g": 141,
+    "b": 105,
+    "hex": "#A78D69"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0985-BRUN-ORANIE",
+    "space": "RGB",
+    "r": 147,
+    "g": 125,
+    "b": 99,
+    "hex": "#937D63"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0986-BEIGE-BOLIA",
+    "space": "RGB",
+    "r": 211,
+    "g": 187,
+    "b": 149,
+    "hex": "#D3BB95"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0987-BEIGE-TENDA",
+    "space": "RGB",
+    "r": 207,
+    "g": 179,
+    "b": 131,
+    "hex": "#CFB383"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0988-BEIGE-TOPAZE",
+    "space": "RGB",
+    "r": 203,
+    "g": 185,
+    "b": 145,
+    "hex": "#CBB991"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0989-BEIGE-TAWANA",
+    "space": "RGB",
+    "r": 191,
+    "g": 161,
+    "b": 118,
+    "hex": "#BFA176"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0990-BEIGE-TADRART",
+    "space": "RGB",
+    "r": 199,
+    "g": 169,
+    "b": 124,
+    "hex": "#C7A97C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0991-BEIGE-CARRARE",
+    "space": "RGB",
+    "r": 187,
+    "g": 177,
+    "b": 153,
+    "hex": "#BBB199"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0992-BEIGE-CACHEMIRE",
+    "space": "RGB",
+    "r": 183,
+    "g": 167,
+    "b": 143,
+    "hex": "#B7A78F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0993-BEIGE-PEUL",
+    "space": "RGB",
+    "r": 163,
+    "g": 149,
+    "b": 120,
+    "hex": "#A39578"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0994-BRUN-NAIRN",
+    "space": "RGB",
+    "r": 157,
+    "g": 139,
+    "b": 107,
+    "hex": "#9D8B6B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0995-BEIGE-ZOULOU",
+    "space": "RGB",
+    "r": 135,
+    "g": 122,
+    "b": 95,
+    "hex": "#877A5F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0996-BRUN-GALICE",
+    "space": "RGB",
+    "r": 181,
+    "g": 173,
+    "b": 155,
+    "hex": "#B5AD9B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0997-BRUN-ASTURIE",
+    "space": "RGB",
+    "r": 161,
+    "g": 153,
+    "b": 137,
+    "hex": "#A19989"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0998-BRUN-CASTILLE",
+    "space": "RGB",
+    "r": 145,
+    "g": 135,
+    "b": 123,
+    "hex": "#91877B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-0999-BRUN-LIGURIE",
+    "space": "RGB",
+    "r": 153,
+    "g": 139,
+    "b": 121,
+    "hex": "#998B79"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1000-BRUN-LOTHIAN",
+    "space": "RGB",
+    "r": 139,
+    "g": 122,
+    "b": 103,
+    "hex": "#8B7A67"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1001-BEIGE-KAOLIN",
+    "space": "RGB",
+    "r": 185,
+    "g": 179,
+    "b": 169,
+    "hex": "#B9B3A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1002-BRUN-LOZERE",
+    "space": "RGB",
+    "r": 169,
+    "g": 159,
+    "b": 147,
+    "hex": "#A99F93"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1003-BRUN-CANTAL",
+    "space": "RGB",
+    "r": 161,
+    "g": 151,
+    "b": 135,
+    "hex": "#A19787"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1004-BRUN-ASSOUAN",
+    "space": "RGB",
+    "r": 167,
+    "g": 155,
+    "b": 137,
+    "hex": "#A79B89"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1005-GRIS-MEXICO",
+    "space": "RGB",
+    "r": 161,
+    "g": 153,
+    "b": 137,
+    "hex": "#A19989"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1006-GRIS-RANGOON",
+    "space": "RGB",
+    "r": 191,
+    "g": 183,
+    "b": 169,
+    "hex": "#BFB7A9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1007-BEIGE-KIKUYU",
+    "space": "RGB",
+    "r": 177,
+    "g": 165,
+    "b": 145,
+    "hex": "#B1A591"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1008-BEIGE-LIAIS",
+    "space": "RGB",
+    "r": 177,
+    "g": 163,
+    "b": 143,
+    "hex": "#B1A38F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1009-BEIGE-PAESINA",
+    "space": "RGB",
+    "r": 175,
+    "g": 161,
+    "b": 139,
+    "hex": "#AFA18B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1010-BEIGE-CORINDON",
+    "space": "RGB",
+    "r": 159,
+    "g": 143,
+    "b": 121,
+    "hex": "#9F8F79"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1011-BEIGE-BANTOU",
+    "space": "RGB",
+    "r": 223,
+    "g": 219,
+    "b": 215,
+    "hex": "#DFDBD7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1012-BLANC-FLUMET",
+    "space": "RGB",
+    "r": 235,
+    "g": 235,
+    "b": 227,
+    "hex": "#EBEBE3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1013-GRIS-COUPE",
+    "space": "RGB",
+    "r": 209,
+    "g": 205,
+    "b": 197,
+    "hex": "#D1CDC5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1014-BEIGE-PIERRE-DE-LUNE",
+    "space": "RGB",
+    "r": 195,
+    "g": 189,
+    "b": 177,
+    "hex": "#C3BDB1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1015-BEIGE-WES",
+    "space": "RGB",
+    "r": 211,
+    "g": 201,
+    "b": 185,
+    "hex": "#D3C9B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1016-BEIGE-CIMENT",
+    "space": "RGB",
+    "r": 211,
+    "g": 205,
+    "b": 193,
+    "hex": "#D3CDC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1017-BEIGE-KYANITE",
+    "space": "RGB",
+    "r": 199,
+    "g": 191,
+    "b": 171,
+    "hex": "#C7BFAB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1018-BRUN-AMAPA",
+    "space": "RGB",
+    "r": 209,
+    "g": 201,
+    "b": 187,
+    "hex": "#D1C9BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1019-POIVRE-DE-SICHUAN",
+    "space": "RGB",
+    "r": 193,
+    "g": 187,
+    "b": 183,
+    "hex": "#C1BBB7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1020-BATON-DE-REGLISSE",
+    "space": "RGB",
+    "r": 169,
+    "g": 157,
+    "b": 149,
+    "hex": "#A99D95"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1021-BEIGE-SEDIMENT",
+    "space": "RGB",
+    "r": 221,
+    "g": 213,
+    "b": 201,
+    "hex": "#DDD5C9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1022-GRIS-PETIT-CHEVAL",
+    "space": "RGB",
+    "r": 205,
+    "g": 197,
+    "b": 185,
+    "hex": "#CDC5B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1023-BEIGE-TOMA",
+    "space": "RGB",
+    "r": 211,
+    "g": 203,
+    "b": 193,
+    "hex": "#D3CBC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1024-BEIGE-ZELA",
+    "space": "RGB",
+    "r": 193,
+    "g": 177,
+    "b": 167,
+    "hex": "#C1B1A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1025-BEIGE-ADELE",
+    "space": "RGB",
+    "r": 173,
+    "g": 151,
+    "b": 141,
+    "hex": "#AD978D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1026-GRIS-ANTLIA",
+    "space": "RGB",
+    "r": 201,
+    "g": 193,
+    "b": 187,
+    "hex": "#C9C1BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1027-GRIS-LUMIERE",
+    "space": "RGB",
+    "r": 193,
+    "g": 187,
+    "b": 183,
+    "hex": "#C1BBB7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1028-GRIS-VOLANS",
+    "space": "RGB",
+    "r": 181,
+    "g": 175,
+    "b": 171,
+    "hex": "#B5AFAB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1029-GRIS-URBAIN",
+    "space": "RGB",
+    "r": 163,
+    "g": 161,
+    "b": 157,
+    "hex": "#A3A19D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1030-GRIS-ASMARA",
+    "space": "RGB",
+    "r": 143,
+    "g": 141,
+    "b": 139,
+    "hex": "#8F8D8B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1031-BEIGE-CAFE-AU-LAIT",
+    "space": "RGB",
+    "r": 221,
+    "g": 209,
+    "b": 197,
+    "hex": "#DDD1C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1032-BEIGE-DJERMA",
+    "space": "RGB",
+    "r": 225,
+    "g": 219,
+    "b": 209,
+    "hex": "#E1DBD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1033-BEIGE-PADOUE",
+    "space": "RGB",
+    "r": 211,
+    "g": 201,
+    "b": 193,
+    "hex": "#D3C9C1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1034-BEIGE-KANURI",
+    "space": "RGB",
+    "r": 207,
+    "g": 199,
+    "b": 195,
+    "hex": "#CFC7C3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1035-BEIGE-LUBA",
+    "space": "RGB",
+    "r": 209,
+    "g": 207,
+    "b": 199,
+    "hex": "#D1CFC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1036-BEIGE-SCAPOLITE",
+    "space": "RGB",
+    "r": 179,
+    "g": 167,
+    "b": 155,
+    "hex": "#B3A79B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1037-BRUN-SONORA",
+    "space": "RGB",
+    "r": 185,
+    "g": 175,
+    "b": 163,
+    "hex": "#B9AFA3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1038-BRUN-DURANGON",
+    "space": "RGB",
+    "r": 161,
+    "g": 155,
+    "b": 143,
+    "hex": "#A19B8F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1039-BRUN-JALISCO",
+    "space": "RGB",
+    "r": 143,
+    "g": 135,
+    "b": 126,
+    "hex": "#8F877E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1040-BRUN-ELIAS",
+    "space": "RGB",
+    "r": 125,
+    "g": 114,
+    "b": 106,
+    "hex": "#7D726A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1041-BRUN-SHETLAND",
+    "space": "RGB",
+    "r": 167,
+    "g": 153,
+    "b": 141,
+    "hex": "#A7998D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1042-BEIGE-GALENE",
+    "space": "RGB",
+    "r": 157,
+    "g": 143,
+    "b": 129,
+    "hex": "#9D8F81"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1043-BRUN-NAMUR",
+    "space": "RGB",
+    "r": 147,
+    "g": 133,
+    "b": 126,
+    "hex": "#93857E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1044-MARRON-CANARI",
+    "space": "RGB",
+    "r": 127,
+    "g": 108,
+    "b": 97,
+    "hex": "#7F6C61"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1045-BRUN-DALMATE",
+    "space": "RGB",
+    "r": 126,
+    "g": 117,
+    "b": 107,
+    "hex": "#7E756B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1046-GRIS-RABAT",
+    "space": "RGB",
+    "r": 125,
+    "g": 119,
+    "b": 105,
+    "hex": "#7D7769"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1047-BRUN-PESCARA",
+    "space": "RGB",
+    "r": 102,
+    "g": 96,
+    "b": 88,
+    "hex": "#666058"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1048-BRUN-YUCATAN",
+    "space": "RGB",
+    "r": 98,
+    "g": 89,
+    "b": 80,
+    "hex": "#625950"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1049-BRUN-VIGNEMALE",
+    "space": "RGB",
+    "r": 76,
+    "g": 67,
+    "b": 62,
+    "hex": "#4C433E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1050-BRUN-IPARLA",
+    "space": "RGB",
+    "r": 69,
+    "g": 65,
+    "b": 62,
+    "hex": "#45413E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1051-BRUN-FITCH",
+    "space": "RGB",
+    "r": 137,
+    "g": 129,
+    "b": 129,
+    "hex": "#898181"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1052-BRUN-JAYA",
+    "space": "RGB",
+    "r": 100,
+    "g": 91,
+    "b": 91,
+    "hex": "#645B5B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1053-BRUN-NORMAND",
+    "space": "RGB",
+    "r": 78,
+    "g": 73,
+    "b": 73,
+    "hex": "#4E4949"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1054-GRIS-EREVAN",
+    "space": "RGB",
+    "r": 78,
+    "g": 73,
+    "b": 72,
+    "hex": "#4E4948"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1055-GRIS-ISTAMBUL",
+    "space": "RGB",
+    "r": 64,
+    "g": 63,
+    "b": 61,
+    "hex": "#403F3D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1056-GRIS-BRATISLAVA",
+    "space": "RGB",
+    "r": 155,
+    "g": 151,
+    "b": 149,
+    "hex": "#9B9795"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1057-GRIS-NIMBUS",
+    "space": "RGB",
+    "r": 131,
+    "g": 125,
+    "b": 124,
+    "hex": "#837D7C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1058-GRIS-POLARIS",
+    "space": "RGB",
+    "r": 127,
+    "g": 124,
+    "b": 124,
+    "hex": "#7F7C7C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1059-BRUN-CATALOGNE",
+    "space": "RGB",
+    "r": 112,
+    "g": 106,
+    "b": 106,
+    "hex": "#706A6A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1060-GRIS-HELSINKI",
+    "space": "RGB",
+    "r": 95,
+    "g": 94,
+    "b": 94,
+    "hex": "#5F5E5E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1061-GRIS-DAUPHIN",
+    "space": "RGB",
+    "r": 157,
+    "g": 155,
+    "b": 161,
+    "hex": "#9D9BA1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1062-GRIS-MINERAI",
+    "space": "RGB",
+    "r": 151,
+    "g": 149,
+    "b": 157,
+    "hex": "#97959D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1063-GRIS-COLOMBO",
+    "space": "RGB",
+    "r": 135,
+    "g": 137,
+    "b": 143,
+    "hex": "#87898F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1064-GRIS-COTONOU",
+    "space": "RGB",
+    "r": 92,
+    "g": 95,
+    "b": 99,
+    "hex": "#5C5F63"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1065-BRUN-MILLEVACHES",
+    "space": "RGB",
+    "r": 80,
+    "g": 72,
+    "b": 75,
+    "hex": "#50484B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1066-GRIS-LISBONNE",
+    "space": "RGB",
+    "r": 199,
+    "g": 201,
+    "b": 207,
+    "hex": "#C7C9CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1067-GRIS-LONDRES",
+    "space": "RGB",
+    "r": 177,
+    "g": 179,
+    "b": 185,
+    "hex": "#B1B3B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1068-GRIS-DUBLIN",
+    "space": "RGB",
+    "r": 135,
+    "g": 137,
+    "b": 143,
+    "hex": "#87898F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1069-GRIS-AMSTERDAM",
+    "space": "RGB",
+    "r": 116,
+    "g": 117,
+    "b": 123,
+    "hex": "#74757B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1070-GRIS-PEKIN",
+    "space": "RGB",
+    "r": 92,
+    "g": 95,
+    "b": 99,
+    "hex": "#5C5F63"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1071-GRIS-ECU",
+    "space": "RGB",
+    "r": 151,
+    "g": 147,
+    "b": 143,
+    "hex": "#97938F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1072-GRIS-COPENHAGUE",
+    "space": "RGB",
+    "r": 127,
+    "g": 126,
+    "b": 124,
+    "hex": "#7F7E7C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1073-GRIS-STOCKHOLM",
+    "space": "RGB",
+    "r": 106,
+    "g": 106,
+    "b": 105,
+    "hex": "#6A6A69"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1074-GRIS-DILI",
+    "space": "RGB",
+    "r": 91,
+    "g": 95,
+    "b": 94,
+    "hex": "#5B5F5E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1075-MARRON-MIDDLAND",
+    "space": "RGB",
+    "r": 81,
+    "g": 82,
+    "b": 80,
+    "hex": "#515250"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1076-GRIS-OUESSANT",
+    "space": "RGB",
+    "r": 167,
+    "g": 167,
+    "b": 167,
+    "hex": "#A7A7A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1077-GRIS-STRATUS",
+    "space": "RGB",
+    "r": 165,
+    "g": 161,
+    "b": 159,
+    "hex": "#A5A19F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1078-GRIS-DORADE",
+    "space": "RGB",
+    "r": 155,
+    "g": 153,
+    "b": 153,
+    "hex": "#9B9999"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1079-GRIS-HEMATITE",
+    "space": "RGB",
+    "r": 145,
+    "g": 141,
+    "b": 141,
+    "hex": "#918D8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1080-GRIS-GRANIT",
+    "space": "RGB",
+    "r": 135,
+    "g": 133,
+    "b": 131,
+    "hex": "#878583"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1081-GRIS-CHROME",
+    "space": "RGB",
+    "r": 183,
+    "g": 181,
+    "b": 181,
+    "hex": "#B7B5B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1082-GRIS-YAREN",
+    "space": "RGB",
+    "r": 185,
+    "g": 181,
+    "b": 179,
+    "hex": "#B9B5B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1083-GRIS-MALE",
+    "space": "RGB",
+    "r": 171,
+    "g": 171,
+    "b": 169,
+    "hex": "#ABABA9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1084-GRIS-BELMOPAN",
+    "space": "RGB",
+    "r": 129,
+    "g": 129,
+    "b": 127,
+    "hex": "#81817F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1085-GRIS-BOMBAY",
+    "space": "RGB",
+    "r": 115,
+    "g": 112,
+    "b": 107,
+    "hex": "#73706B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1086-GRIS-AUSTRALE",
+    "space": "RGB",
+    "r": 197,
+    "g": 197,
+    "b": 195,
+    "hex": "#C5C5C3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1087-GRIS-CAIRE",
+    "space": "RGB",
+    "r": 175,
+    "g": 173,
+    "b": 169,
+    "hex": "#AFADA9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1088-GRIS-ARGENT",
+    "space": "RGB",
+    "r": 169,
+    "g": 169,
+    "b": 167,
+    "hex": "#A9A9A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1089-GRIS-KAMPALA",
+    "space": "RGB",
+    "r": 159,
+    "g": 165,
+    "b": 167,
+    "hex": "#9FA5A7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1090-GRIS-DAMAS",
+    "space": "RGB",
+    "r": 161,
+    "g": 159,
+    "b": 157,
+    "hex": "#A19F9D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1091-GRIS-GALET",
+    "space": "RGB",
+    "r": 157,
+    "g": 161,
+    "b": 163,
+    "hex": "#9DA1A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1092-GRIS-ALGER",
+    "space": "RGB",
+    "r": 145,
+    "g": 145,
+    "b": 145,
+    "hex": "#919191"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1093-GRIS-CASTOR",
+    "space": "RGB",
+    "r": 139,
+    "g": 143,
+    "b": 143,
+    "hex": "#8B8F8F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1094-GRIS-MADRID",
+    "space": "RGB",
+    "r": 102,
+    "g": 108,
+    "b": 112,
+    "hex": "#666C70"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1095-GRIS-ROME",
+    "space": "RGB",
+    "r": 83,
+    "g": 87,
+    "b": 90,
+    "hex": "#53575A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1096-GRIS-SILICIUM",
+    "space": "RGB",
+    "r": 171,
+    "g": 169,
+    "b": 163,
+    "hex": "#ABA9A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1097-GRIS-VOLGA",
+    "space": "RGB",
+    "r": 129,
+    "g": 129,
+    "b": 125,
+    "hex": "#81817D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1098-GRIS-CASSIOPEE",
+    "space": "RGB",
+    "r": 111,
+    "g": 108,
+    "b": 100,
+    "hex": "#6F6C64"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1099-GRIS-PRISTINA",
+    "space": "RGB",
+    "r": 104,
+    "g": 105,
+    "b": 103,
+    "hex": "#686967"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1100-GRIS-BELGRADE",
+    "space": "RGB",
+    "r": 90,
+    "g": 89,
+    "b": 84,
+    "hex": "#5A5954"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1101-GRIS-DAKAR",
+    "space": "RGB",
+    "r": 141,
+    "g": 143,
+    "b": 143,
+    "hex": "#8D8F8F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1102-GRIS-ARDOISE",
+    "space": "RGB",
+    "r": 126,
+    "g": 127,
+    "b": 129,
+    "hex": "#7E7F81"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1103-GRIS-LUBECK",
+    "space": "RGB",
+    "r": 107,
+    "g": 108,
+    "b": 111,
+    "hex": "#6B6C6F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1104-GRIS-TOKYO",
+    "space": "RGB",
+    "r": 69,
+    "g": 73,
+    "b": 78,
+    "hex": "#45494E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1105-GRIS-BRASILIA",
+    "space": "RGB",
+    "r": 58,
+    "g": 58,
+    "b": 58,
+    "hex": "#3A3A3A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1106-GRIS-LEPUS",
+    "space": "RGB",
+    "r": 88,
+    "g": 92,
+    "b": 95,
+    "hex": "#585C5F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1107-GRIS-ALGOL",
+    "space": "RGB",
+    "r": 84,
+    "g": 88,
+    "b": 91,
+    "hex": "#54585B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1108-GRIS-ANTHRACITE",
+    "space": "RGB",
+    "r": 70,
+    "g": 75,
+    "b": 78,
+    "hex": "#464B4E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1109-GRIS-PERSEE",
+    "space": "RGB",
+    "r": 70,
+    "g": 73,
+    "b": 75,
+    "hex": "#46494B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1110-NOIR-HOUVERT",
+    "space": "RGB",
+    "r": 61,
+    "g": 62,
+    "b": 62,
+    "hex": "#3D3E3E"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1111-GRIS-PRAGUES",
+    "space": "RGB",
+    "r": 131,
+    "g": 143,
+    "b": 151,
+    "hex": "#838F97"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1112-GRIS-ATHENES",
+    "space": "RGB",
+    "r": 123,
+    "g": 129,
+    "b": 135,
+    "hex": "#7B8187"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1113-GRIS-OCTANT",
+    "space": "RGB",
+    "r": 101,
+    "g": 107,
+    "b": 115,
+    "hex": "#656B73"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1114-GRIS-ODESSA",
+    "space": "RGB",
+    "r": 91,
+    "g": 96,
+    "b": 102,
+    "hex": "#5B6066"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1115-GRIS-BETON",
+    "space": "RGB",
+    "r": 89,
+    "g": 93,
+    "b": 97,
+    "hex": "#595D61"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1116-GRIS-RIGA",
+    "space": "RGB",
+    "r": 102,
+    "g": 112,
+    "b": 124,
+    "hex": "#66707C"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1117-GRIS-VILNIUS.psd",
+    "space": "RGB",
+    "r": 79,
+    "g": 87,
+    "b": 100,
+    "hex": "#4F5764"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1118-NOIR-JONONE",
+    "space": "RGB",
+    "r": 71,
+    "g": 77,
+    "b": 89,
+    "hex": "#474D59"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1119-BLEU-DAVIS",
+    "space": "RGB",
+    "r": 70,
+    "g": 72,
+    "b": 83,
+    "hex": "#464853"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1120-NOIR-DORVAL",
+    "space": "RGB",
+    "r": 63,
+    "g": 68,
+    "b": 73,
+    "hex": "#3F4449"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1121-GRIS-BERLIN",
+    "space": "RGB",
+    "r": 169,
+    "g": 179,
+    "b": 189,
+    "hex": "#A9B3BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1122-GRIS-GIRAPHE",
+    "space": "RGB",
+    "r": 161,
+    "g": 163,
+    "b": 171,
+    "hex": "#A1A3AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1123-GRIS-VARSOVIE",
+    "space": "RGB",
+    "r": 143,
+    "g": 153,
+    "b": 163,
+    "hex": "#8F99A3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1124-GRIS-BUDAPEST",
+    "space": "RGB",
+    "r": 123,
+    "g": 131,
+    "b": 143,
+    "hex": "#7B838F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1125-GRIS-CEMENTITE",
+    "space": "RGB",
+    "r": 94,
+    "g": 100,
+    "b": 111,
+    "hex": "#5E646F"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1126-GRIS-BOUSSOLE",
+    "space": "RGB",
+    "r": 189,
+    "g": 191,
+    "b": 195,
+    "hex": "#BDBFC3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1127-GRIS-FOURNEAU",
+    "space": "RGB",
+    "r": 165,
+    "g": 171,
+    "b": 175,
+    "hex": "#A5ABAF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1128-GRIS-TAUREAU",
+    "space": "RGB",
+    "r": 139,
+    "g": 147,
+    "b": 153,
+    "hex": "#8B9399"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1129-GRIS-LEMAN.psd",
+    "space": "RGB",
+    "r": 131,
+    "g": 141,
+    "b": 145,
+    "hex": "#838D91"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1130-GRIS-PAON",
+    "space": "RGB",
+    "r": 121,
+    "g": 127,
+    "b": 135,
+    "hex": "#797F87"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1131-GRIS-TELESCOPE",
+    "space": "RGB",
+    "r": 203,
+    "g": 205,
+    "b": 209,
+    "hex": "#CBCDD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1132-GRIS-LEZARD",
+    "space": "RGB",
+    "r": 203,
+    "g": 207,
+    "b": 209,
+    "hex": "#CBCFD1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1133-GRIS-GRAPHITE",
+    "space": "RGB",
+    "r": 197,
+    "g": 203,
+    "b": 201,
+    "hex": "#C5CBC9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1134-GRIS-LUNE",
+    "space": "RGB",
+    "r": 189,
+    "g": 195,
+    "b": 197,
+    "hex": "#BDC3C5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1135-GRIS-WINDSOR",
+    "space": "RGB",
+    "r": 175,
+    "g": 183,
+    "b": 187,
+    "hex": "#AFB7BB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1136-GRIS-SIRIUS",
+    "space": "RGB",
+    "r": 175,
+    "g": 181,
+    "b": 181,
+    "hex": "#AFB5B5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1137-GRIS-PLATINE",
+    "space": "RGB",
+    "r": 153,
+    "g": 159,
+    "b": 161,
+    "hex": "#999FA1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1138-GRIS-Luxembourg",
+    "space": "RGB",
+    "r": 129,
+    "g": 141,
+    "b": 145,
+    "hex": "#818D91"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1139-GRIS-ZINC",
+    "space": "RGB",
+    "r": 127,
+    "g": 137,
+    "b": 139,
+    "hex": "#7F898B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1140-GRIS-LOFT",
+    "space": "RGB",
+    "r": 129,
+    "g": 137,
+    "b": 141,
+    "hex": "#81898D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1141-VERT-TELEMARK",
+    "space": "RGB",
+    "r": 181,
+    "g": 189,
+    "b": 175,
+    "hex": "#B5BDAF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1142-VERT-FICUS",
+    "space": "RGB",
+    "r": 163,
+    "g": 173,
+    "b": 161,
+    "hex": "#A3ADA1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1143-VERT-NOBILE",
+    "space": "RGB",
+    "r": 135,
+    "g": 149,
+    "b": 137,
+    "hex": "#879589"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1144-VERT-GALANE.psd",
+    "space": "RGB",
+    "r": 105,
+    "g": 112,
+    "b": 106,
+    "hex": "#69706A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1145-GRIS-TAUNUS",
+    "space": "RGB",
+    "r": 100,
+    "g": 111,
+    "b": 106,
+    "hex": "#646F6A"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1146-GRIS-GEMINI",
+    "space": "RGB",
+    "r": 203,
+    "g": 203,
+    "b": 193,
+    "hex": "#CBCBC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1147-VERT-BOURRACHE",
+    "space": "RGB",
+    "r": 175,
+    "g": 173,
+    "b": 157,
+    "hex": "#AFAD9D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1148-GRIS-MISSOURI",
+    "space": "RGB",
+    "r": 157,
+    "g": 153,
+    "b": 139,
+    "hex": "#9D998B"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1149-OMBRE-PELVOUX",
+    "space": "RGB",
+    "r": 118,
+    "g": 116,
+    "b": 99,
+    "hex": "#767463"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1150-GRIS-BANGUI",
+    "space": "RGB",
+    "r": 116,
+    "g": 113,
+    "b": 105,
+    "hex": "#747169"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1151-GRIS-LOME",
+    "space": "RGB",
+    "r": 207,
+    "g": 211,
+    "b": 207,
+    "hex": "#CFD3CF"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1152-GRIS-FLECHE",
+    "space": "RGB",
+    "r": 191,
+    "g": 189,
+    "b": 181,
+    "hex": "#BFBDB5"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1153-GRIS-MAPUTO",
+    "space": "RGB",
+    "r": 187,
+    "g": 181,
+    "b": 171,
+    "hex": "#BBB5AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1154-GRIS-AMMAN",
+    "space": "RGB",
+    "r": 171,
+    "g": 167,
+    "b": 157,
+    "hex": "#ABA79D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1155-GRIS-SANTIAGO",
+    "space": "RGB",
+    "r": 167,
+    "g": 157,
+    "b": 141,
+    "hex": "#A79D8D"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1156-GRIS-BAMAKO.psd",
+    "space": "RGB",
+    "r": 211,
+    "g": 211,
+    "b": 209,
+    "hex": "#D3D3D1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1157-GRIS-TUNIS",
+    "space": "RGB",
+    "r": 211,
+    "g": 207,
+    "b": 199,
+    "hex": "#D3CFC7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1158-GRIS-MAINTENON",
+    "space": "RGB",
+    "r": 203,
+    "g": 199,
+    "b": 185,
+    "hex": "#CBC7B9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1159-VERT-BAMBOU",
+    "space": "RGB",
+    "r": 191,
+    "g": 189,
+    "b": 179,
+    "hex": "#BFBDB3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1160-GRIS-VEZELAY",
+    "space": "RGB",
+    "r": 185,
+    "g": 183,
+    "b": 171,
+    "hex": "#B9B7AB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1161-BEIGE-GLAISE",
+    "space": "RGB",
+    "r": 221,
+    "g": 213,
+    "b": 199,
+    "hex": "#DDD5C7"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1162-BEIGE-BRECHE",
+    "space": "RGB",
+    "r": 215,
+    "g": 207,
+    "b": 193,
+    "hex": "#D7CFC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1163-GRIS-ERIDAN",
+    "space": "RGB",
+    "r": 207,
+    "g": 205,
+    "b": 193,
+    "hex": "#CFCDC1"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1164-BEIGE-GRAVIER",
+    "space": "RGB",
+    "r": 205,
+    "g": 201,
+    "b": 189,
+    "hex": "#CDC9BD"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1165-BRUN-MURCIE",
+    "space": "RGB",
+    "r": 203,
+    "g": 197,
+    "b": 179,
+    "hex": "#CBC5B3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1166-GRIS-BELIER",
+    "space": "RGB",
+    "r": 221,
+    "g": 223,
+    "b": 211,
+    "hex": "#DDDFD3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1167-GRIS-SCULPTURE",
+    "space": "RGB",
+    "r": 223,
+    "g": 223,
+    "b": 211,
+    "hex": "#DFDFD3"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1168-GRIS-CENTAURE",
+    "space": "RGB",
+    "r": 213,
+    "g": 213,
+    "b": 201,
+    "hex": "#D5D5C9"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1169-BLANC-TERRE-NEUVE",
+    "space": "RGB",
+    "r": 215,
+    "g": 215,
+    "b": 203,
+    "hex": "#D7D7CB"
+  },
+  {
+    "name": "Chromatic-Dorval-CH2-1170-GRIS-VERSAILLES",
+    "space": "RGB",
+    "r": 215,
+    "g": 215,
+    "b": 207,
+    "hex": "#D7D7CF"
+  }
+]

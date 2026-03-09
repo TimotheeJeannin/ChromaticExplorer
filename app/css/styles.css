@@ -16,6 +16,7 @@
     --radius: 8px;
     --palette-width: 220px;
     --picker-width: 340px;
+    --left-width: calc(var(--palette-width) + var(--picker-width));
 }
 
 body {
@@ -23,20 +24,31 @@ body {
     background: var(--bg);
     color: var(--text);
     line-height: 1.4;
+    overflow: hidden;
 }
 
-/* ── Palette panel (fixed left) ──────────────────────── */
-#palette-panel {
+/* ── Left panel container (fixed, palette + picker) ──── */
+#left-panel {
     position: fixed;
     top: 0;
     left: 0;
-    width: var(--palette-width);
+    width: var(--left-width);
     height: 100vh;
+    display: flex;
+    z-index: 100;
     background: var(--surface);
     border-right: 1px solid var(--surface2);
-    z-index: 100;
+}
+
+/* ── Palette panel (inside left panel) ──────────────────── */
+#palette-panel {
+    width: var(--palette-width);
+    height: 100%;
+    background: var(--surface);
+    border-right: 1px solid var(--surface2);
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 #palette-header {
@@ -251,12 +263,12 @@ body {
     padding: 0 4px;
 }
 
-/* ── Center area (Neighborhood + Grid) ───────────────────── */
+/* ── Center area (Grid + Neighborhood) ───────────────────── */
 #center {
     display: flex;
     gap: 0;
-    margin-left: var(--palette-width);
-    margin-right: var(--picker-width);
+    margin-left: var(--left-width);
+    width: calc(100vw - var(--left-width));
     height: 100vh;
     overflow: hidden;
 }
@@ -270,13 +282,13 @@ body {
     overflow-x: hidden;
 }
 
-/* ── Neighborhood Explorer Panel ─────────────────────────── */
+/* ── Neighborhood Explorer Panel (right side) ────────────── */
 #neighborhood-panel {
-    flex: 0 0 40%;
+    flex: 0 0 35%;
     max-width: 500px;
     min-width: 280px;
     background: var(--surface);
-    border-right: 1px solid var(--surface2);
+    border-left: 1px solid var(--surface2);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -306,6 +318,7 @@ body {
 #neighborhood-body {
     flex: 1;
     overflow-y: auto;
+    overflow-x: hidden;
     padding: 12px 16px;
     display: flex;
     flex-direction: column;
@@ -479,6 +492,7 @@ body {
     background: var(--bg);
     border-radius: var(--radius);
     border: 1px solid var(--surface2);
+    overflow: hidden;
 }
 
 #crosshair-swatch {
@@ -501,6 +515,10 @@ body {
     font-size: 11px;
     color: var(--text-dim);
     font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
 }
 
 /* Nearest colors section */
@@ -647,22 +665,6 @@ body {
     margin-top: 2px;
 }
 
-/* ── Responsive ──────────────────────────────────────────── */
-@media (max-width: 600px) {
-    #grid {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        gap: 6px;
-    }
-
-    .swatch-info {
-        padding: 4px 6px;
-    }
-
-    .swatch-info .name {
-        font-size: 10px;
-    }
-}
-
 /* ── Loading ─────────────────────────────────────────────── */
 #loading {
     text-align: center;
@@ -671,19 +673,16 @@ body {
     color: var(--text-dim);
 }
 
-/* ── Color Picker Panel (fixed right, always visible) ── */
+/* ── Color Picker Panel (inside left panel) ──────────── */
 #picker-panel {
-    position: fixed;
-    top: 0;
-    right: 0;
     width: var(--picker-width);
-    height: 100vh;
+    height: 100%;
     background: var(--surface);
     border-left: 1px solid var(--surface2);
-    z-index: 100;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    flex-shrink: 0;
 }
 
 #picker-header {
@@ -953,57 +952,64 @@ body {
 }
 
 /* ── Responsive ───────────────────────────────────────── */
-@media (max-width: 900px) {
+@media (max-width: 1400px) {
     :root {
         --palette-width: 180px;
         --picker-width: 280px;
     }
 
     #neighborhood-panel {
-        flex: 0 0 45%;
+        flex: 0 0 35%;
         min-width: 240px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     :root {
         --palette-width: 0px;
         --picker-width: 0px;
     }
 
-    #palette-panel,
-    #picker-panel {
+    #left-panel {
         position: relative;
         width: 100%;
         height: auto;
-        max-height: 40vh;
-        border: none;
-    }
-
-    #palette-panel {
+        max-height: 45vh;
+        flex-direction: row;
+        border-right: none;
         border-bottom: 1px solid var(--surface2);
     }
 
-    #palette-colors {
-        flex-direction: row;
-        overflow-x: auto;
-        overflow-y: hidden;
+    #palette-panel {
+        width: 180px;
+        height: auto;
+        max-height: 45vh;
     }
 
     #picker-panel {
-        border-top: 1px solid var(--surface2);
+        flex: 1;
+        width: auto;
+        height: auto;
+        max-height: 45vh;
     }
 
     #center {
+        margin-left: 0;
         flex-direction: column;
+        height: auto;
+        min-height: 0;
+    }
+
+    #grid-section {
+        overflow-y: visible;
     }
 
     #neighborhood-panel {
         flex: none;
         max-width: 100%;
         min-width: 100%;
-        border-right: none;
-        border-bottom: 1px solid var(--surface2);
+        border-left: none;
+        border-top: 1px solid var(--surface2);
         max-height: 50vh;
     }
 
@@ -1014,6 +1020,35 @@ body {
 
     #neighborhood-canvas {
         max-height: 250px;
+    }
+
+    body {
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #left-panel {
+        flex-direction: column;
+    }
+
+    #palette-panel {
+        width: 100%;
+        height: auto;
+        max-height: 30vh;
+        border-right: none;
+        border-bottom: 1px solid var(--surface2);
+    }
+
+    #palette-colors {
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    #picker-panel {
+        border-left: none;
+        border-top: 1px solid var(--surface2);
     }
 
     #grid {

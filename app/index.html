@@ -10,22 +10,136 @@
 
 <body>
 
-    <!-- Palette Panel (left) -->
-    <div id="palette-panel">
-        <div id="palette-header">
-            <h3>Palette</h3>
-            <div id="palette-actions" style="display:none">
-                <button id="copy-palette-btn" title="Copy all hex values">Copy</button>
-                <button id="clear-palette-btn" title="Clear palette">Clear</button>
+    <!-- Left panel: Palette + Picker side-by-side -->
+    <div id="left-panel">
+        <!-- Palette Panel -->
+        <div id="palette-panel">
+            <div id="palette-header">
+                <h3>Palette</h3>
+                <div id="palette-actions" style="display:none">
+                    <button id="copy-palette-btn" title="Copy all hex values">Copy</button>
+                    <button id="clear-palette-btn" title="Clear palette">Clear</button>
+                </div>
+            </div>
+            <div id="palette-colors">
+                <span id="palette-empty">Add colors from the picker</span>
             </div>
         </div>
-        <div id="palette-colors">
-            <span id="palette-empty">Add colors from the picker</span>
+
+        <!-- Color Picker Panel -->
+        <div id="picker-panel">
+            <div id="picker-header">
+                <h3>Color Picker</h3>
+            </div>
+            <div id="picker-body">
+                <!-- Preview -->
+                <div id="picker-preview-row">
+                    <div id="picker-preview"></div>
+                    <div id="picker-native-wrap">
+                        <input type="color" id="picker-native" value="#ffffff">
+                        <label>Pick</label>
+                    </div>
+                </div>
+
+                <!-- Add to palette -->
+                <button id="add-to-palette-btn">Add to Palette</button>
+
+                <!-- HEX -->
+                <div>
+                    <div class="picker-section-title">Hex</div>
+                    <div id="picker-hex-row">
+                        <label>#</label>
+                        <input type="text" id="picker-hex" value="FFFFFF" maxlength="6" spellcheck="false">
+                        <button class="picker-copy-btn" data-copy="hex">Copy</button>
+                    </div>
+                </div>
+
+                <!-- RGB -->
+                <div>
+                    <div class="picker-section-title">RGB</div>
+                    <div class="picker-slider-row">
+                        <label>R</label>
+                        <input type="range" id="picker-r" min="0" max="255" value="255">
+                        <input type="number" id="picker-r-num" min="0" max="255" value="255">
+                    </div>
+                    <div class="picker-slider-row">
+                        <label>G</label>
+                        <input type="range" id="picker-g" min="0" max="255" value="255">
+                        <input type="number" id="picker-g-num" min="0" max="255" value="255">
+                    </div>
+                    <div class="picker-slider-row">
+                        <label>B</label>
+                        <input type="range" id="picker-b" min="0" max="255" value="255">
+                        <input type="number" id="picker-b-num" min="0" max="255" value="255">
+                    </div>
+                    <div style="text-align:right"><button class="picker-copy-btn" data-copy="rgb">Copy RGB</button>
+                    </div>
+                </div>
+
+                <!-- HSL -->
+                <div>
+                    <div class="picker-section-title">HSL</div>
+                    <div class="picker-slider-row">
+                        <label>H</label>
+                        <input type="range" id="picker-h" min="0" max="360" value="0">
+                        <input type="number" id="picker-h-num" min="0" max="360" value="0">
+                    </div>
+                    <div class="picker-slider-row">
+                        <label>S</label>
+                        <input type="range" id="picker-s" min="0" max="100" value="0">
+                        <input type="number" id="picker-s-num" min="0" max="100" value="0">
+                    </div>
+                    <div class="picker-slider-row">
+                        <label>L</label>
+                        <input type="range" id="picker-l" min="0" max="100" value="100">
+                        <input type="number" id="picker-l-num" min="0" max="100" value="100">
+                    </div>
+                    <div style="text-align:right"><button class="picker-copy-btn" data-copy="hsl">Copy HSL</button>
+                    </div>
+                </div>
+
+                <!-- Closest Chromatic Color -->
+                <div>
+                    <div class="picker-section-title">Closest Chromatic Color</div>
+                    <div id="closest-result" title="Click to load this color">
+                        <div id="closest-swatch"></div>
+                        <div id="closest-info">
+                            <div id="closest-name">—</div>
+                            <div id="closest-hex"></div>
+                            <div id="closest-distance"></div>
+                        </div>
+                        <button id="closest-goto">Go to</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Center area: Neighborhood + Grid -->
+    <!-- Center area: Grid + Neighborhood -->
     <div id="center">
+        <!-- Grid Section (controls + swatches) -->
+        <div id="grid-section">
+            <!-- Controls -->
+            <div id="controls">
+                <div id="search-row">
+                    <input type="text" id="search" placeholder="Search by name, hex, family…" autocomplete="off">
+                    <select id="sort-select">
+                        <option value="number">Original order</option>
+                        <option value="alpha">Alphabetical</option>
+                        <option value="hue">By hue</option>
+                        <option value="lightness">By lightness</option>
+                    </select>
+                    <button id="clear-btn">Clear filters</button>
+                    <span id="result-count"></span>
+                </div>
+                <div id="family-chips"></div>
+            </div>
+            <!-- Grid -->
+            <div id="grid">
+                <div id="loading">Loading colors…</div>
+            </div>
+        </div>
+
         <!-- Neighborhood Explorer Panel -->
         <div id="neighborhood-panel">
             <div id="neighborhood-header">
@@ -96,115 +210,6 @@
                 <div id="nearest-section">
                     <div class="picker-section-title">Nearest Colors</div>
                     <div id="nearest-list"></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Grid Section (controls + swatches) -->
-        <div id="grid-section">
-            <!-- Controls -->
-            <div id="controls">
-                <div id="search-row">
-                    <input type="text" id="search" placeholder="Search by name, hex, family…" autocomplete="off">
-                    <select id="sort-select">
-                        <option value="number">Original order</option>
-                        <option value="alpha">Alphabetical</option>
-                        <option value="hue">By hue</option>
-                        <option value="lightness">By lightness</option>
-                    </select>
-                    <button id="clear-btn">Clear filters</button>
-                    <span id="result-count"></span>
-                </div>
-                <div id="family-chips"></div>
-            </div>
-            <!-- Grid -->
-            <div id="grid">
-                <div id="loading">Loading colors…</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Color Picker Panel (right, always visible) -->
-    <div id="picker-panel">
-        <div id="picker-header">
-            <h3>Color Picker</h3>
-        </div>
-        <div id="picker-body">
-            <!-- Preview -->
-            <div id="picker-preview-row">
-                <div id="picker-preview"></div>
-                <div id="picker-native-wrap">
-                    <input type="color" id="picker-native" value="#ffffff">
-                    <label>Pick</label>
-                </div>
-            </div>
-
-            <!-- Add to palette -->
-            <button id="add-to-palette-btn">Add to Palette</button>
-
-            <!-- HEX -->
-            <div>
-                <div class="picker-section-title">Hex</div>
-                <div id="picker-hex-row">
-                    <label>#</label>
-                    <input type="text" id="picker-hex" value="FFFFFF" maxlength="6" spellcheck="false">
-                    <button class="picker-copy-btn" data-copy="hex">Copy</button>
-                </div>
-            </div>
-
-            <!-- RGB -->
-            <div>
-                <div class="picker-section-title">RGB</div>
-                <div class="picker-slider-row">
-                    <label>R</label>
-                    <input type="range" id="picker-r" min="0" max="255" value="255">
-                    <input type="number" id="picker-r-num" min="0" max="255" value="255">
-                </div>
-                <div class="picker-slider-row">
-                    <label>G</label>
-                    <input type="range" id="picker-g" min="0" max="255" value="255">
-                    <input type="number" id="picker-g-num" min="0" max="255" value="255">
-                </div>
-                <div class="picker-slider-row">
-                    <label>B</label>
-                    <input type="range" id="picker-b" min="0" max="255" value="255">
-                    <input type="number" id="picker-b-num" min="0" max="255" value="255">
-                </div>
-                <div style="text-align:right"><button class="picker-copy-btn" data-copy="rgb">Copy RGB</button></div>
-            </div>
-
-            <!-- HSL -->
-            <div>
-                <div class="picker-section-title">HSL</div>
-                <div class="picker-slider-row">
-                    <label>H</label>
-                    <input type="range" id="picker-h" min="0" max="360" value="0">
-                    <input type="number" id="picker-h-num" min="0" max="360" value="0">
-                </div>
-                <div class="picker-slider-row">
-                    <label>S</label>
-                    <input type="range" id="picker-s" min="0" max="100" value="0">
-                    <input type="number" id="picker-s-num" min="0" max="100" value="0">
-                </div>
-                <div class="picker-slider-row">
-                    <label>L</label>
-                    <input type="range" id="picker-l" min="0" max="100" value="100">
-                    <input type="number" id="picker-l-num" min="0" max="100" value="100">
-                </div>
-                <div style="text-align:right"><button class="picker-copy-btn" data-copy="hsl">Copy HSL</button></div>
-            </div>
-
-            <!-- Closest Chromatic Color -->
-            <div>
-                <div class="picker-section-title">Closest Chromatic Color</div>
-                <div id="closest-result" title="Click to load this color">
-                    <div id="closest-swatch"></div>
-                    <div id="closest-info">
-                        <div id="closest-name">—</div>
-                        <div id="closest-hex"></div>
-                        <div id="closest-distance"></div>
-                    </div>
-                    <button id="closest-goto">Go to</button>
                 </div>
             </div>
         </div>

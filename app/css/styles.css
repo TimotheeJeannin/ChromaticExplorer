@@ -723,11 +723,11 @@ body {
 }
 
 #picker-header h3 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .05em;
-    color: var(--text);
+    color: var(--text-dim);
 }
 
 #picker-body {

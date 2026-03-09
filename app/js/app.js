@@ -998,6 +998,34 @@
         });
     }
 
+    // Scroll-to-zoom on the canvas
+    if (neighborhoodCanvas) {
+        neighborhoodCanvas.addEventListener("wheel", (e) => {
+            e.preventDefault();
+            const step = e.deltaY > 0 ? 4 : -4;
+            const cur = parseInt(neighborhoodZoom.value) || 64;
+            const min = parseInt(neighborhoodZoom.min) || 10;
+            const max = parseInt(neighborhoodZoom.max) || 128;
+            neighborhoodZoom.value = Math.max(min, Math.min(max, cur + step));
+            zoomValue.textContent = "±" + neighborhoodZoom.value;
+            renderNeighborhood();
+        }, { passive: false });
+    }
+
+    // Scroll on range inputs to adjust value
+    document.querySelectorAll('input[type="range"]').forEach(slider => {
+        slider.addEventListener("wheel", (e) => {
+            e.preventDefault();
+            const min = parseFloat(slider.min) || 0;
+            const max = parseFloat(slider.max) || 100;
+            const range = max - min;
+            const step = Math.max(1, Math.round(range / 100));
+            const cur = parseFloat(slider.value) || 0;
+            slider.value = Math.max(min, Math.min(max, cur + (e.deltaY < 0 ? step : -step)));
+            slider.dispatchEvent(new Event("input", { bubbles: true }));
+        }, { passive: false });
+    });
+
     // Preset buttons
     presetBtns.forEach(btn => {
         btn.addEventListener("click", () => {

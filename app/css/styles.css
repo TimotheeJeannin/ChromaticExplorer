@@ -27,6 +27,30 @@ body {
     overflow: hidden;
 }
 
+/* ── Scrollbars ──────────────────────────────────────────── */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--surface2) transparent;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--surface2);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-dim);
+}
+
 /* ── Left panel container (fixed, palette + picker) ──── */
 #left-panel {
     position: fixed;
@@ -523,14 +547,18 @@ body {
 
 /* Nearest colors section */
 #nearest-section {
-    flex-shrink: 0;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 #nearest-list {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    max-height: 240px;
+    flex: 1;
+    min-height: 0;
     overflow-y: auto;
 }
 

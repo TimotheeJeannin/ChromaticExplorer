@@ -533,24 +533,6 @@
         }
     });
 
-    // Copy buttons
-    document.querySelectorAll(".picker-copy-btn").forEach(btn => {
-        btn.addEventListener("click", () => {
-            let text;
-            const fmt = btn.dataset.copy;
-            if (fmt === "hex") text = "#" + pickerHex.value;
-            else if (fmt === "rgb") text = `rgb(${pickerColor.r}, ${pickerColor.g}, ${pickerColor.b})`;
-            else if (fmt === "hsl") text = `hsl(${pH.value}, ${pS.value}%, ${pL.value}%)`;
-            if (text) {
-                navigator.clipboard.writeText(text).then(() => {
-                    const orig = btn.textContent;
-                    btn.textContent = "Copied!";
-                    setTimeout(() => { btn.textContent = orig; }, 1200);
-                });
-            }
-        });
-    });
-
     // Add to palette button
     addToPaletteBtn.addEventListener("click", () => {
         if (!closestMatch) return;

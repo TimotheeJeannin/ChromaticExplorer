@@ -869,22 +869,6 @@ body {
     letter-spacing: .04em;
 }
 
-.picker-copy-btn {
-    padding: 6px 10px;
-    border: 1px solid var(--surface2);
-    border-radius: 4px;
-    background: var(--surface2);
-    color: var(--text);
-    font-size: 11px;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-.picker-copy-btn:hover {
-    background: var(--accent);
-    color: #fff;
-}
-
 /* Closest color result */
 #closest-result {
     border: 1px solid var(--surface2);

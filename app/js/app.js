@@ -558,8 +558,6 @@
     const presetBtns = document.querySelectorAll(".preset-btn");
 
     let neighborPins = [];           // cached array of {color, x, y, dist}
-    let offscreenCanvas = null;
-    let offscreenCtx = null;
 
     // Channel accessors
     function getChannelValue(color, channel) {
@@ -685,27 +683,18 @@
         // Rendering dimensions
         const rect = canvasWrap.getBoundingClientRect();
         const displaySize = Math.min(rect.width, rect.height) || 300;
-        const renderSize = Math.floor(displaySize / 2); // Half-res for performance
+        const dpr = window.devicePixelRatio || 1;
+        const renderSize = Math.round(displaySize * dpr);
 
-        neighborhoodCanvas.width = displaySize;
-        neighborhoodCanvas.height = displaySize;
+        neighborhoodCanvas.width = renderSize;
+        neighborhoodCanvas.height = renderSize;
 
-        // Create/reuse offscreen canvas
-        if (!offscreenCanvas || offscreenCanvas.width !== renderSize) {
-            offscreenCanvas = document.createElement("canvas");
-            offscreenCanvas.width = renderSize;
-            offscreenCanvas.height = renderSize;
-            offscreenCtx = offscreenCanvas.getContext("2d");
-        }
-
-        const imageData = offscreenCtx.createImageData(renderSize, renderSize);
+        const ctx = neighborhoodCanvas.getContext("2d");
+        const imageData = ctx.createImageData(renderSize, renderSize);
         const data = imageData.data;
 
         for (let py = 0; py < renderSize; py++) {
             for (let px = 0; px < renderSize; px++) {
-                // Map pixel to channel values
-                // X: left = center - zoom, right = center + zoom
-                // Y: top = center + zoom, bottom = center - zoom (inverted)
                 const xVal = centerX - zoom + (px / (renderSize - 1)) * zoom * 2;
                 const yVal = centerY + zoom - (py / (renderSize - 1)) * zoom * 2;
 
@@ -718,16 +707,10 @@
             }
         }
 
-        offscreenCtx.putImageData(imageData, 0, 0);
-
-        // Draw scaled-up on main canvas
-        const ctx = neighborhoodCanvas.getContext("2d");
-        ctx.imageSmoothingEnabled = true;
-        ctx.imageSmoothingQuality = "high";
-        ctx.drawImage(offscreenCanvas, 0, 0, displaySize, displaySize);
+        ctx.putImageData(imageData, 0, 0);
 
         // Plot pins
-        plotCatalogPins(ctx, displaySize, xCh, yCh, centerX, centerY, zoom);
+        plotCatalogPins(ctx, renderSize, xCh, yCh, centerX, centerY, zoom);
 
         // Render nearest list
         renderNearestList();
@@ -739,6 +722,7 @@
     function plotCatalogPins(ctx, size, xCh, yCh, centerX, centerY, zoom) {
         neighborPins = [];
 
+        const dpr = window.devicePixelRatio || 1;
         const xMax = getChannelMax(xCh);
         const yMax = getChannelMax(yCh);
 
@@ -816,21 +800,21 @@
 
             // Draw circle (outline only, transparent interior)
             ctx.beginPath();
-            ctx.arc(x, y, 5, 0, Math.PI * 2);
+            ctx.arc(x, y, 5 * dpr, 0, Math.PI * 2);
             ctx.strokeStyle = textColor(color.r, color.g, color.b);
-            ctx.lineWidth = 1.5;
+            ctx.lineWidth = 1.5 * dpr;
             ctx.stroke();
         }
 
         // Draw center crosshair
         ctx.strokeStyle = "rgba(255,255,255,0.6)";
-        ctx.lineWidth = 1;
+        ctx.lineWidth = 1 * dpr;
         const cx = size / 2, cy = size / 2;
         ctx.beginPath();
-        ctx.moveTo(cx - 10, cy);
-        ctx.lineTo(cx + 10, cy);
-        ctx.moveTo(cx, cy - 10);
-        ctx.lineTo(cx, cy + 10);
+        ctx.moveTo(cx - 10 * dpr, cy);
+        ctx.lineTo(cx + 10 * dpr, cy);
+        ctx.moveTo(cx, cy - 10 * dpr);
+        ctx.lineTo(cx, cy + 10 * dpr);
         ctx.stroke();
     }
 
@@ -898,7 +882,8 @@
     }
 
     function findPinNearPosition(canvasX, canvasY) {
-        const hitRadius = 12;
+        const dpr = window.devicePixelRatio || 1;
+        const hitRadius = 12 * dpr;
         for (const pin of neighborPins) {
             const dx = pin.x - canvasX;
             const dy = pin.y - canvasY;

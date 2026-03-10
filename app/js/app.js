@@ -426,7 +426,7 @@
     function updateAddToPaletteBtn() {
         if (!closestMatch || !addToPaletteBtn) return;
         const inPalette = palette.some(c => c.hex === closestMatch.hex && c.number === closestMatch.number);
-        addToPaletteBtn.textContent = inPalette ? "Remove from Palette" : "Add to Palette";
+        addToPaletteBtn.textContent = inPalette ? "Remove Color" : "Save Color";
         addToPaletteBtn.classList.toggle("in-palette", inPalette);
     }
 

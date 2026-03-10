@@ -138,14 +138,34 @@
     }
 
     /* ── Family chips ───────────────────────────────────────── */
+    function familyRepresentativeColor(family) {
+        const members = allColors.filter(c => c.family === family);
+        if (members.length === 0) return { r: 128, g: 128, b: 128 };
+        // Use the median color by hue, with a brightness/saturation boost for visibility
+        const sorted = [...members].sort((a, b) => a.hsl.h - b.hsl.h);
+        const mid = sorted[Math.floor(sorted.length / 2)];
+        return { r: mid.r, g: mid.g, b: mid.b };
+    }
+
     function buildFamilyChips() {
         const families = [...new Set(allColors.map(c => c.family))].sort();
         familyChipsEl.innerHTML = "";
         for (const f of families) {
+            const rep = familyRepresentativeColor(f);
+            const hsl = rgb2hsl(rep.r, rep.g, rep.b);
+            // Ensure chip color is visible: boost saturation and clamp lightness
+            const chipS = Math.max(hsl.s, 30);
+            const chipL = Math.min(Math.max(hsl.l, 30), 70);
+            const chipRgb = hsl2rgb(hsl.h, chipS, chipL);
+            const hexChip = "#" + [chipRgb.r, chipRgb.g, chipRgb.b].map(v => Math.round(v).toString(16).padStart(2, "0")).join("");
+            const tc = textColor(chipRgb.r, chipRgb.g, chipRgb.b);
+
             const chip = document.createElement("button");
             chip.className = "family-chip";
             chip.textContent = f;
             chip.dataset.family = f;
+            chip.style.setProperty("--chip-color", hexChip);
+            chip.style.setProperty("--chip-text", tc);
             chip.addEventListener("click", () => toggleFamily(f, chip));
             familyChipsEl.appendChild(chip);
         }

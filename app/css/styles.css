@@ -260,23 +260,24 @@ body {
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     cursor: pointer;
-    border: 2px solid var(--surface2);
-    background: var(--surface);
+    border: 1px solid color-mix(in srgb, var(--chip-color, var(--surface2)) 40%, var(--surface2));
+    background: color-mix(in srgb, var(--chip-color, var(--surface)) 10%, var(--surface));
     color: var(--text-dim);
     user-select: none;
     transition: all .15s;
 }
 
 .family-chip:hover {
-    border-color: var(--text-dim);
+    background: color-mix(in srgb, var(--chip-color, var(--surface2)) 22%, var(--surface));
+    border-color: color-mix(in srgb, var(--chip-color, var(--text-dim)) 60%, var(--surface2));
 }
 
 .family-chip.active {
-    border-color: var(--accent);
-    background: var(--accent);
-    color: #fff;
+    border-color: color-mix(in srgb, var(--chip-color, var(--accent)) 70%, var(--surface2));
+    background: color-mix(in srgb, var(--chip-color, var(--accent)) 35%, var(--surface));
+    color: var(--text);
 }
 
 #result-count {
